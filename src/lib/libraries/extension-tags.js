@@ -13,6 +13,7 @@ export default [
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
     { tag: 'scratch', intlLabel: messages.scratch },
 	{ tag: 'othermods', intlLabel: messages.othermods },
+    { tag: 'preload', intlLabel: 'Preloads'},
     { tag: 'divider2', intlLabel: messages.scratch, type: 'divider' },
 	{type: 'subtitle', intlLabel: "Types"},
     { tag: 'graphics', intlLabel: messages.graphics },
