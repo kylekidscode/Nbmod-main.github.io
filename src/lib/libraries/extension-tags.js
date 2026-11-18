@@ -8,6 +8,7 @@ export default [
     //{ tag: 'divider1', intlLabel: 'Tags', type: 'title' }, //??
 	{type: 'subtitle', intlLabel: "Sources"},
     { tag: 'gaiamod', intlLabel: messages.gaiamod },
+    { tag: 'potentia', intlLabel: 'PotentiaMod'},
     { tag: 'penguinmod', intlLabel: messages.penguinmod },
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
     { tag: 'scratch', intlLabel: messages.scratch },
