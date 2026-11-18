@@ -3071,55 +3071,6 @@ const menuItems = [
         collaborator: 'Gvbvdxx',
         incompatibleWithScratch: true
     },
-	//PenguinMod Preloads
-	{
-        name: 'PenguinMod Runtime',
-        extensionId: 'jgRuntime',
-        iconURL: require('../extensions/penguinmod/extensions/runtime.svg'),
-		insetIconURL: require('../extensions/icons/penguinmod.svg'),
-		customInsetColor: '#00c3ff',
-        description:'Blocks for modifying project data and settings from PenguinMod itself.',
-        collaborator: 'PenguinMod',
-        tags: ['other', 'preload'],
-		featured: true,
-        incompatibleWithScratch: true
-    },
-	 {
-        name: 'Prism',
-        extensionId: 'jgPrism',
-        tags: ['other', 'preload'],
-        iconURL: require('../extensions/penguinmod/extensions/prism.png'),
-		insetIconURL: require('../extensions/icons/penguinmod.svg'),
-		customInsetColor: '#00c3ff',
-		collaborator: 'PenguinMod',
-        description: 'Blocks for specific use-cases or major convenience.',
-        featured: true,
-        incompatibleWithScratch: true
-    },
-	 {
-        name: 'Motion Expansion',
-        extensionId: 'pmMotionExpansion',
-        iconURL: require('../extensions/penguinmod/extensions/motion_expanded.png'),
-		insetIconURL: require('../extensions/icons/penguinmod.svg'),
-		customInsetColor: '#00c3ff',
-        description: 'More small motion blocks for movement or collision.',
-        tags: ['other', 'preload'],
-		collaborator: 'PenguinMod',
-		featured: true,
-        incompatibleWithScratch: true
-    },
-	{
-        name: 'Scratch Authentication',
-        extensionId: 'jgScratchAuthenticate',
-        iconURL: require('./penguinmod/extensions/scratchauth2.svg'),
-		insetIconURL: require('../extensions/icons/penguinmod.svg'),
-		customInsetColor: '#00c3ff',
-		collaborator: 'PenguinMod',
-		tags: ['other', 'preload'],
-        description: "Interact with Scratch Authentication to prove the player is a real scratch user.",
-        featured: true,
-        incompatibleWithScratch: true
-    },
 	//Builders
 	{
         name: 'KittenBot Extension Maker',
