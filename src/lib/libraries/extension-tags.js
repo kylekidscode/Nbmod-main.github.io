@@ -8,13 +8,13 @@ export default [
     //{ tag: 'divider1', intlLabel: 'Tags', type: 'title' }, //??
 	{type: 'subtitle', intlLabel: "Sources"},
     { tag: 'gaiamod', intlLabel: messages.gaiamod },
-    { tag: 'potentia', intlLabel: 'PotentiaMod'},
-    { tag: 'neublamod', intlLabel: 'Neublamod' },
+    { tag: 'potentia', intlLabel: messages.PotentiaMod'},
+    { tag: 'neublamod', intlLabel: messages.Neublamod' },
     { tag: 'penguinmod', intlLabel: messages.penguinmod },
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
     { tag: 'scratch', intlLabel: messages.scratch },
 	{ tag: 'othermods', intlLabel: messages.othermods },
-    { tag: 'preload', intlLabel: 'Preloads'},
+    { tag: 'preload', intlLabel: messages.Preloads'},
     { tag: 'divider2', intlLabel: messages.scratch, type: 'divider' },
 	{type: 'subtitle', intlLabel: "Types"},
     { tag: 'graphics', intlLabel: messages.graphics },
@@ -37,4 +37,5 @@ export default [
     { tag: 'new', intlLabel: messages.new },
     { tag: 'disabled', intlLabel: messages.disabled },
     { tag: 'comingsoon', intlLabel: messages.comingsoon },
+    { tag: 'uncategorized', intlLabel: messages.uncategorized }
 ];
