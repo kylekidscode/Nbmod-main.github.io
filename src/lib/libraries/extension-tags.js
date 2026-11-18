@@ -9,6 +9,7 @@ export default [
 	{type: 'subtitle', intlLabel: "Sources"},
     { tag: 'gaiamod', intlLabel: messages.gaiamod },
     { tag: 'potentia', intlLabel: 'PotentiaMod'},
+    { tag: 'neublamod', intlLabel: 'Neublamod' },
     { tag: 'penguinmod', intlLabel: messages.penguinmod },
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
     { tag: 'scratch', intlLabel: messages.scratch },
