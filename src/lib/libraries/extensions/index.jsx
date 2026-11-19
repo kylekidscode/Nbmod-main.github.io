@@ -1719,7 +1719,7 @@ const menuItems = [
         name: 'Almejas Extension Gallery,
         href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'special_sharkpoolExtensionLibrary',
-        iconURL: sharkpoolGalleryIcon,
+        iconURL: /Extensionsandthumbnails/alejo14ext.svg,
         description: 'Tons of extensions created by SharkPool.\n\nClick on an extension while this menu is open to add it to your project.',
         credits: 'alejo 2014',
         tags: ['library'],
