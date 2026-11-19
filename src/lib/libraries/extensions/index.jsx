@@ -1171,21 +1171,6 @@ const menuItems = [
         description: 'Everything is a mesage! Contains capabilities of all the other extensions.',
         featured: true,
         incompatibleWithScratch: true
-	    },
-	{
-        name: 'Line',
-        extensionId: 'line',
-        collaborator: 'Ankurugranpa',
-        iconURL: require('../extensions/line/line.png'),
-	    insetIconURL: require('../extensions/line/line-small.png'),
-		customInsetColor: '#45C505',
-		tags: ['special', 'othermods'],
-        description: 'Connect to LINE message API!',
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false,
-        incompatibleWithScratch: true
     }, 
 	{
         name: 'Face Emotion Sensing',
