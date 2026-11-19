@@ -429,6 +429,8 @@ import onegpioRoboHATInsetIconURL from './onegpioRoboHAT/onegpioRoboHAT-small.pn
 import onegpioRpiPicoImage from './onegpioRpiPico/onegpioRpiPico.png';
 import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.png';
 
+//neublamod
+import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
