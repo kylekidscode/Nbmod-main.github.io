@@ -454,6 +454,7 @@ import wonderBlocksIcon from './gaiamod/WonderBlocks.png';
 import catWithDonut from './gaiamod/DingDongDitch.svg';
 //potentiamod
 import potentiamodextgallery from './potentiamod/potentiamod.svg';
+import potentiamodplaceholder from './potentiamod/placeholder.png';
 
 import ampmodgalleryThumb from './gaiamod/AmpMod.svg';
 import obgalleryIcon from './gaiamod/OmniBlocks.svg';
