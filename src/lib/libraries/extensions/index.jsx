@@ -2371,7 +2371,7 @@ if (IsLocal || IsLiveTests) {
         {
             name: 'Test Extension',
             extensionId: 'test',
-            iconURL: require('../extensions/potentiamod/placeholder.png'),
+            iconURL: require('.Neublamod/placeholderpm.svg'),
             tags: ['potentia', 'othermods', 'dev'],
             description: 'A test extension to see if possible. For developers only.',
             featured: true,
