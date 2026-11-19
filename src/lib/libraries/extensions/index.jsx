@@ -1707,7 +1707,7 @@ const menuItems = [
     },
 	{
         name: 'SharkPool\'s Extension Collection',
-        href: 'https://sharkpools-extensions.vercel.app/?originPM=true',
+        href: 'https://sharkpools-extensions.vercel.app/?originPM=false,
         extensionId: 'special_sharkpoolExtensionLibrary',
         iconURL: sharkpoolGalleryIcon,
         description: 'Tons of extensions created by SharkPool.\n\nClick on an extension while this menu is open to add it to your project.',
@@ -1716,12 +1716,12 @@ const menuItems = [
         featured: true
 	},
 	{
-        name: 'SrkPl\'s Extension Collection',
-        href: 'https://sharkpools-extensions.vercel.app/?originPM=true',
+        name: 'Almejas Extension Gallery,
+        href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'special_sharkpoolExtensionLibrary',
         iconURL: sharkpoolGalleryIcon,
         description: 'Tons of extensions created by SharkPool.\n\nClick on an extension while this menu is open to add it to your project.',
-        credits: 'Listed in the site',
+        credits: 'alejo 2014',
         tags: ['library'],
         featured: true
     },
