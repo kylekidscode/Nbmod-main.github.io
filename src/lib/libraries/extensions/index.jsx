@@ -979,6 +979,15 @@ const menuItems = [
         tags: ['othermods'],
         description: 'Utilitys to have your project feel like a website',
         featured: true
+	},
+    {
+        name: 'Blockly2Math',
+        extensionId: 'blockly2math',
+        iconURL: blocklyIconURL,
+        collaborator: 'Google',
+        tags: ['penguinmod', 'othermods', 'snailide'],
+        description: "Blockly math blocks.",
+        featured: true
     },
     {
       name: 'Canvas Effects',
