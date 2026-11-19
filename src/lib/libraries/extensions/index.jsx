@@ -2390,9 +2390,9 @@ if (IsLocal || IsLiveTests) {
             featured: true
 		},
 		{
-            name: 'Test Extension',
+            name: 'Test Extension - potentiamod',
             extensionId: 'test',
-            iconURL: require('../extensions/potentiamod/placeholder.png'),
+            iconURL: potentiamodplaceholder,
             tags: ['potentia', 'othermods', 'dev'],
             description: 'A test extension to see if possible. For developers only.',
             featured: true,
