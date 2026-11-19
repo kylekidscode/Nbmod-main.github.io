@@ -1170,6 +1170,308 @@ const menuItems = [
         description: 'Everything is a mesage! Contains capabilities of all the other extensions.',
         featured: true,
         incompatibleWithScratch: true
+	    },
+	{
+        name: 'Line',
+        extensionId: 'line',
+        collaborator: 'Ankurugranpa',
+        iconURL: require('../extensions/line/line.png'),
+	    insetIconURL: require('../extensions/line/line-small.png'),
+		customInsetColor: '#45C505',
+		tags: ['special', 'othermods'],
+        description: 'Connect to LINE message API!',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        incompatibleWithScratch: true
+    }, 
+	{
+        name: 'Face Emotion Sensing',
+        extensionId: 'poseFace',
+        tags: ['othermods'],
+		isNew: false,
+        iconURL: require('../extensions/poseFace/pose-face.png'),
+		insetIconURL: require('../extensions/poseFace/pose-face-small.svg'),
+		collaborator: 'Raise Playground',
+        description: 'Sense face movement with the camera with added emotion detection.',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: 'Body Sensing',
+        extensionId: 'poseBody',
+        tags: ['othermods'],
+		isNew: false,
+        iconURL: require('../extensions/poseBody/pose-body.png'),
+		insetIconURL: require('../extensions/poseBody/pose-body-small.svg'),
+		collaborator: 'Raise Playground',
+        description: 'Sense body position with the camera.',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: 'Hand Sensing',
+        extensionId: 'poseHand',
+        tags: ['othermods'],
+		isNew: false,
+        iconURL: require('../extensions/poseHand/pose-hand.png'),
+		insetIconURL: require('../extensions/poseHand/pose-hand-small-3.svg'),
+		collaborator: 'Raise Playground',
+        description: 'Sense hand position with the camera.',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: 'Object Detection',
+        extensionId: 'objectDetection',
+		tags: ['othermods'],
+		isNew: false,
+        iconURL: require('../extensions/objectDetection/objectdetection.png'),
+		insetIconURL: require('../extensions/objectDetection/objectdetectionsmall.svg'),
+        description: 'Detect and identify objects in the camera view.',
+		collaborator: 'Raise Playground',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+    name: "Text Sentiment",
+    extensionId: "textSentiment",
+    collaborator: "TYiC",
+	tags: ['othermods'],
+	isNew: false,
+    iconURL: require('../extensions/textSentiment/textSentiment.png'),
+	insetIconURL: require('../extensions/textSentiment/textSentiment-small.png'),
+    description: "Text Sentiment.",
+    featured: true,
+    disabled: false,
+    internetConnectionRequired: true,
+    useAutoScan: false,
+    helpLink: "https://github.com/estea8968/scratch3-internet",
+    incompatibleWithScratch: true
+  },
+  	{
+        name: 'Smart Lumies',
+        extensionId: 'smartLumies',
+        collaborator: 'PlusPlus',
+        iconURL: require('../extensions/smart-lumies/smart-lumies.png'),
+	    insetIconURL: require('../extensions/smart-lumies/smart-lumies-small.svg'),
+        description: 'Have fun with Smart Lumies Cube in NeublaMod!',
+		tags: ['othermods'],
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+		connectionIconURL: require('../extensions/smart-lumies/smart-lumies-illustration.svg'),
+        connectionSmallIconURL: require('../extensions/smart-lumies/smart-lumies-small.svg'),
+        connectionTipIconURL: require('../extensions/smart-lumies/smart-lumies-button-illustration.svg'),
+        connectingMessage: 'Have your Cube nearby.',
+        helpLink: 'https://smartlumies.com',
+        incompatibleWithScratch: true
+    },
+	{
+        name: 'Magic Blue UU',
+        extensionId: 'magicBlueUU',
+        collaborator: 'PlusPlus',
+        iconURL: require('../extensions/magicBlueUU/magicBlueUU.png'),
+	    insetIconURL: require('../extensions/magicBlueUU/magicBlueUU-small.svg'),
+		tags: ['othermods'],
+        description: (
+            <FormattedMessage
+                defaultMessage='Magic Blue UU extension.'
+                description='Description for the Magic Blue UU extension'
+                id='gui.extension.magicBlueUU.description'
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage='Connecting'
+                description='Have your Magic Blue UU nearby.'
+                id='gui.extension.magicBlueUU.connectingMessage'
+            />
+        )
+    },
+	{
+        name: 'Smart Lights',
+        extensionId: 'hue',
+        tags: ['cognimates', 'othermods'],
+		isNew: false,
+        iconURL: require('../extensions/cognimates/Hue_extension.png'),
+		collaborator: 'Cognimates',
+        description: 'Blocks used for changing and modifying lights.',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: 'Feelings',
+        extensionId: 'sentiment',
+        tags: ['cognimates', 'othermods'],
+		isNew: false,
+        iconURL: require('../extensions/cognimates/sentiment_ext.png'),
+		insetIconURL: require('../extensions/cognimates/sentiment-small.svg'),
+		collaborator: 'Cognimates',
+        description: 'Detects feelings',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: 'Wemo',
+        extensionId: 'wemo',
+        tags: ['cognimates', 'othermods'],
+		isNew: false,
+        iconURL: require('../extensions/cognimates/wemo_ext.png'),
+		collaborator: 'Cognimates',
+        description: 'Play with Wemo in PotentiaMod.',
+        featured: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: (
+            <FormattedMessage
+                defaultMessage="HighClass"
+                description="Name of HighClass extension"
+                id="sn.hc.name"
+            />
+        ),
+        extensionId: 'hc',
+		tags: ['othermods'],
+		isNew: false,
+		collaborator: 'Cubix Entertainment',
+        iconURL: require('../extensions/hc/hc.svg'),
+	    insetIconURL: require('../extensions/hc/hc-small.svg'),
+        description: (
+            <FormattedMessage
+                defaultMessage="Special Blocks that make development alot easier. Also compatible with PotentiaMod."
+                description="Description of HighClass extension"
+                id="sn.hc.description"
+            />
+        ),
+        featured: true,
+        incompatibleWithScratch: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Snap"
+                description="Name of Snext Audio Player extension"
+                id="sn.snap.name"
+            />
+        ),
+        extensionId: 'snap',
+		tags: ['othermods'],
+		isNew: false,
+		collaborator: 'Cubix Entertainment',
+        iconURL: require('../extensions/snap/snap.svg'),
+	    insetIconURL: require('../extensions/snap/snap-small.svg'),
+        description: (
+            <FormattedMessage
+                defaultMessage="SNext Audio Player or SNAP is an extension developed to allow developers to play audio from an external source."
+                description="Description of SNext Audio Player extension"
+                id="sn.snap.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true,
+        incompatibleWithScratch: true
+    },
+	{
+        name: (
+            <FormattedMessage
+                defaultMessage="Robobo"
+                description="Robobo 3.0 Extension"
+                id="gui.extension.robobo.name"
+            />
+        ),
+        extensionId: 'robobo',
+        iconURL: require('../extensions/robobo/robobo.png'),
+	    insetIconURL: require('../extensions/robobo/robobo-small.svg'),
+		tags: ['othermods'],
+		isNew: false,
+		collaborator: 'MINT',
+        description: (
+            <FormattedMessage
+                defaultMessage="Robobo extension."
+                description="Description for the 'Music' extension"
+                id="gui.extension.robobo.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true,
+        incompatibleWithScratch: true
+    },    
+	{
+    name: 'LEGO Mario',
+    extensionId: 'legoMario',
+    collaborator: 'bricklife',
+    iconURL: require('../extensions/legomario/legomario.png'),
+    insetIconURL: require('../extensions/legomario/legomario-small.svg'),
+    description: 'Know what he\'s doing!',
+	tags: ['othermods'],
+	isNew: false,
+    featured: true,
+    disabled: false,
+    bluetoothRequired: true,
+    internetConnectionRequired: true,
+    launchPeripheralConnectionFlow: true,
+    useAutoScan: true,
+    connectionIconURL: require('../extensions/legomario/legomario-illustration.svg'),
+    connectionSmallIconURL: require('../extensions/legomario/legomario-small.svg'),
+    connectionTipIconURL: require('../extensions/legomario/legomario-button-illustration.svg'),
+    connectingMessage: 'Connecting',
+    helpLink: 'https://scratch.mit.edu/boost',
+    incompatibleWithScratch: true
+    },
+	{
+    name: 'LEGO Luigi',
+    extensionId: 'legoLuigi',
+    collaborator: 'bricklife',
+    iconURL: require('../extensions/legoluigi/legoluigi.png'),
+    insetIconURL: require('../extensions/legoluigi/legoluigi-small.svg'),
+    description: 'Know what he\'s doing!',
+	tags: ['othermods'],
+	isNew: false,
+    featured: true,
+    disabled: false,
+    bluetoothRequired: true,
+    internetConnectionRequired: true,
+    launchPeripheralConnectionFlow: true,
+    useAutoScan: true,
+    connectionIconURL: require('../extensions/legoluigi/legoluigi-illustration.svg'),
+    connectionSmallIconURL: require('../extensions/legoluigi/legoluigi-small.svg'),
+    connectionTipIconURL: require('../extensions/legoluigi/legoluigi-button-illustration.svg'),
+    connectingMessage: 'Connecting',
+    helpLink: 'https://scratch.mit.edu/boost',
+    incompatibleWithScratch: true
+    },
+	{
+    name: 'LEGO Peach',
+    extensionId: 'legoPeach',
+    collaborator: 'bricklife',
+    iconURL: require('../extensions/legopeach/legopeach.png'),
+    insetIconURL: require('../extensions/legopeach/legopeach-small.svg'),
+    description: 'Know what she\'s doing!',
+	tags: ['othermods'],
+	isNew: false,
+    featured: true,
+    disabled: false,
+    bluetoothRequired: true,
+    internetConnectionRequired: true,
+    launchPeripheralConnectionFlow: true,
+    useAutoScan: true,
+    connectionIconURL: require('../extensions/legopeach/legopeach-illustration.svg'),
+    connectionSmallIconURL: require('../extensions/legopeach/legopeach-small.svg'),
+    connectionTipIconURL: require('../extensions/legopeach/legopeach-button-illustration.svg'),
+    connectingMessage: 'Connecting',
+    helpLink: 'https://scratch.mit.edu/boost',
+    incompatibleWithScratch: true
     },
 	{
             name: 'ShovelUtils',
