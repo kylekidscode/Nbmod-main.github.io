@@ -1756,6 +1756,16 @@ const menuItems = [
         credits: 'Started by JeremyGamer13, continued by jwklong',
         tags: ['turbowarp', 'builders', 'extcreate'],
         featured: true
+	},
+    {
+        name: 'TurboBuilder - Dev Branch',
+        href: 'https://dev-turbobuilder.vercel.app/',
+        extensionId: 'turboBuilderDev',
+        iconURL: require('../extensions/extension-builders/turbobuilder-dev.png'),
+        description: 'Publicly available developer branch, with the latest features.',
+        collaborator: 'Started by JeremyGamer13, continued by jwklong',
+        tags: ['tw', 'builders', 'dev', 'turbowarp', 'extcreate'],
+        featured: true
     },
     {
         name: 'PenguinBuilder',
