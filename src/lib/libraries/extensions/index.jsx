@@ -1487,7 +1487,15 @@ const menuItems = [
         internetConnectionRequired: true,
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
-
+	},
+    {
+        name: 'Lpp',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/internal_extensions/lpp/index.global.js',
+        iconURL: LppExtensionIcon,
+        tags: ['othermods'],
+        description: '🛠️ (Experimental) A high-level programming language based on Scratch.',
+        credits: 'FurryR',
+        featured: true
     },
     {
         name: 'micro:bit',
