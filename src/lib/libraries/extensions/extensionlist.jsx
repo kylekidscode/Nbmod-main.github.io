@@ -1722,7 +1722,6 @@ const pmExtensions = [
             extDeveloper: 'G1nX',
             featured: true
         },
-    /*DEPRECATED
 	    {
         name: 'CCW Extension Loader',
         extensionId: 'ccw_extension_loader',
