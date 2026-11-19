@@ -428,7 +428,6 @@ import onegpioRoboHATImage from './onegpioRoboHAT/onegpioRoboHAT.png';
 import onegpioRoboHATInsetIconURL from './onegpioRoboHAT/onegpioRoboHAT-small.png';
 import onegpioRpiPicoImage from './onegpioRpiPico/onegpioRpiPico.png';
 import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.png';
-
 //neublamod
 import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 import unknownthumbnail from '.Neublamod/placeholderpm.svg';
@@ -453,6 +452,8 @@ import scratchUtilitiesIcon from './gaiamod/ScratchUtilities.png';
 import turboWeatherIcon from './gaiamod/TurboWeather.png';
 import wonderBlocksIcon from './gaiamod/WonderBlocks.png';
 import catWithDonut from './gaiamod/DingDongDitch.svg';
+//potentiamod
+import potentiamodextgallery from './potentiamod/potentiamod.svg';
 
 import ampmodgalleryThumb from './gaiamod/AmpMod.svg';
 import obgalleryIcon from './gaiamod/OmniBlocks.svg';
