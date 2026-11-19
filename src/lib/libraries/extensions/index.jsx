@@ -990,7 +990,8 @@ const menuItems = [
         extensionId: 'blockly2math',
         iconURL: blocklyIconURL,
         collaborator: 'Google',
-        tags: ['penguinmod', 'othermods', 'snailide'],
+        tags: ['othermods', 'snailide'],
+		insetIconURL: snailideIcon,
         description: "Blockly math blocks.",
         featured: true
     },
