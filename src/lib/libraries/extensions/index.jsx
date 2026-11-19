@@ -431,6 +431,7 @@ import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.pn
 
 //neublamod
 import unknownsmallicon from './Neublamod/Placeholder-small.svg';
+import unknownthumbnail from '.Neublamod/placeholderpm.svg';
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
