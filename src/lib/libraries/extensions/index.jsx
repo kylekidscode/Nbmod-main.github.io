@@ -2387,6 +2387,15 @@ if (IsLocal || IsLiveTests) {
             tags: ['penguinmod'],
             description: 'In development. Currently buggy and missing features.',
             featured: true
+		},
+		{
+            name: 'Test Extension',
+            extensionId: 'test',
+            iconURL: require('../extensions/potentiamod/placeholder.png'),
+            tags: ['potentia', 'othermods', 'dev'],
+            description: 'A test extension to see if possible. For developers only.',
+            featured: true,
+		    extensionWarning: true
         },
         {
             name: 'Virtual Reality',
