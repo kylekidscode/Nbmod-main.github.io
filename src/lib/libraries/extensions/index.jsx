@@ -2366,6 +2366,14 @@ if (IsLocal || IsLiveTests) {
             featured: true
         },
         {
+            name: 'Test Extension',
+            extensionId: 'test',
+            iconURL: require('../extensions/potentiamod/placeholder.png'),
+            tags: ['potentia', 'othermods', 'dev'],
+            description: 'A test extension to see if possible. For developers only.',
+            featured: true,
+		},
+        {
             name: 'Animation',
             extensionId: 'jgAnimation',
             iconURL: jgAnimationExtensionIcon,
