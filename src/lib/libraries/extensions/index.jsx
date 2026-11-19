@@ -1651,7 +1651,8 @@ const menuItems = [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
 	 {
-        name: 'GaiaMod Extension Gallery',
+		//Extension Galleries       
+		name: 'GaiaMod Extension Gallery',
         href: 'https://gaiawindwave90.github.io/gm-extensions/',
         extensionId: 'special_gaiamodExtensionLibrary',
         iconURL: gaiaExGalleryThumb,
@@ -1716,7 +1717,7 @@ const menuItems = [
         featured: true
 	},
 	{
-        name: 'Almejas Extension Gallery,
+		name: 'Almejas Extension Gallery,
         href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'special_sharkpoolExtensionLibrary',
         iconURL: /Extensionsandthumbnails/alejo14ext.svg,
