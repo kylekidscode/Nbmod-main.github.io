@@ -970,6 +970,15 @@ const menuItems = [
 		insetIconURL: ccwIcon,
         description: 'Manages extensions.',
         featured: true
+	},
+    {
+        name: 'Randomly Blocks',
+        extensionId: 'https://snail-ide.js.org/randomlyBlocks.js',
+        collaborator: 'mariocraft987',
+        iconURL: randomlyBlocksIcon,
+        tags: ['othermods'],
+        description: 'Utilitys to have your project feel like a website',
+        featured: true
     },
     {
       name: 'Canvas Effects',
