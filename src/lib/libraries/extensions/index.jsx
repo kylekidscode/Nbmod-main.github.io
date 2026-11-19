@@ -2963,68 +2963,6 @@ const AllExt = [
             featured: true
         },
 
-        {
-            name: 'Inline Blocks',
-            extensionId: 'pmInlineBlocks',
-            iconURL: pmInlineBlocksExtensionIcon,
-            tags: ['penguinmod'],
-            description: 'Create quick blocks for simple tasks. Insert them into any circle spot and have them return any value you want.',
-            featured: true
-        },
-        {
-            name: (
-                <FormattedMessage
-                    defaultMessage="Pathfinding"
-                    description="Name of Pathfinding extension"
-                    id="jgPathfinding.Pathfinding.name"
-                />
-            ),
-            extensionId: 'jgPathfinding',
-            tags: ['penguinmod'],
-            iconURL: jgPathfindingExtensionIcon,
-            description: (
-                <FormattedMessage
-                    defaultMessage="(Unstable and or laggy; Needs further work) Have sprites navigate around obstacles in your game instead of clipping into them."
-                    description="Description of Pathfinding extension"
-                    id="jgPathfinding.Pathfinding.description"
-                />
-            ),
-            featured: true
-        },
-        {
-            name: 'Animation',
-            extensionId: 'jgAnimation',
-            iconURL: jgAnimationExtensionIcon,
-            tags: ['penguinmod'],
-            description: 'In development. Currently buggy and missing features.',
-            featured: true
-		},
-		{
-            name: 'Test Extension - potentiamod',
-            extensionId: 'test',
-            iconURL: potentiamodplaceholder,
-            tags: ['potentia', 'othermods', 'dev'],
-            description: 'A test extension to see if possible. For developers only.',
-            featured: true,
-		    extensionWarning: true
-        },
-        {
-            name: 'Virtual Reality',
-            extensionId: 'jgVr',
-            iconURL: jgVrExtensionIcon,
-            tags: ['penguinmod', 'hardware'],
-            description: 'In development.',
-            extDeveloper: "JeremyGamer13",
-            extraLabels: [
-                {
-                    name: "Uses code from",
-                    value: "\"Augmented Reality\" by Vadik1"
-                }
-            ],
-            featured: true,
-            extensionWarningOnImport: true
-        }
-    ];
     extras.forEach(ext => {
         menuItems.push(ext);
     });
