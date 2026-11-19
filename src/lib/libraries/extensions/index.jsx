@@ -1915,6 +1915,17 @@ const menuItems = [
         isNew: true,
         tags: ['extcreate'],
         featured: true
+	},
+	{
+        name: 'GaiaMod Extension Editor',
+        href: 'https://gaiamod-main.github.io/Extension-Editor/',
+        extensionId: 'GMExtEditor',
+		iconURL: require('../extensions/extension-builders/GaiaExtEditor.svg'),
+	    insetIconURL: require('../extensions/extension-builders/GaiaExtEditor-small.svg'),
+		credits: 'gaiawindwave90
+        description: 'Either create or edit extensions with a modfication of Astra Editor Extension Editor.',
+        tags: ['gaiamod', 'builders', 'extcreate'],
+        featured: true,
     },
     {
         name: 'TurboBuilder',
