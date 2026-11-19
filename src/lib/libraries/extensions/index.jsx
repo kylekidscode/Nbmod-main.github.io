@@ -1235,56 +1235,7 @@ const menuItems = [
     helpLink: "https://github.com/estea8968/scratch3-internet",
     incompatibleWithScratch: true
   },
-  	{
-        name: 'Smart Lumies',
-        extensionId: 'smartLumies',
-        collaborator: 'PlusPlus',
-        iconURL: require('../extensions/smart-lumies/smart-lumies.png'),
-	    insetIconURL: require('../extensions/smart-lumies/smart-lumies-small.svg'),
-        description: 'Have fun with Smart Lumies Cube in NeublaMod!',
-		tags: ['othermods'],
-        featured: true,
-        disabled: false,
-        bluetoothRequired: true,
-        internetConnectionRequired: false,
-        launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-		connectionIconURL: require('../extensions/smart-lumies/smart-lumies-illustration.svg'),
-        connectionSmallIconURL: require('../extensions/smart-lumies/smart-lumies-small.svg'),
-        connectionTipIconURL: require('../extensions/smart-lumies/smart-lumies-button-illustration.svg'),
-        connectingMessage: 'Have your Cube nearby.',
-        helpLink: 'https://smartlumies.com',
-        incompatibleWithScratch: true
-    },
-	{
-        name: 'Magic Blue UU',
-        extensionId: 'magicBlueUU',
-        collaborator: 'PlusPlus',
-        iconURL: require('../extensions/magicBlueUU/magicBlueUU.png'),
-	    insetIconURL: require('../extensions/magicBlueUU/magicBlueUU-small.svg'),
-		tags: ['othermods'],
-        description: (
-            <FormattedMessage
-                defaultMessage='Magic Blue UU extension.'
-                description='Description for the Magic Blue UU extension'
-                id='gui.extension.magicBlueUU.description'
-            />
-        ),
-        featured: true,
-        disabled: false,
-        bluetoothRequired: true,
-        internetConnectionRequired: false,
-        launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-        connectingMessage: (
-            <FormattedMessage
-                defaultMessage='Connecting'
-                description='Have your Magic Blue UU nearby.'
-                id='gui.extension.magicBlueUU.connectingMessage'
-            />
-        )
-    },
-	{
+  {
         name: 'Smart Lights',
         extensionId: 'hue',
         tags: ['cognimates', 'othermods'],
