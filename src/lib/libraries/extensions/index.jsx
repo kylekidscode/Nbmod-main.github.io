@@ -2347,7 +2347,7 @@ mysteryExtension.forEach(ext => {
 
 /*
 ----------------------------------------------
-### NOTE TO PENGUINMOD/GAIAMOD/POTENTIAMOD FORKS: ###
+### NOTE TO PENGUINMOD/GAIAMOD/POTENTIAMOD/NEUBLAMOD FORKS: ###
 Please DO NOT make the extensions below accessible in the editor without livetests!
 They are NOT fully developed for people to use and create full projects with!
 
