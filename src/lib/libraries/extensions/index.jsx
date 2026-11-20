@@ -235,6 +235,8 @@ import silvxrcatOddMessagesExtensionIcon from './penguinmod/extensions/oddmessag
 import luaIcon from './dinosaurmod/lua.png';
 import pythonIcon from './dinosaurmod/python.png';
 
+//snail-ide
+import randomlyBlocksIcon from './randomly/randomlyBlocks.svg';
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
 import chatgpt2scratchInsetIconURL from './chatgpt2scratch/chatgpt2scratch-small.png';
