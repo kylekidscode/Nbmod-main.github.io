@@ -435,6 +435,7 @@ import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.pn
 //neublamod
 import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 import unknownthumbnail from '.Neublamod/placeholderpm.svg';
+import AlmejaExtensionGalleryicon from './Extensionsandthumbnails/alejo14ext.svg';
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
@@ -2145,7 +2146,7 @@ const menuItems = [
 		name: 'Almejas Extension Gallery,
         href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'special_sharkpoolExtensionLibrary',
-        iconURL: /Extensionsandthumbnails/alejo14ext.svg,
+        iconURL: AlmejaExtensionGalleryicon,
         descriptimport: 'see all of almejas Extensions Opens in a new tab.',
         credits: 'alejo 2014',
         tags: ['library'],
