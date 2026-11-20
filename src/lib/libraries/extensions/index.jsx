@@ -2146,7 +2146,7 @@ const menuItems = [
         href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'special_sharkpoolExtensionLibrary',
         iconURL: /Extensionsandthumbnails/alejo14ext.svg,
-        description: 'Tons of extensions created by SharkPool.\n\nClick on an extension while this menu is open to add it to your project.',
+        descriptimport: 'see all of almejas Extensions Opens in a new tab.',
         credits: 'alejo 2014',
         tags: ['library'],
         featured: true
@@ -2156,8 +2156,8 @@ const menuItems = [
         href: 'https://mubi.tech/gallery.html',
         extensionId: 'special_mubimExtensionLibrary',
         iconURL: mubiLibraryExtensionIcon,
-        description: 'Extensions made by MubiLop',
-        tags: ['othermods', 'library'],
+        description: 'Extensions made by MubiLop. disabled due to link not working',
+        tags: ['othermods', 'library', 'disabled'],
         featured: true
 	},
     {
@@ -2165,8 +2165,8 @@ const menuItems = [
         href: 'https://gallery.callumjt.dev/',
         extensionId: 'special_callumExtensionLibrary',
         iconURL: callumLibraryExtensionIcon,
-        description: 'A massive gallery for all known tw extensions',
-        tags: ['othermods', 'library'],
+        description: 'A massive gallery for all known tw extensions. disabled due to link not working',
+        tags: ['othermods', 'library', 'disabled'],
         featured: true
     },
     {
