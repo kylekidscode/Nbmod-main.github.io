@@ -987,7 +987,8 @@ const menuItems = [
         extensionId: 'https://snail-ide.js.org/randomlyBlocks.js',
         collaborator: 'mariocraft987',
         iconURL: randomlyBlocksIcon,
-        tags: ['othermods'],
+        tags: ['othermods', 'snailide'],
+		insetIconURL: snailideIcon,
         description: 'Utilitys to have your project feel like a website',
         featured: true
 	},
@@ -996,7 +997,7 @@ const menuItems = [
         extensionId: 'blockly2math',
         iconURL: blocklyIconURL,
         collaborator: 'Google',
-        tags: ['othermods', 'snailide'],
+        tags: ['snailide'],
 		insetIconURL: snailideIcon,
         description: "Blockly math blocks.",
         featured: true
@@ -1006,6 +1007,7 @@ const menuItems = [
         extensionId: 'typescratch',
         iconURL: typescriptIcon,
         tags: ['snailide', 'programminglanguage', 'othermods'],
+		insetIconURL: snailideIcon,
         description: "Similar to the JavaScript extension but for TypeScript",
         featured: true
     },
