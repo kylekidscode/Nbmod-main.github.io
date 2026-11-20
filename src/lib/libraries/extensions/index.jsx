@@ -436,6 +436,7 @@ import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.pn
 import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 import unknownthumbnail from '.Neublamod/placeholderpm.svg';
 import AlmejaExtensionGalleryicon from './Extensionsandthumbnails/alejo14ext.svg';
+import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreitom1sExtensionCollection.png';
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
