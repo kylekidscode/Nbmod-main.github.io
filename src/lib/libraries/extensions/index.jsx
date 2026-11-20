@@ -998,6 +998,14 @@ const menuItems = [
 		insetIconURL: snailideIcon,
         description: "Blockly math blocks.",
         featured: true
+	},
+    {
+        name: 'TypeScript',
+        extensionId: 'typescratch',
+        iconURL: typescriptIcon,
+        tags: ['snailide', 'programminglanguage', 'othermods'],
+        description: "Similar to the JavaScript extension but for TypeScript",
+        featured: true
     },
     {
       name: 'Canvas Effects',
