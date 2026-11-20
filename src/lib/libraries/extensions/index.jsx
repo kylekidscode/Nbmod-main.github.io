@@ -2307,7 +2307,7 @@ const hiddenExt = [
         extensionId: 'secret_extensionLibrary',
         iconURL: 'https://potentiamod.github.io/static/assets/160e7ca1ae1002eae8b787664d92e5b0.svg',
         description: 'See all of PotentiaMod\'s extensions, even user-submitted. Opens in a new tab.',
-        tags: ['special', 'gaiamod', 'othermods', 'library'],
+        tags: ['special', 'gaiamod', 'othermods', 'library', 'potentia'],
         featured: true
     },
 	{
@@ -2317,7 +2317,7 @@ const hiddenExt = [
         iconURL: VMicon,
         description: 'Tons of extensions converted from built-ins.\n\nClick on an extension to add it to your project.',
         collaborator: 'Listed in the site',
-        tags: ['special', 'gaiamod', 'library'],
+        tags: ['special', 'gaiamod', 'library', 'potentia'],
         featured: true
     }
 ];
