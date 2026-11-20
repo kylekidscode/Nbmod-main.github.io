@@ -2142,11 +2142,21 @@ const menuItems = [
         credits: 'Listed in the site',
         tags: ['library', 'sharkpool'],
         featured: true
+    },
+	{
+        name: 'Andreitom1\'s Extension Collection',
+        href: 'https://tomtomproductions.neocities.org/extension_collection,
+        extensionId: 'Andreitom1ExtensionCollection',
+        iconURL: Andreitom1ExtensionCollectionicon,
+        description: 'see all of Andreitom1\'s Extensions Opens in a new tab.',
+        credits: 'Andreitom1',
+        tags: ['library', 'othermods'],
+        featured: true
 	},
 	{
 		name: 'Almejas Extension Gallery,
         href: 'https://alejo14.vercel.app/extensions.html',
-        extensionId: 'special_sharkpoolExtensionLibrary',
+        extensionId: 'almegaExtensionLibrary',
         iconURL: AlmejaExtensionGalleryicon,
         descriptimport: 'see all of almejas Extensions Opens in a new tab.',
         credits: 'alejo 2014',
@@ -2302,7 +2312,7 @@ const hiddenExt = [
     },
 	{
         name: 'Former VM Extension Collection',
-        href: 'https://gaiawindwave90.github.io/VM-to-JS-Extensions/?originSpecial=true',
+        href: 'https://gaiawindwave90.github.io/VM-to-JS-Extensions/?originSpecial=false',
         extensionId: 'special_VMExtLibrary',
         iconURL: VMicon,
         description: 'Tons of extensions converted from built-ins.\n\nClick on an extension to add it to your project.',
