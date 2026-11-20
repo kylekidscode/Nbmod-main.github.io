@@ -237,6 +237,8 @@ import pythonIcon from './dinosaurmod/python.png';
 
 //snail-ide
 import randomlyBlocksIcon from './randomly/randomlyBlocks.svg';
+import typescriptIcon from './snail-ide/typescript.svg';
+
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
 import chatgpt2scratchInsetIconURL from './chatgpt2scratch/chatgpt2scratch-small.png';
