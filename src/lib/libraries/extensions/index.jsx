@@ -2215,6 +2215,18 @@ const menuItems = [
         featured: true
 	},
 	{
+		name: 'TutelForge',
+        href: 'https://tutelmod.github.io/TutelForge',
+        extensionId: 'special_tutelforge',
+        iconURL: defaultExtensionIcon,
+        description: 'A fork of ExtForge that focuses on creating extensions for the TutelMod community.',
+        extDeveloper: 'vedal789',
+        isNew: true,
+        tags: ['extcreate', 'othermods'],
+        featured: true,
+        credits: 'Forked from ExtForge by jwklong'
+    },
+    {
         name: 'GaiaMod Extension Editor',
         href: 'https://gaiamod-main.github.io/Extension-Editor/',
         extensionId: 'GMExtEditor',
