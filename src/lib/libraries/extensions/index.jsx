@@ -714,17 +714,6 @@ const menuItems = [
 	  featured: true,
 	  credits: 'SharkPool'
     },
-	{
-        name: 'Wonder Blocks',
-        extensionId: 'wonderblocks',
-        iconURL: wonderBlocksIcon,
-		insetIconURL: gaiamodIcon,
-        tags: ['gaiamod'],
-        description: 'Some mysterious blocks.',
-        credits: 'GaiaWindWave90 with some blocks from other users.',
-        gaiaModRequired: true,
-        featured: true
-    },
 	 {
         name: 'App Utilities',
         extensionId: 'appmaker',
@@ -802,50 +791,6 @@ const menuItems = [
             />
         )
     },
-    {
-        name: 'Zip',
-        extensionId: 'https://extensions.turbowarp.org/CST1229/zip.js',
-        iconURL: 'https://extensions.turbowarp.org/images/CST1229/zip.svg',
-        insetIconURL: turbowarpIcon,
-        tags: ['turbowarp', 'datamgmt'],
-        description: 'Create and edit .zip format files, including .sb3 files.',
-        twDeveloper: 'CST1229',
-        featured: true
-    },
-	{
-        name: 'Gaia Utilities',
-        extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/GaiaBlocks.js',
-        credits: 'GaiaWindWave90 with some blocks from other users.',
-        iconURL: 'https://gaiawindwave90.github.io/gm-extensions/images/GaiaWindWave90/GaiaBlocks.svg',
-		insetIconURL: gaiamodIcon,
-        tags: ['gaiamod', 'ai'],
-		gaiaModRequired: true,
-        description: 'Wonderful utility blocks!',
-        featured: true
-    },
-	{
-        name: 'Prompts',
-        extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/GTPPrompts.js',
-        iconURL: 'https://gaiawindwave90.github.io/gm-extensions/images/GaiaWindWave90/GTPPrompts.png',
-		insetIconURL: gaiamodIcon,
-        extDeveloper: 'GaiaWindWave90',
-        tags: ['gaiamod', 'ai'],
-		gaiaModRequired: true,
-        description: 'Prompts made for Gaia AI. Inspired by the prompts extension found in Snail-IDE.',
-        featured: true
-    },
-	{
-        name: 'GaiaGPT',
-        extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/GaiaGPT.js',
-        iconURL: 'https://gaiawindwave90.github.io/gm-extensions/images/GaiaWindWave90/GaiaGPT.png',
-		insetIconURL: gaiamodIcon,
-        tags: ['gaiamod', 'ai'],
-		gaiaModRequired: true,
-        description: 'A GaiaMod modification of Pang AI with more prompts.',
-        extDeveloper: 'logise1123 and GaiaWindWave90',
-        internetConnectionRequired: true,
-        featured: true
-    },
 	{
         name: 'Kobold AI',
         extensionId: 'https://p7scratchextensions.pages.dev/ext/KoboldAI/main.js',
@@ -854,18 +799,6 @@ const menuItems = [
         iconURL: 'https://p7scratchextensions.pages.dev/ext/KoboldAI/cover.svg',
         tags: ['othermods', 'ai'],
         internetConnectionRequired: true,
-        featured: true
-    },
-	{
-        name: 'Webcam Recorder',
-        extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/Webcamrecorder.js',
-        iconURL: 'https://gaiawindwave90.github.io/gm-extensions/images/GaiaWindWave90/Webcamrecorder.png',
-		insetIconURL: gaiamodIcon,
-        credits: '-SIPC-, with modifications by GaiaWindWave90',
-        tags: ['gaiamod'],
-		gaiaModRequired: true,
-        description: 'Records videos straight out of webcam.',
-        internetConnectionRequired: false,
         featured: true
     },
 	{
@@ -1322,18 +1255,6 @@ const menuItems = [
         featured: true
     },
 	{
-            name: 'Penguin Attack!',
-            extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/PenguinAttack.js',
-            iconURL: 'https://gaiawindwave90.github.io/gm-extensions/images/GaiaWindWave90/PenguinAttack.png',
-    		insetIconURL: gaiamodIcon,
-            tags: ['gaiamod', 'jokes'],
-			gaiaModRequired: true,
-            internetConnectionRequired: true,
-            credits: 'JeremyGamer13, with modifications by GaiaWindWave90',
-            description: 'Edited version of the Fire in the Hole extension.',
-            featured: true
-    },
-	{
         name: 'LEGO Duplo Train',
         extensionId: 'duploTrain',
         collaborator: 'bricklife',
@@ -1357,18 +1278,6 @@ const menuItems = [
         featured: true,
         internetConnectionRequired: true,
         bluetoothRequired: true
-    },
-	{
-        name: 'Spinach Facts',
-        extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/SpinachFacts.js',
-        iconURL: 'https://gaiawindwave90.github.io/gm-extensions/images/GaiaWindWave90/SpinachFacts.png',
-		insetIconURL: gaiamodIcon,
-        credits: 'GaiaWindWave90 with some blocks from other users.',
-        tags: ['gaiamod', 'jokes'],
-		gaiaModRequired: true,
-        description: 'An extension about spinach! Based on Gen1x\'s CATS, MrIncredibleMaker\'s DOGS and pooiod7\'s Raccoon Facts extensions.',
-        internetConnectionRequired: true,
-        featured: true
     },
 	{
         name: 'Adacraft GIF',
