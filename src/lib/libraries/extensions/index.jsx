@@ -4336,6 +4336,35 @@ const menuItems = [
         description: 'Toggle a dramatic grayscale effect on your project. ',
         featured: true
 	},
+    {
+        name: 'Randomly Blocks',
+        extensionId: 'https://snail-ide.js.org/randomlyBlocks.js',
+        collaborator: 'mariocraft987',
+        iconURL: randomlyBlocksIcon,
+        tags: ['othermods', 'snailide'],
+		insetIconURL: snailideIcon,
+        description: 'Utilitys to have your project feel like a website',
+        featured: true
+	},
+    {
+        name: 'Blockly2Math',
+        extensionId: 'blockly2math',
+        iconURL: blocklyIconURL,
+        collaborator: 'Google',
+        tags: ['snailide'],
+		insetIconURL: snailideIcon,
+        description: "Blockly math blocks.",
+        featured: true
+	},
+    {
+        name: 'TypeScript',
+        extensionId: 'typescratch',
+        iconURL: typescriptIcon,
+        tags: ['snailide', 'programminglanguage', 'othermods'],
+		insetIconURL: snailideIcon,
+        description: "Similar to the JavaScript extension but for TypeScript",
+        featured: true
+	},
 	{
 		name: 'AcidMod Test',
         extensionId: 'https://acidmod.js.org/extensions/AcidMod/test.js',
@@ -4381,7 +4410,7 @@ const menuItems = [
         featured: true
 	},
 	{
-		        name: 'Vectors',
+		name: 'Vectors',
         extensionId: 'https://extensions.nitrobolt.org/ddededodediamante/Vectors.js',
         credits: 'ddededodediamante',
         iconURL: 'https://extensions.nitrobolt.org/images/ddededodediamante/Vectors.svg',
@@ -6193,35 +6222,6 @@ const menuItems = [
         tags: ['othermods'],
 		insetIconURL: ccwIcon,
         description: 'Manages extensions.',
-        featured: true
-	},
-    {
-        name: 'Randomly Blocks',
-        extensionId: 'https://snail-ide.js.org/randomlyBlocks.js',
-        collaborator: 'mariocraft987',
-        iconURL: randomlyBlocksIcon,
-        tags: ['othermods', 'snailide'],
-		insetIconURL: snailideIcon,
-        description: 'Utilitys to have your project feel like a website',
-        featured: true
-	},
-    {
-        name: 'Blockly2Math',
-        extensionId: 'blockly2math',
-        iconURL: blocklyIconURL,
-        collaborator: 'Google',
-        tags: ['snailide'],
-		insetIconURL: snailideIcon,
-        description: "Blockly math blocks.",
-        featured: true
-	},
-    {
-        name: 'TypeScript',
-        extensionId: 'typescratch',
-        iconURL: typescriptIcon,
-        tags: ['snailide', 'programminglanguage', 'othermods'],
-		insetIconURL: snailideIcon,
-        description: "Similar to the JavaScript extension but for TypeScript",
         featured: true
     },
 	{
