@@ -3558,7 +3558,7 @@ const menuItems = [
 	  credits: 'SharkPool'
     },
     {
-	  name: 'Geolocation sharkpool',
+	  name: 'Geolocation (sharkpool)',
       description: 'Get users\' Location and calculate Real-World Distances',
       credits: 'SharkPool',
       extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Geolocation.js',
@@ -4217,6 +4217,124 @@ const menuItems = [
         featured: true,
         inspiredExt: 'G1nX\'s Cats Extension',
         extDeveloper: 'MrIncredibleMaker'
+	},
+	{
+		        name: 'Rounding+',
+        description: 'Expansion to the rounding blocks',
+        extensionId: 'https://snail-ide-extensions-gallery.vercel.app/extensions/CharCoalAfterLife/rounding.js',
+        iconURL: 'https://snail-ide-extensions-gallery.vercel.app/images/CharCoalAfterLife/rounding.png',
+        credits: 'CharCoalAfterLife',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+		tags: ['snailide'],
+		featured: true
+    },
+      {
+        name: 'SnailShare API',
+        extensionId: 'https://snail-ide.js.org/api.js',
+        iconURL: 'https://snail-ide.js.org/snailideapiext.png',
+        collaborator: 'BA4X',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        description: 'Fetch details of projects and users from Snailshare.',
+        featured: true
+    },
+     {
+        name: 'Prompts (Snail)',
+        extensionId: 'https://snail-ide.js.org/Prompts.js',
+        iconURL: 'https://snail-ide.js.org/Prompts.png',
+        collaborator: 'LoganCreatez',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide', 'ai'],
+        description: 'Good prompts for PenguinGPT',
+        featured: true
+    },
+	{
+        name: 'ISS',
+        extensionId: 'https://snail-ide.js.org/iss.js',
+        iconURL: 'https://github.com/Snail-IDE/snail-ide.github.io/blob/develop/src/lib/libraries/extensions/snail-ide/iss.jpg?raw=true',
+        insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        description: 'Get the latitude and longitude of the International Space Station',
+        featured: true
+    },
+     {
+        name: 'URL Information',
+        extensionId: 'https://snail-ide.js.org/urlinfo.js',
+        iconURL: 'https://github.com/Snail-IDE/snail-ide.github.io/blob/develop/src/lib/libraries/extensions/urlinfo/urlinfo.png?raw=true',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        credits: 'redspacecat',
+        description: 'Get information about the URL',
+        featured: true
+    },
+    {
+        name: 'Browser & OS Information',
+        extensionId: 'https://snail-ide.js.org/browserandosinfo.js',
+        iconURL: 'https://github.com/Snail-IDE/snail-ide.github.io/blob/develop/src/lib/libraries/extensions/browserandosinfo/browserandosinfo.png?raw=true',
+	    insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        credits: 'redspacecat',
+        description: 'Get information about the user\'s browser and operating system',
+        featured: true
+    },
+      {
+        name: 'Random Utils (Snail)',
+        extensionId: 'https://snail-ide.js.org/random_utils.js',
+        iconURL: 'https://snail-ide.js.org/random.png',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        description: 'Random utilites that you may or may not use.',
+        featured: true
+    },
+	{
+        name: 'Time Utils',
+        extensionId: 'https://snail-ide.js.org/Time_Utilities.js',
+        iconURL: 'https://snail-ide.js.org/time.svg',
+        collaborator: 'GingerNinjaStickdudeWorld',
+        insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        description: 'Simple blocks to handle time.',
+        featured: true
+    },
+	{
+            name: 'Share',
+            extensionId: 'shareExt',
+            iconURL: shareImage,
+            insetIconURL: snailideIcon,
+		    customInsetColor: '#cc00ff',
+            tags: ['snailide'],
+            description: 'Share your projects with friends!',
+            featured: true
+        },
+      {
+        name: 'Save Data',
+        extensionId: 'https://snail-ide.js.org/save.js',
+        credits: 'Mr_rudy',
+        iconURL: 'https://raw.githubusercontent.com/Snail-IDE/snail-ide.github.io/2d2190779715b9d4d14e6c62dbd487f0563dbba0/src/lib/libraries/extensions/snailsavedata/cool.svg',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['snailide'],
+        description: 'Extremely easy way to save data.',
+        featured: true
+    },
+    {
+        name: 'Grayscale',
+        extensionId: 'https://snail-ide.js.org/grayscale.js',
+        credits: 'Mr_rudy',
+        iconURL: 'https://snail-ide.js.org/grayscale.svg',
+		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
+        tags: ['penguinmod', 'snailide'],
+        description: 'Toggle a dramatic grayscale effect on your project. ',
+        featured: true
 	},
 	{
         name: 'App Utilities',
