@@ -3,36 +3,6 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {APP_NAME} from '../../brand';
-import {
-	pmExtensions,
-	arkExtensions,
-	dinoExtensions,
-	snailExtensions,
-	emExtensions,
-	gmExtensions,
-	gvbmExtensions,
-	spExtensions,
-	nbExtensions,
-	amExtensions,
-	dbExtensions,
-	mistExtensions,
-	aeExtensions,
-	bilupExtensions,
-	ztEngineExtensions,
-	twExtensions,
-	ccwExtensions,
-	adacraftExtensions,
-	otherExtensions,
-	ml5Extensions,
-	builtIns,
-	scratch,
-	extensionGalleries,
-	extensionBuilders,
-	extras,
-	secrets
-	}
-	from './extensionlist.jsx';
-
 ///////////////
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
@@ -864,59 +834,6 @@ const menuItems = [
         description: 'Prompts made for Gaia AI. Inspired by the prompts extension found in Snail-IDE.',
         featured: true
     },
-    {
-        name: 'Motion Expansion',
-        extensionId: 'pmMotionExpansion',
-        iconURL: pmMotionExpansionExtensionIcon,
-        tags: ['penguinmod', 'categoryexpansion'],
-        description: 'More small motion blocks for movement or collision.',
-        featured: true,
-        credits: 'Some blocks from NexusKitten'
-    },
-    {
-        name: 'Looks Expanded',
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Looks-Expanded.js',
-        iconURL: sharkpoolLooksExpandedIcon,
-        tags: ['penguinmod', 'categoryexpansion', 'graphics'],
-        description: 'Expansion of the Looks Category.',
-        extDeveloper: 'SharkPool, CST1229',
-        featured: true
-    },
-    {
-        name: 'Events Expansion',
-        extensionId: 'pmEventsExpansion',
-        iconURL: pmEventsExpansionExtensionIcon,
-        tags: ['penguinmod', 'categoryexpansion'],
-        description: 'More events for sending & receiving information, notifing specific sprites or better control when things should happen.',
-        featured: true,
-        credits: 'Some blocks from LilyMakesThings'
-    },
-    {
-        name: 'Controls Expansion',
-        extensionId: 'pmControlsExpansion',
-        iconURL: pmControlsExpansionExtensionIcon,
-        tags: ['penguinmod', 'categoryexpansion'],
-        description: 'More control blocks for animations, complex systems or cleaner one-time use blocks.',
-        featured: true,
-        credits: '"new thread" by CubesterYT, CST1229, SharkPool'
-    },
-    {
-        name: 'Sensing Expansion',
-        extensionId: 'pmSensingExpansion',
-        iconURL: pmSensingExpansionExtensionIcon,
-        tags: ['penguinmod', 'categoryexpansion'],
-        description: "More sensing blocks for specific use cases or interacting with the user's device.",
-        credits: 'Some blocks from SharkPool-SP',
-        featured: true
-    },
-    {
-        name: 'Operators Expansion',
-        extensionId: 'pmOperatorsExpansion',
-        iconURL: pmOperatorsExpansionExtensionIcon,
-        tags: ['penguinmod', 'categoryexpansion', 'math'],
-        description: 'More operators like nand, nor, character code to character, reading multiple lined text line by line, etc.',
-        featured: true
-    },
 	{
         name: 'GaiaGPT',
         extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/GaiaGPT.js',
@@ -929,15 +846,6 @@ const menuItems = [
         internetConnectionRequired: true,
         featured: true
     },
-    {
-        name: 'My Blocks+',
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/My-Blocks-Plus.js',
-        iconURL: sharkpoolMBPIcon,
-        tags: ['penguinmod', 'categoryexpansion'],
-        description: 'Create private or global custom blocks with custom inputs, colors, and more!',
-        extDeveloper: 'SharkPool, CST1229, 0znzw',
-        featured: true
-    },
 	{
         name: 'Kobold AI',
         extensionId: 'https://p7scratchextensions.pages.dev/ext/KoboldAI/main.js',
@@ -946,15 +854,6 @@ const menuItems = [
         iconURL: 'https://p7scratchextensions.pages.dev/ext/KoboldAI/cover.svg',
         tags: ['othermods', 'ai'],
         internetConnectionRequired: true,
-        featured: true
-    },
-    {
-        name: 'Better Comments',
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Better-Comments.js',
-        iconURL: sharkpoolBCIcon,
-        tags: ['penguinmod', 'categoryexpansion'],
-        description: 'Better Comments with Customization and Markdown support',
-        extDeveloper: 'SharkPool',
         featured: true
     },
 	{
@@ -967,15 +866,6 @@ const menuItems = [
 		gaiaModRequired: true,
         description: 'Records videos straight out of webcam.',
         internetConnectionRequired: false,
-        featured: true
-    },
-    {
-        name: 'Custom Styles',
-        extensionId: 'shovelcss',
-        iconURL: theshovelCustomStylesIcon,
-        tags: ['penguinmod', 'graphics'],
-        description: 'Customize the appearance of variable monitors and prompts in your project.',
-        extDeveloper: 'TheShovel',
         featured: true
     },
 	{
@@ -1016,16 +906,6 @@ const menuItems = [
 		insetIconURL: snailideIcon,
         description: "Similar to the JavaScript extension but for TypeScript",
         featured: true
-    },
-    {
-      name: 'Canvas Effects',
-      extensionId: 'https://extensions.turbowarp.org/TheShovel/CanvasEffects.js',
-      description: 'Apply visual effects to the entire stage.',
-      iconURL: 'https://extensions.turbowarp.org/images/TheShovel/CanvasEffects.svg',
-      credits: 'TheShovel and SharkPool',
-	  tags: ['turbowarp'],
-      insetIconURL: turbowarpIcon,
-	  featured: true
     },
 	{
         name: 'Ohbot',
@@ -1430,26 +1310,6 @@ const menuItems = [
     connectingMessage: 'Connecting',
     helpLink: 'https://scratch.mit.edu/boost',
     incompatibleWithScratch: true
-	},
-	{
-            name: 'ShovelUtils',
-            extensionId: 'https://extensions.turbowarp.org/TheShovel/ShovelUtils.js',
-            tags: ['turbowarp'],
-            iconURL: 'https://extensions.turbowarp.org/images/TheShovel/ShovelUtils.png',
-            insetIconURL: turbowarpIcon,
-            description: 'A bunch of miscellaneous blocks.',
-            featured: true,
-            twDeveloper: 'TheShovel and Mio'
-     },
-     {
-      name: 'Asset Manager',
-      extensionId: 'https://extensions.turbowarp.org/Lily/Assets.js',
-      description: 'Add, remove, and get data from various types of assets.',
-      iconURL: 'https://extensions.turbowarp.org/images/Lily/Assets.svg',
-      credits: 'LilyMakesThings and Mio',
-	  tags: ['turbowarp'],
-      insetIconURL: turbowarpIcon,
-	  featured: true
     },
 	{
         name: 'Ada Browser',
@@ -1472,15 +1332,6 @@ const menuItems = [
             credits: 'JeremyGamer13, with modifications by GaiaWindWave90',
             description: 'Edited version of the Fire in the Hole extension.',
             featured: true
-      },
-    {
-        name: 'Runtime Modifications',
-        extensionId: 'jgRuntime',
-        tags: ['penguinmod'],
-        iconURL: jgRuntimeExtensionIcon,
-        description: 'Blocks for updating Scratch objects like the stage and sprites.',
-        credits: 'TheShovel, showierdata9978, SharkPool',
-        featured: true
     },
 	{
         name: 'LEGO Duplo Train',
@@ -1507,15 +1358,6 @@ const menuItems = [
         internetConnectionRequired: true,
         bluetoothRequired: true
     },
-    {
-        name: 'Font Manager',
-        extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Font-Manager.js',
-        iconURL: spFontManagerIcon,
-        tags: ['penguinmod', 'graphics'],
-        description: 'Manage, create, and delete fonts.',
-        credits: 'SharkPool, Ashimee',
-        featured: true
-    },
 	{
         name: 'Spinach Facts',
         extensionId: 'https://gaiawindwave90.github.io/gm-extensions/GaiaWindWave90/SpinachFacts.js',
@@ -1527,17 +1369,6 @@ const menuItems = [
         description: 'An extension about spinach! Based on Gen1x\'s CATS, MrIncredibleMaker\'s DOGS and pooiod7\'s Raccoon Facts extensions.',
         internetConnectionRequired: true,
         featured: true
-    },
-    {
-        name: 'CloudLink',
-        extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/cloudlink.js',
-        tags: ['turbowarp', 'penguinmod'],
-        insetIconURL: cloudlinkIcon,
-        iconURL: 'https://extensions.penguinmod.com/images/MikeDev101/cloudlink.svg',
-        description: 'A powerful WebSocket extension for Scratch.',
-        featured: true,
-        extDeveloper: 'MikeDev',
-        internetConnectionRequired: true
     },
 	{
         name: 'Adacraft GIF',
@@ -1561,15 +1392,6 @@ const menuItems = [
         description: 'Use the power of the NES emulation in GaiaMod!',
         featured: true,
         credits: 'Gvbvdxx'
-    },
-    {
-        name: 'Pang API',
-        extensionId: 'https://extensions.penguinmod.com/extensions/SammerLOL/pangapi.js',
-        iconURL: 'https://extensions.penguinmod.com/images/SammerLOL/pangapi.avif',
-        tags: ['penguinmod'],
-        description: 'Fetch information from the PenguinMod API.',
-        extDeveloper: 'oc9x97, Ianyourgod',
-        featured: true
     },
 	{
         name: 'Echidna',
@@ -1602,23 +1424,6 @@ const menuItems = [
         featured: true,
         credits: 'Vernier',
     },
-    {
-        name: 'Prism',
-        extensionId: 'jgPrism',
-        tags: ['penguinmod', 'datamgmt'],
-        iconURL: jgPrismExtensionIcon,
-        description: 'Blocks for specific use-cases or major convenience.',
-        featured: true
-    },
-    {
-        name: 'Color Picker',
-        extensionId: 'shovelColorPicker',
-        iconURL: theshovelColorPickerIcon,
-        tags: ['penguinmod'],
-        description: 'Allow the user to choose a color using the built-in color picker, so you don\'t need to make your own.',
-        extDeveloper: 'TheShovel',
-        featured: true
-    },
 	{
         name: 'Roku',
         extensionId: 'roku',
@@ -1628,22 +1433,6 @@ const menuItems = [
 		insetIconURL: rokuSmall,
         tags: ['othermods', 'iot'],
         description: 'Interact with your Roku tv via the GM2Helper software!',
-        featured: true
-    },
-    {
-        name: 'GamePad',
-        extensionId: 'Gamepad',
-        tags: ['turbowarp', 'hardware'],
-        insetIconURL: turbowarpIcon,
-        twDeveloper: 'GarboMuffin',
-        iconURL: gp,
-        description: (
-            <FormattedMessage
-                defaultMessage="Directly access gamepads instead of just mapping buttons to keys."
-                description="Description for the 'GamePad' extension"
-                id="GamepadExtension.GamepadExtension.description"
-            />
-        ),
         featured: true
     },
 	{
@@ -1775,22 +1564,6 @@ const menuItems = [
         internetConnectionRequired: false,
         featured: true
     },
-    {
-        name: 'Scratch Authentication',
-        extensionId: 'jgScratchAuthenticate',
-        iconURL: jgScratchAuthExtensionIcon,
-        tags: ['penguinmod'],
-        description: "Interact with Scratch Authentication to prove the player is a real scratch user.",
-        featured: true
-    },
-    {
-        name: 'JavaScript',
-        extensionId: 'SPjavascriptV2',
-        iconURL: jgJavascriptExtensionIcon,
-        tags: ['penguinmod', 'programminglanguage'],
-        description: 'Run your own custom code written in JavaScript!',
-        featured: true
-    },
 	
     {
         name: 'XML',
@@ -1798,24 +1571,6 @@ const menuItems = [
         iconURL: jwXMLExtensionIcon,
         tags: ['penguinmod', 'datamgmt'],
         description: 'Creating, parsing and modifying XML data.',
-        extDeveloper: 'jwklong',
-        featured: true
-    },
-    {
-        name: 'Color',
-        extensionId: 'jwColor',
-        iconURL: jwColorExtensionThumb,
-        tags: ['penguinmod', 'graphics'],
-        description: 'Utilities for anything involving colors.',
-        extDeveloper: 'jwklong',
-        featured: true
-    },
-    {
-        name: 'Lambda',
-        extensionId: 'jwLambda',
-        iconURL: jwLambdaExtensionThumb,
-        tags: ['penguinmod'],
-        description: 'Create anonymous functions with arguments and execute them.',
         extDeveloper: 'jwklong',
         featured: true
     },
