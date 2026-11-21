@@ -411,6 +411,7 @@ import AlmejaExtensionGalleryicon from './Extensionsandthumbnails/alejo14ext.svg
 import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreitom1sExtensionCollection.png';
 import Pooiod7extgalleryicon from './Extensionsandthumbnails/P7ExtGalleryCover.png';
 import Unknownextgalleryicon from './Neublamod/Unknownextgallery.svg';
+import neublamodicon from './Neublamod/Nbmodsmall.svg';
 
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
