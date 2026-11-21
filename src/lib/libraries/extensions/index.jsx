@@ -433,12 +433,15 @@ import onegpioRoboHATImage from './onegpioRoboHAT/onegpioRoboHAT.png';
 import onegpioRoboHATInsetIconURL from './onegpioRoboHAT/onegpioRoboHAT-small.png';
 import onegpioRpiPicoImage from './onegpioRpiPico/onegpioRpiPico.png';
 import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.png';
+
 //neublamod
 import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 import unknownthumbnail from '.Neublamod/placeholderpm.svg';
 import AlmejaExtensionGalleryicon from './Extensionsandthumbnails/alejo14ext.svg';
 import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreitom1sExtensionCollection.png';
 import Pooiod7extgalleryicon from './Extensionsandthumbnails/P7ExtGalleryCover.png';
+import Unknownextgalleryicon from './Neublamod/Unknownextgallery.svg';
+
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
@@ -460,6 +463,7 @@ import scratchUtilitiesIcon from './gaiamod/ScratchUtilities.png';
 import turboWeatherIcon from './gaiamod/TurboWeather.png';
 import wonderBlocksIcon from './gaiamod/WonderBlocks.png';
 import catWithDonut from './gaiamod/DingDongDitch.svg';
+
 //potentiamod
 import potentiamodextgallery from './potentiamod/potentiamod.svg';
 import potentiamodplaceholder from './potentiamod/placeholder.png';
