@@ -1049,7 +1049,7 @@ const menuItems = [
         featured: true,
         internetConnectionRequired: true,
         bluetoothRequired: true
-	    },
+	},
 	{
         name: 'Cozmo',
         extensionId: 'cozmo',
@@ -1432,6 +1432,111 @@ const menuItems = [
     helpLink: 'https://scratch.mit.edu/boost',
     incompatibleWithScratch: true
     },
+	{
+        name: (
+            <FormattedMessage
+                defaultMessage="DANV Cloud DB"
+                description="Name of the DANV Cloud DB extension"
+                id="mw.turboshare.danvCloudDB.name"
+            />
+        ),
+        extensionId: 'danvCloudDB',
+        extensionURL: `${process.env.ROOT || '/'}static/turboshare-extensions/CloudDB.js`,
+        iconURL: turboshareCloudDBIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Cloud variables and data storage for multi-player games"
+                description="Description of the DANV Cloud DB extension"
+                id="mw.turboshare.danvCloudDB.description"
+            />
+        ),
+        tags: ['turboshare', 'othermods'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="WOW Economy"
+                description="Name of the WOW Economy extension"
+                id="mw.turboshare.danvWowEconomy.name"
+            />
+        ),
+        extensionId: 'danvWowEconomy',
+        extensionURL: `${process.env.ROOT || '/'}static/turboshare-extensions/WOWEconomy.js`,
+        iconURL: turboshareWOWEconomyIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="WOW energy currency system integration"
+                description="Description of the WOW Economy extension"
+                id="mw.turboshare.danvWowEconomy.description"
+            />
+        ),
+        tags: ['turboshare', 'othermods'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Embed Windows v2"
+                description="Name of the Embed Windows v2 extension"
+                id="mw.turboshare.embedWindowsv2.name"
+            />
+        ),
+        extensionId: 'EmbedWindowsv2',
+        extensionURL: `${process.env.ROOT || '/'}static/turboshare-extensions/EmbedWindows.js`,
+        iconURL: turboshareEmbedWindowsIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Create fake windows in your project page"
+                description="Description of the Embed Windows v2 extension"
+                id="mw.turboshare.embedWindowsv2.description"
+            />
+        ),
+        tags: ['turboshare', 'othermods'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="TurboForge Studio"
+                description="Name of the TurboForge Studio extension"
+                id="mw.turboshare.turboforge.name"
+            />
+        ),
+        extensionId: 'turboforge',
+        extensionURL: `${process.env.ROOT || '/'}static/turboshare-extensions/TurboForge.js`,
+        iconURL: turboforgeBannerIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Build custom extensions with AI BeaBea"
+                description="Description of the TurboForge Studio extension"
+                id="mw.turboshare.turboforge.description"
+            />
+        ),
+        tags: ['turboshare', 'othermods'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="BeaBea Coding Agent"
+                description="Name of the BeaBea Coding Agent extension"
+                id="mw.turboshare.beabeaCodingAgent.name"
+            />
+        ),
+        extensionId: 'beabeaCodingAgent',
+        extensionURL: `${process.env.ROOT || '/'}static/turboshare-extensions/BeaBeaCodingAgent.js`,
+        iconURL: beabeaBannerIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="AI-powered coding agent studio with BeaBea"
+                description="Description of the BeaBea Coding Agent extension"
+                id="mw.turboshare.beabeaCodingAgent.description"
+            />
+        ),
+        tags: ['turboshare', 'othermods'],
+        featured: true
+	},
 	{
             name: 'ShovelUtils',
             extensionId: 'https://extensions.turbowarp.org/TheShovel/ShovelUtils.js',
