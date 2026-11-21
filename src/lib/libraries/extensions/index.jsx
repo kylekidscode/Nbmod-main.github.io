@@ -240,11 +240,11 @@ import randomlyBlocksIcon from './randomly/randomlyBlocks.svg';
 import typescriptIcon from './snail-ide/typescript.svg';
 
 //turbo-ide
-import BeaBeaCodingAgentIcon from './Banner/BeaBeaCodingAgent.png';
-import CloudDBIcon from './Banner/CloudDB.png';
-import TurboForgeIcon from './Banner/TurboForge.png';
-import EmbedWindowsIcon from './Banner/EmbedWindows.png';
-import WOWEconomyIcon from './Banner/WOWEconomy.png';
+import turboshareCloudDBIcon from '../../../../TurboWS/Extensions/Banner/CloudDB.png';
+import turboshareWOWEconomyIcon from '../../../../TurboWS/Extensions/Banner/WOWEconomy.png';
+import turboshareEmbedWindowsIcon from '../../../../TurboWS/Extensions/Banner/EmbedWindows.png';
+import turboforgeBannerIcon from '../../../../TurboWS/Extensions/Banner/TurboForge.png';
+import beabeaBannerIcon from '../../../../TurboWS/Extensions/Banner/BeaBeaCodingAgent.png';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
