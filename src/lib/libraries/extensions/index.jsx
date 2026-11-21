@@ -3884,6 +3884,127 @@ const menuItems = [
 	  featured: true
 	},
 	{
+		name: 'ArkIDE additions',
+        extensionId: 'https://extensions.arkide.site/extensions/Ark/arkide-additons.js',
+        credits: 'Ark',
+        iconURL: 'https://extensions.arkide.site/images/Ark/banner.png',
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide', 'ai'],
+        description: 'A simple extension that adds some cool new blocks from ArkIDE. Google Gemini included.',
+        featured: true
+    },
+	    {
+        name: 'Json Number Array Operations',
+        extensionId: 'https://extensions.arkide.site/extensions/Ark/jsonnumberarray.js',
+        credits: 'Ark',
+        iconURL: 'https://extensions.arkide.site/images/Ark/jsonant.png',
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        description: 'A nice extension that adds useful operation blocks for Json Number Arrays.',
+        featured: true
+    },
+{
+        name: 'Console',
+        extensionId: 'https://extensions.arkide.site/extensions/Ark/arkide-console.js',
+        credits: 'Ark',
+        iconURL: 'https://extensions.arkide.site/images/Ark/console.png',
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        description: 'Add a console to your project to log messages, errors, and warnings.',
+        featured: true
+    },
+	    {
+        name: 'Timer Utils',
+        extensionId: 'https://extensions.arkide.site/extensions/Ark/timerutils.js',
+        credits: 'Ark',
+        iconURL: 'https://extensions.arkide.site/images/Ark/timerutils.svg',
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        description: 'An extension that helps you count down to certain dates without having to do a bunch of math and coding.',
+        featured: true
+    },
+	    {
+        name: 'Store My Stuff',
+        extensionId: 'https://extensions.arkide.site/extensions/Ark/store-my-stuff.js',
+        credits: 'Ark',
+        iconURL: 'https://extensions.arkide.site/images/Ark/storemystuff.png',
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        description: 'Another varible storage extension but the server is running on the centeral ArkIDE server instead.',
+        featured: true
+    },
+	    {
+        name: 'Comments',
+        extensionId: 'https://extensions.arkide.site/extensions/Ark/comments.js',
+        credits: 'Ark',
+        iconURL: 'https://extensions.arkide.site/images/Ark/comments.png',
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        description: 'Adds comment blocks to your project.',
+        featured: true
+    },
+    {
+        name: "Advanced Keyboard",
+        description: "Upgraded keyboard input: key combos (2–5 keys), long press detection, WASD direction, key counters, HAT events with edge trigger, and last key tracking..",
+        extensionId:"https://extensions.arkide.site/extensions/Askyy/Advanced_keyboard.js",
+        iconURL: "https://extensions.arkide.site/images/Askyy/keyboard.jpg",
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        credits: "Askyy",
+		featured: true
+    },
+    {
+        name: "Game Dev Utils",
+        description: "Essential game dev blocks: FPS counter, delta time, frame count, rectangle collision, LERP, distance & angle calculations, camera follow, snap-to-grid, named timers, and screen wrap.",
+        extensionId:"https://extensions.arkide.site/extensions/Askyy/Devs_utilities_ex.js",
+        iconURL: "https://extensions.arkide.site/images/Askyy/game_dev_utils.jpg",
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        credits: "Askyy",
+		featured: true
+    },
+    {
+        name: "Geography (Ark)",
+        description: "Country data for 195+ nations: capital, population, region, subregion, currency, timezone, flag URL, languages. Plus live geolocation and IP address lookup.",
+        extensionId:"https://extensions.arkide.site/extensions/Askyy/Geography_ex.js",
+        iconURL: "https://extensions.arkide.site/images/Askyy/geography.jpg",
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        credits: "Askyy",
+		featured: true
+    },
+    {
+        name: "Internet & Device",
+        description: "Read device info directly from the browser: connection status, browser name/version, screen size, CPU cores, memory, orientation, language, battery level and charging state.",
+        extensionId:"https://extensions.arkide.site/extensions/Askyy/Internet_Device_ex.js",
+        iconURL: "https://extensions.arkide.site/images/Askyy/internet_and_device.jpg",
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        credits: "Askyy",
+		featured: true
+    },
+    {
+        name: "Weather",
+        description: "Real-time weather for 300+ world cities via Open-Meteo: temperature, feels like, humidity, wind speed & direction, weather description, rain/snow detection, and tomorrow's forecast.",
+        extensionId:"https://extensions.arkide.site/extensions/Askyy/Weather_ex.js",
+        iconURL: "https://extensions.arkide.site/images/Askyy/weather.png",
+		insetIconURL: arkideIcon,
+		customInsetColor: '#5900FF',
+        tags: ['arkide'],
+        credits: "Askyy",
+		featured: true
+	},
+	{
         name: 'App Utilities',
         extensionId: 'appmaker',
         iconURL: appMakerIconURL,
