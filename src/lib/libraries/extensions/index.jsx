@@ -241,6 +241,10 @@ import typescriptIcon from './snail-ide/typescript.svg';
 
 //turbo-ide
 import BeaBeaCodingAgentIcon from './Banner/BeaBeaCodingAgent.png';
+import CloudDBIcon from './Banner/CloudDB.png';
+import TurboForgeIcon from './Banner/TurboForge.png';
+import EmbedWindowsIcon from './Banner/EmbedWindows.png';
+import WOWEconomyIcon from './Banner/WOWEconomy.png';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
