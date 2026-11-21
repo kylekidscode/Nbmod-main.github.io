@@ -8141,8 +8141,104 @@ const hiddenExt = [
             insetIconURL: gaiamodIcon,
             credits: 'GaiaWindWave90',
             featured: true
+		 },
+		 {
+            name: 'Sprite Controller',
+            extensionId: 'https://dde-ext-gallery.vercel.app/extensions/code/spriteController.js',
+            iconURL: 'https://dde-ext-gallery.vercel.app/extensions/thumbnail/spriteController.svg',
+            description: 'Control or send events to sprites',
+			tags: ['special', 'othermods'],
+            credits: 'ddededodediamante',
+            featured: true
+        },
+        {
+            name: 'MR BEAST UTILITIES',
+            extensionId: 'https://turbololder.vercel.app/extensions/mrbeastutil.js',
+            iconURL: 'https://turbololder.vercel.app/images/Mr_Beast_Utilitities.svg',
+            description: 'the best blockes ever',
+			tags: ['special', 'turbowarp', 'joke'],
+			insetIconURL: turbowarpIcon,
+            customInsetColor: '#ff4d4d',
+            extDeveloper: 'JeremyGamer13',
+            featured: true
         },
 		{
+            name: 'Potato Extension',
+            extensionId: 'https://dde-ext-gallery.vercel.app/extensions/code/potatoExtension.js',
+            iconURL: 'https://dde-ext-gallery.vercel.app/extensions/thumbnail/potatoExtension.svg',
+            description: 'yummy potatoes 🥔',
+			tags: ['special', 'othermods', 'joke'],
+            credits: 'ddededodediamante',
+            featured: true
+        },
+        {
+            name: 'Jungle Inferno',
+            extensionId: 'https://turbololder.vercel.app/extensions/jungleinferno.js',
+            iconURL: 'https://turbololder.vercel.app/images/none.png',
+            description: 'a good',
+			tags: ['special', 'turbowarp', 'joke'],
+			insetIconURL: turbowarpIcon,
+            customInsetColor: '#ff4d4d',
+            extDeveloper: 'LilyMakesThings',
+            featured: true
+        },
+		 {
+            name: 'Speech Synthesis',
+            extensionId: 'https://dde-ext-gallery.vercel.app/extensions/code/speechSynthesis.js',
+            iconURL: 'https://dde-ext-gallery.vercel.app/extensions/thumbnail/speechSynthesis.svg',
+            description: 'Play and customize TTS audio',
+			tags: ['special', 'othermods', 'noisemaker'],
+            credits: 'ddededodediamante',
+            featured: true
+        },
+        {
+            name: 'Fleef',
+            extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/legacy-extensions/fleef.js',
+            iconURL: defaultExtensionIcon,
+            description: 'this extension refuses to be committed.',
+            extDeveloper: 'MrIncredibleMaker',
+			tags: ['special', 'dinosaurmod', 'joke'],
+			insetIconURL: dinosaurmodIcon,
+		    customInsetColor: '#80f41a',
+            featured: true
+		    },
+        {
+        name: 'Utilites',
+        tags: ['special', 'othermods'],
+        extensionId: 'utils',
+        iconURL: utilsIcon,
+        description: 'Utilites for Scratch',
+        featured: true,
+        credits: 'The_Mad_Punter'
+    },
+	{
+        name: 'GameUtils',
+        tags: ['special', 'othermods'],
+        extensionId: 'gameutils',
+        iconURL: gameutilsIcon,
+        description: 'The Extension that Loads Sprites, costumes, etc.',
+        featured: true,
+        collaborator: 'showierdata9978'
+    },
+	{
+        name: 'ShredSDK',
+        tags: ['special', 'othermods'],
+        extensionId: 'shredsdk',
+        iconURL: shredsdkIcon,
+        description: 'A development kit for making good web games',
+        featured: true,
+        credits: 'The_Mad_Punter'
+    },
+	{
+        name: 'SenCu',
+        extensionId: 'sencu',
+        iconURL: 'https://sec2.github.io/_scratch-gui/static/assets/b6759eb848ba8206025865888105a0a7.jpg',
+        description: 'Play with a SenCu Extension for GaiaMod!',
+		tags: ['special', 'othermods', 'iot'],
+        featured: true,
+        disabled: false,
+    },
+	{
         name: 'DINNYE',
         extensionId: 'dinnye',
         collaborator: 'völgyváros',
