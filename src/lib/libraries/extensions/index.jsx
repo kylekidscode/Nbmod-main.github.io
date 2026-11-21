@@ -3135,6 +3135,133 @@ const menuItems = [
         description: 'A massive gallery for all known tw extensions. disabled due to link not working',
         tags: ['othermods', 'library', 'disabled'],
         featured: true
+	},
+    {
+        name: 'ArkIDE Extra Extensions',
+        href: 'https://extensions.arkide.site/',
+        extensionId: 'special_arkideExtensionLibrary',
+        iconURL: 'https://studio.arkide.site/static/assets/ec6c0b201605163f47d10636142e36b9.svg',
+        description: 'See some Ark IDE External extensions, even user-submitted. Opens in a new tab.',
+        tags: ['arkide', 'library'],
+        featured: true
+    },
+    {
+        name: 'ElectraMod Extra Extensions',
+        href: 'https://electramod-extensions-gallery.vercel.app',
+        extensionId: 'special_electramodExtensionLibrary',
+        iconURL: 'https://raw.githubusercontent.com/ElectraMod/scratch-gui/4751b8232c951c6119cca8776054fa5b496c30dc/src/lib/libraries/extensions/electramod/library.svg',
+        description: 'See some user-submitted, ElectraMod External extensions. Opens in a new tab.',
+        tags: ['electramod', 'library'],
+        featured: true
+    },
+    {
+        name: 'DinosaurMod Extra Extensions',
+        href: 'https://dinosaurmod.github.io/extensions/',
+        extensionId: 'special_dinosaurmodExtensionLibrary',
+        iconURL: 'https://raw.githubusercontent.com/Dinosaurmod/Dinosaurmod.github.io/d32911e4a99caafcc7ba7523b468cf91de061b7e/src/lib/libraries/extensions/dinosaurmod/gallery.svg',
+        description: 'See some Dinosaurmod and user-submitted extensions. Opens in a new tab.',
+        tags: ['dinosaurmod', 'library'],
+        featured: true
+    },
+    {
+        name: 'Snail-IDE Extra Extensions',
+        href: 'https://snail-ide-extensions-gallery.vercel.app/',
+        extensionId: 'special_snailideExtensionLibrary',
+        iconURL: snailIDEGalleryThumb,
+        description: 'See some Snail-IDE and user-submitted extensions. Opens in a new tab.',
+        tags: ['snailide', 'library'],
+        featured: true
+    },
+	{
+        name: 'Dash Extra Extensions',
+        href: 'https://dashblocks.org/extensions/',
+        extensionId: 'special_dashExtensionLibrary',
+        iconURL: 'https://raw.githubusercontent.com/DashBlocks/scratch-gui/3ce7fe9c45c09bc33b5da54b7b9db449344bdfec/src/lib/libraries/extensions/gallery/gallery.svg',
+        description: 'See some Dash External extensions. Opens in a new tab.',
+        tags: ['dash', 'library'],
+        featured: true
+    },
+	{
+        name: 'NitroBolt Extra Extensions',
+        href: 'https://extensions.nitrobolt.org',
+        extensionId: 'special_nbExtensionLibrary',
+        iconURL: 'https://raw.githubusercontent.com/Nitro-Bolt/scratch-gui/7412982dfed046f57c55bf18b279b7700367c6c6/src/lib/libraries/extensions/gallery/gallery-nb.svg',
+        description: 'See some NitroBolt External extensions. Opens in a new tab.',
+        tags: ['nitrobolt', 'library'],
+        featured: true
+    },
+	{
+        name: 'AstraEditor Extra Extensions',
+        href: 'https://editors.astras.top/extensions/',
+        extensionId: 'special_aeExtensionLibrary',
+        iconURL: 'https://github.com/AstraEditor/scratch-gui/blob/develop/src/lib/libraries/extensions/gallery/aegallery.png?raw=true',
+        description: 'See some AstraEditor External extensions. Opens in a new tab.',
+        tags: ['astraeditor', 'library'],
+        featured: true
+    },
+	{
+        name: 'Bilup Extra Extensions',
+        href: 'https://extensions.bilup.org/',
+        extensionId: 'special_bilupExtensionLibrary',
+        iconURL: 'https://raw.githubusercontent.com/Bilup/scratch-gui/bb372dc0774976a20c4a82636ca0a0db6c55d7d0/src/lib/libraries/extensions/gallery/gallery.svg',
+        description: 'See some Bilup External extensions. Opens in a new tab.',
+        tags: ['bilup', 'library'],
+        featured: true
+    },
+	{
+        name: 'AmpMod Extra Extensions',
+        href: 'https://ampmod.codeberg.page/extensions/',
+        extensionId: 'special_ampmodExtensionLibrary',
+        iconURL: ampmodgalleryThumb,
+        description: 'See some AmpMod External extensions. Opens in a new tab.',
+        tags: ['othermods', 'library'],
+        featured: true
+    },
+	{
+        name: 'OmniBlocks Extra Extensions',
+        href: 'https://omniblocks.github.io/extensions/',
+        extensionId: 'special_omniblocksExtensionLibrary',
+        iconURL: obgalleryIcon,
+        description: 'See some OmniBlocks External extensions. Opens in a new tab.',
+        tags: ['othermods', 'library'],
+        featured: true
+	},
+    {
+        name: 'Scratch Repo Mega Extension Gallery',
+        href: 'https://scratchmegarepo.pages.dev/extensions',
+        extensionId: 'special_scratchmegaExtensionLibrary',
+        iconURL: scratchmegarepoThumb,
+        description: 'A mega gallery for most of the extensions',
+        tags: ['library'],
+        featured: true
+    },
+    {
+        name: 'Mistium\'s Extensions Gallery',
+        href: 'https://extensions.mistium.com/',
+        extensionId: 'special_mistiumExtensionLibrary',
+        iconURL: 'https://raw.githubusercontent.com/ElectraMod/scratch-gui/4751b8232c951c6119cca8776054fa5b496c30dc/src/lib/libraries/extensions/mistium/library.svg',
+        description: 'Extensions made by Mistium',
+        tags: ['mistwarp', 'library'],
+        featured: true
+    },
+    {
+        name: 'ElmoBear\'s Extension Gallery',
+        href: 'https://kylekart.github.io/ScratchExtensions/',
+        extensionId: 'special_elmobearExtensionLibrary',
+        iconURL: defaultExtensionIcon,
+        description: 'Extensions made by ElmoBear',
+        tags: ['library'],
+        featured: true
+    },
+        {
+        name: 'Ruby Extension Gallery',
+        href: 'https://ruby-devs.vercel.app/gallery',
+        extensionId: 'rubyextension',
+        iconURL: 'https://github.com/Snail-IDE/snail-ide.github.io/blob/develop/src/lib/libraries/extensions/snail-ide/ruby.png?raw=true',
+        description: 'View the Useful Ruby Team Extensions!',
+        credits: 'Ruby Team',
+        tags: ['library'],
+        featured: true
     },
     {
         name: 'KittenBot Extension Maker',
