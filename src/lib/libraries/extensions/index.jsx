@@ -2136,6 +2136,27 @@ const menuItems = [
         ),
         tags: ['tw', 'turbowarp', 'library'],
         featured: true
+	},
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="TutelMod Extra Extensions"
+                description="Name of library item to open the Extra Extensions gallery"
+                id="tutel.extraLibraryExtensions.name"
+            />
+        ),
+        href: 'https://tutelmod.github.io/TutelMod-ExtensionsGallery/?editor=true',
+        extensionId: 'special_tutelmodExtensionLibrary',
+        iconURL: tutelmodLibraryExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="See some user-submitted extensions for the TutelMod community. Opens in a new tab."
+                description="Description of library item to open the Extra Extensions gallery"
+                id="tm.extraLibraryExtensions.description"
+            />
+        ),
+        tags: ['othermods', 'library', 'tutelmod'],
+        featured: true
     },
 	{
         name: 'SharkPool\'s Extension Collection',
@@ -2152,7 +2173,7 @@ const menuItems = [
         href: 'https://tomtomproductions.neocities.org/extension_collection,
         extensionId: 'Andreitom1ExtensionCollection',
         iconURL: Andreitom1ExtensionCollectionicon,
-        description: 'see all of Andreitom1\'s Extensions Opens in a new tab.',
+        description: 'see all of Andreitom1\'s Extensions. Opens in a new tab.',
         credits: 'Andreitom1',
         tags: ['library', 'othermods'],
         featured: true
@@ -2162,7 +2183,7 @@ const menuItems = [
         href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'almegaExtensionLibrary',
         iconURL: AlmejaExtensionGalleryicon,
-        descriptimport: 'see all of almejas Extensions Opens in a new tab.',
+        descriptimport: 'see all of almejas Extensions. Opens in a new tab.',
         credits: 'alejo 2014',
         tags: ['library'],
         featured: true
