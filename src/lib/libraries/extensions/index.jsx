@@ -5950,17 +5950,6 @@ const menuItems = [
         featured: true
     },
 	{
-        name: 'Miku Hatsune Block',
-        extensionId: 'https://m.ccw.site/user_projects_assets/c5eb4c7b755a7b739e6699b72e281194.js',
-        iconURL: 'https://m.ccw.site/works-covers/50973288-24ef-4017-b0c4-44541deac7ad.PNG',
-        credits: 'Lumi',
-        tags: ['gandiide'],
-		insetIconURL: ccwIcon,
-        customInsetColor: '#1C1B25',
-        description: 'Opens a Miku link.',
-        featured: true
-    },
-	{
         name: 'Lambda Blocks',
         extensionId: 'https://m.ccw.site/user_projects_assets/5da115b1bfa161cad8f2529f40f2ec55.js',
         iconURL: 'https://m.ccw.site/works-covers/e05d7ba7-c4b3-4f5a-bbf5-b2a51cd2559a.png',
@@ -6151,7 +6140,7 @@ const menuItems = [
         extensionId: 'https://m.ccw.site/user_projects_assets/c5eb4c7b755a7b739e6699b72e281194.js',
         iconURL: 'https://m.ccw.site/works-covers/50973288-24ef-4017-b0c4-44541deac7ad.PNG',
         credits: 'Lumi',
-        tags: ['othermods'],
+        tags: ['othermods', 'gandiide'],
 		insetIconURL: ccwIcon,
         description: 'Opens a Miku link.',
         featured: true
