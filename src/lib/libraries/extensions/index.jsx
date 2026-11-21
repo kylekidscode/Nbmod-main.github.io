@@ -3136,7 +3136,7 @@ const menuItems = [
         tags: ['penguinmod', 'categoryexpansion', 'math'],
         description: 'Complicated maths extension for nerds.',
         extDeveloper: 'jwklong',
-        featured: false
+        featured: true
     },
 	{
 	  name: 'Sharktilities',
@@ -4334,6 +4334,104 @@ const menuItems = [
 		customInsetColor: '#cc00ff',
         tags: ['penguinmod', 'snailide'],
         description: 'Toggle a dramatic grayscale effect on your project. ',
+        featured: true
+	},
+	{
+		name: 'AcidMod Test',
+        extensionId: 'https://acidmod.js.org/extensions/AcidMod/test.js',
+        credits: 'AcidMod',
+        iconURL: 'https://acidmod.js.org/extensions/images/AcidMod/test.svg',
+        tags: ['acidmod'],
+		insetIconURL: acidmodIcon,
+	    customInsetColor: '#42C769',
+        description: 'Blocks used for testing stuff in AcidMod.',
+        featured: true
+    },
+	    {
+        name: 'Cooleans',
+        extensionId: 'https://acidmod.js.org/extensions/AcidMod/cooleans.js',
+        credits: 'AcidMod',
+        iconURL: 'https://acidmod.js.org/extensions/images/AcidMod/cooleans.svg',
+        tags: ['acidmod'],
+		insetIconURL: acidmodIcon,
+	    customInsetColor: '#42C769',
+        description: 'Cooleans, the definitive way of if condition reporters.',
+        featured: true
+    },
+	    {
+        name: 'Super Variables',
+        extensionId: 'https://acidmod.js.org/extensions/AcidMod/superVars.js',
+        credits: 'AcidMod',
+        iconURL: 'https://acidmod.js.org/extensions/images/AcidMod/superVars.svg',
+        tags: ['acidmod'],
+		insetIconURL: acidmodIcon,
+	    customInsetColor: '#42C769',
+        description: 'Super Variables, advanced variable creation and clearing on a separate temporary spectrum.',
+        featured: true
+    },
+	{
+        name: 'AcidMod Console',
+        extensionId: 'https://acidmod.js.org/extensions/AcidMod/acidConsole.js',
+        credits: 'AcidMod',
+        iconURL: 'https://acidmod.js.org/extensions/images/AcidMod/acidConsole.svg',
+        tags: ['acidmod'],
+		insetIconURL: acidmodIcon,
+	    customInsetColor: '#42C769',
+        description: 'Interact with your developer console.',
+        featured: true
+	},
+	{
+		        name: 'Vectors',
+        extensionId: 'https://extensions.nitrobolt.org/ddededodediamante/Vectors.js',
+        credits: 'ddededodediamante',
+        iconURL: 'https://extensions.nitrobolt.org/images/ddededodediamante/Vectors.svg',
+        tags: ['nitrobolt'],
+		insetIconURL: nitroboltIcon,
+	    customInsetColor: '#FF5726',
+        description: 'Manipulate vectors with common math operations.',
+        featured: true
+    },
+    {
+        name: 'NitroBolt Comments',
+        extensionId: 'https://extensions.nitrobolt.org/Comments.js',
+        iconURL: 'https://extensions.nitrobolt.org/images/Comments.svg',
+        tags: ['nitrobolt'],
+		insetIconURL: nitroboltIcon,
+	    customInsetColor: '#FF5726',
+        description: 'Organize and label your code.',
+        featured: true
+    },
+    {
+        name: 'Rich Presence',
+        extensionId: 'https://extensions.nitrobolt.org/CubesterYT/RichPresence.js',
+		credits: 'CubesterYT',
+        iconURL: 'https://extensions.nitrobolt.org/images/unknown.svg',
+        tags: ['nitrobolt'],
+		insetIconURL: nitroboltIcon,
+	    customInsetColor: '#FF5726',
+        description: 'Adds rich presence support to your project.',
+        featured: true
+    },
+    {
+        name: 'Libxmp',
+        extensionId: 'https://extensions.nitrobolt.org/NishiOwO/libxmp.js',
+		credits: 'NishiOwO',
+        iconURL: 'https://extensions.nitrobolt.org/images/NishiOwO/libxmp.svg',
+        tags: ['nitrobolt'],
+		insetIconURL: nitroboltIcon,
+	    customInsetColor: '#FF5726',
+        description: 'Play tracker modules using Libxmp.',
+        featured: true
+    },
+    {
+        name: 'ODE',
+        extensionId: 'https://extensions.nitrobolt.org/NishiOwO/ode.js',
+		credits: 'NishiOwO',
+        iconURL: 'https://extensions.nitrobolt.org/images/NishiOwO/ode.svg',
+        tags: ['nitrobolt'],
+		insetIconURL: nitroboltIcon,
+	    customInsetColor: '#FF5726',
+        description: '3D physics using ODE.',
         featured: true
 	},
 	{
