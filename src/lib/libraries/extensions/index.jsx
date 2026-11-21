@@ -444,6 +444,7 @@ import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 import unknownthumbnail from '.Neublamod/placeholderpm.svg';
 import AlmejaExtensionGalleryicon from './Extensionsandthumbnails/alejo14ext.svg';
 import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreitom1sExtensionCollection.png';
+import Pooiod7extgalleryicon from './ExtensionsandthumbnailsPooiod7/ext gallery.png';
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
@@ -2284,6 +2285,15 @@ const menuItems = [
         iconURL: mubiLibraryExtensionIcon,
         description: 'Extensions made by MubiLop. disabled due to link not working',
         tags: ['othermods', 'library', 'disabled'],
+        featured: true
+	},
+    {
+        name: 'Pooiod7\'s Scratch Extensions',
+        href: 'https://p7scratchextensions.pages.dev/',
+        extensionId: 'Pooiod7ExtensionLibrary',
+        iconURL: Pooiod7extgalleryicon,
+        description: 'see all of pooiod7s extensions. Opens in a new tab',
+        tags: ['othermods', 'library'],
         featured: true
 	},
     {
