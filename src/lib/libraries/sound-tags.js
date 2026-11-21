@@ -2,6 +2,7 @@ import messages from './tag-messages.js';
 export default [
     {tag: 'penguinmod', intlLabel: messages.penguinmod},
     {tag: 'gaiamod', intlLabel: messages.gaiamod},
+    {tag: 'potentia', intlLabel: messages.potentiamod},
     {tag: 'dinosaurmod', intlLabel: messages.dinosaurmod},
     {type: 'divider'},
     {type: 'subtitle', intlLabel: "Types"},
