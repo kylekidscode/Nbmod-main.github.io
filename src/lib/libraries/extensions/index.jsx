@@ -2280,7 +2280,7 @@ const menuItems = [
         extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/e2ee.js',
         iconURL: 'https://extensions.penguinmod.com/images/MikeDev101/e2ee.svg',
         credits: 'MikeDev101',
-		tags: ['penguinmod'],
+		tags: ['penguinmod', 'electramod'],
 		insetIconURL: penguinmodIcon,
 		customInsetColor: '#00c3ff',
         featured: true
@@ -4003,6 +4003,72 @@ const menuItems = [
         tags: ['arkide'],
         credits: "Askyy",
 		featured: true
+	},
+	{
+		name: 'Debugger Console',
+        description: 'Based on Turbowarp CN\'s Debugger by NOname',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/debuggerconsole.js',
+        iconURL: 'https://electramod-extensions-gallery.vercel.app/images/Aness6040/debuggerconsole.svg',
+        credits: 'Aness6040',
+		insetIconURL: electramodIcon,
+		customInsetColor: '#625e97',
+        tags: ['electramod'],
+        featured: true
+    },
+    {
+        name: 'Lazy Multi-lines',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/lazymultilines.js',
+        extDeveloper: 'Aness6040',
+        description: 'A handy extension for JavaScript Extension or to create your own text file!',
+        iconURL: 'https://electramod-extensions-gallery.vercel.app/images/Aness6040/lazymultilines.svg',
+		insetIconURL: electramodIcon,
+		customInsetColor: '#625e97',
+        tags: ['electramod'],
+        featured: true
+    },
+    {
+        name: 'Jul Mik Utilities',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/extensions/julmik6478/julmik_utilities.js',
+        credits: 'V1 & V2 by julmik6478, V3 by Aness6040',
+        description: 'An Extension of Blocks Utilities by Jul Mik (V1 and V2 when named Jul Mik Blocks with Turbobuilder) and helped by Aness6040 (Actual v3)',
+        iconURL: 'https://electramod-extensions-gallery.vercel.app/images/julmik6478/julmik_utilities.svg',
+		insetIconURL: electramodIcon,
+		customInsetColor: '#625e97',
+        tags: ['electramod'],
+        featured: true
+    },
+     {
+        name: 'ElectraAPI',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/electraapi.js',
+        extDeveloper: 'Aness6040',
+        description: 'Based on Pang API for ElectraMod.',
+        iconURL: 'https://electramod-extensions-gallery.vercel.app/images/Aness6040/electraapi.svg',
+		insetIconURL: electramodIcon,
+		customInsetColor: '#625e97',
+        tags: ['electramod'],
+        featured: true
+    },
+    {
+        name: 'ElectraGPT',
+        description: 'ElectraMod modification of PenguinGPT! Adds more prompts like Mishael or Slixbot!\nElectraGPT banner by Aness6040',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/extensions/MubiLop/electragpt.js',
+        iconURL: 'https://electramod-extensions-gallery.vercel.app/images/MubiLop/electragpt.png',
+        credits: 'MubiLop',
+		insetIconURL: electramodIcon,
+		customInsetColor: '#625e97',
+        tags: ['electramod', 'ai'],
+        featured: true
+    },
+    {
+        name: 'Markdown to HTML',
+        description: 'Converts Markdown to HTML code.',
+        extensionId: 'https://electramod-extensions-gallery.vercel.app/extensions/Aness6040/md2html.js',
+        iconURL: 'https://electramod-extensions-gallery.vercel.app/images/Aness6040/md2html.png',
+        credits: 'Aness6040',
+		insetIconURL: electramodIcon,
+		customInsetColor: '#625e97',
+        tags: ['electramod'],
+        featured: true
 	},
 	{
         name: 'App Utilities',
