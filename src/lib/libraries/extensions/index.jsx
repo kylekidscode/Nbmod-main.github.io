@@ -2173,6 +2173,16 @@ const menuItems = [
         featured: true
     },
 	{
+		name: 'electricprogramming\'s Extension Gallery',
+        href: 'https://electricprogramming-scratch-exts.vercel.app/,
+        extensionId: 'electricprogrammingExtensionGallery',
+        iconURL: require('../Neublamod/Unknownextgallery.svg'),
+        description: 'see all of electricprogramming\'s Extensions. Opens in a new tab.',
+        credits: 'electricprogramming',
+        tags: ['library', 'othermods],
+        featured: true
+    },
+    {
         name: 'Andreitom1\'s Extension Collection',
         href: 'https://tomtomproductions.neocities.org/extension_collection,
         extensionId: 'Andreitom1ExtensionCollection',
