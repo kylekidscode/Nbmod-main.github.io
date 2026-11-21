@@ -7889,6 +7889,7 @@ const menuItems = [
         iconURL: mubiLibraryExtensionIcon,
         description: 'Extensions made by MubiLop. disabled due to link not working',
         tags: ['othermods', 'library', 'disabled'],
+		disabled: true,
         featured: true
 	},
     {
@@ -7907,6 +7908,7 @@ const menuItems = [
         iconURL: callumLibraryExtensionIcon,
         description: 'A massive gallery for all known tw extensions. disabled due to link not working',
         tags: ['othermods', 'library', 'disabled'],
+		disabled: true,
         featured: true
 	},
     {
@@ -8068,6 +8070,40 @@ const menuItems = [
         tags: ['extcreate', 'othermods'],
         featured: true,
         credits: 'Forked from ExtForge by jwklong'
+	},
+    {
+        name: 'ExtCreate',
+        href: 'https://extcreate.snail-ide.com/',
+        extensionId: 'special_ExtCreate',
+        iconURL: 'https://raw.githubusercontent.com/Snail-IDE/snail-ide.github.io/2d2190779715b9d4d14e6c62dbd487f0563dbba0/src/lib/libraries/extensions/ext-create/logo.svg',
+        insetIconURL: 'https://raw.githubusercontent.com/ElectraMod/scratch-gui/4751b8232c951c6119cca8776054fa5b496c30dc/src/lib/libraries/extensions/ext-create/inset.svg',
+        customInsetColor: '#FFF',
+        description: 'Snail IDE version of TurboBuilder. Disabled due to the link not working.',
+        credits: 'Started by JeremyGamer13, continued by jwklong, modified by nmsderp.',
+        tags: ['snail-ide', 'builders', 'extcreate', 'disabled'],
+        disabled: true,
+        featured: true
+    },
+    {
+        name: 'DinoBuilder',
+        href: 'https://dinobuilder.vercel.app',
+        extensionId: 'special_dinoBuilder',
+        iconURL: 'https://github.com/Dinosaurmod/Dinosaurmod.github.io/blob/develop/src/lib/libraries/extensions/dinosaurmod/dinobuilder.png?raw=true',
+        description: 'Create your own amazing extensions using a TurboBuilder Mod scratch-based UI!',
+        credits: 'MrIncredibleMaker',
+        tags: ['dinosaurmod', 'builders', 'extcreate'],
+        featured: true
+    },
+    {
+        name: 'ElectraBuilder',
+        href: 'https://electrabuilder.vercel.app/',
+        extensionId: 'special_electraBuilder',
+        iconURL: 'https://raw.githubusercontent.com/ElectraMod/scratch-gui/4751b8232c951c6119cca8776054fa5b496c30dc/src/lib/libraries/extensions/electramod/electrabuilder.svg',
+        insetIconURL: 'https://github.com/ElectraMod/scratch-gui/blob/develop/src/lib/libraries/extensions/electramod/electrabuilder.png?raw=true',
+        description: 'ElectraMod version of TurboBuilder',
+        credits: 'Started by JeremyGamer13, continued by jwklong, modified by Aness6040',
+        tags: ['electramod', 'builders', 'extcreate'],
+        featured: true
     },
     {
         name: 'GaiaMod Extension Editor',
@@ -8641,250 +8677,7 @@ if (IsLocal || IsLiveTests) {
             extensionWarningOnImport: true
         }
     ];
-if (Isfullversion) {
-const AllExt = [
-        {
-            name: (
-                <FormattedMessage
-                    defaultMessage="HTML Canvas"
-                    description="Name of Text extension"
-                    id="canvas.name"
-                />
-            ),
-            extensionId: 'newCanvas',
-            iconURL: canvasExtensionBanner,
-            tags: ['penguinmod'],
-            insetIconURL: canvasExtensionIcon,
-            customInsetColor: '#0094FF',
-            description: (
-                <FormattedMessage
-                    defaultMessage="Extra drawing tools using an HTML Canvas. Works well when used with other extensions."
-                    description="Description of Text extension"
-                    id="text.description"
-                />
-            ),
-            featured: true
-        },
-        {
-            name: 'OLD Canvas',
-            extensionId: 'canvas',
-            iconURL: canvasExtensionBanner,
-            tags: ['penguinmod'],
-            insetIconURL: canvasExtensionIcon,
-            customInsetColor: '#0094FF',
-            description: 'depracated version of HTML Canvas.',
-            featured: true
-        },
-        {
-            name: 'Legacy Files',
-            extensionId: 'jgFiles',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod', 'datamgmt'],
-            description: 'Basic blocks for files. This has been replaced by the TurboWarp files extension.',
-            featured: true
-        },
-        {
-            name: 'Clone Communication',
-            extensionId: 'jgClones',
-            iconURL: jgCloneManagerExtensionIcon,
-            tags: ['penguinmod'],
-            description: 'Mainly sharing data between clones and the main sprite, but also some other small features. This has been replaced by the TurboWarp Clones+ extension.',
-            featured: true
-        },
-        {
-            name: 'Easy Save',
-            extensionId: 'jgEasySave',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod', 'datamgmt'],
-            description: 'Save variables, lists and extra info to a file, then load those things back in.',
-            featured: true
-        },
-        {
-            name: 'the doo doo extension',
-            extensionId: 'jgDooDoo',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod', 'joke'],
-            description: 'dr bob eae',
-            featured: true
-        },
-        {
-            name: 'an amazing extension',
-            extensionId: 'jgBestExtension',
-            iconURL: 'https://extensions.penguinmod.com/images/JeremyGamer13/epic.avif',
-            internetConnectionRequired: true,
-            tags: ['penguinmod', 'joke'],
-            description: 'this is SUCH A GOOD EXTENSION USE IT NOW',
-            featured: true
-        },
-        {
-            name: 'Epic utilities',
-            extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/AprilFools.js',
-            iconURL: 'https://extensions.penguinmod.com/images/JeremyGamer13/epicutils.avif',
-            tags: ['penguinmod', 'joke'],
-            description: 'the super good utilities brought to you by todays sponsor sharkpool (the epic utilities)',
-            featured: true
-        },
-        {
-            name: 'image blocks',
-            extensionId: 'https://extensions.penguinmod.com/extensions/Ashime/funneimageblocks.js',
-            iconURL: 'https://extensions.penguinmod.com/images/JeremyGamer13/screenshot1.avif',
-            tags: ['penguinmod', 'joke'],
-            internetConnectionRequired: true,
-            description: 'who needs cat blocks when you have penguin block',
-            extDeveloper: 'Ashimee, 0znzw, CST1229',
-            featured: true
-        },
-        {
-            name: 'fire in the hole',
-            extensionId: 'https://extensions.penguinmod.com/extensions/JeremyGamer13/FireInTheHole.js',
-            iconURL: 'https://library.penguinmod.com/files/emojis/cluelesssmile.png',
-            tags: ['penguinmod', 'joke'],
-            internetConnectionRequired: true,
-            description: 'april fools took too long man this joke is not funny anymore',
-            featured: true
-        },
-        {
-            name: 'Unite',
-            extensionId: 'jwUnite',
-            iconURL: jwUniteExtensionIcon,
-            tags: ['penguinmod'],
-            description: 'Legacy extension that was eventually merged into the default toolbox.',
-            featured: true
-        },
-        {
-            name: 'Debugging',
-            extensionId: 'jgDebugging',
-            iconURL: jgDebuggingIcon,
-            tags: ['penguinmod'],
-            description: 'Log information and run commands. Good for debugging packaged projects or just easily changing things.',
-            featured: true
-        },
-        {
-            name: 'Test Extension Loader',
-            href: 'https://studio.penguinmod.com/loadExt.html',
-            extensionId: 'special_testExtensionLibrary',
-            iconURL: defaultExtensionIcon,
-            description: 'Test loading extensions from a library. For developers.',
-            featured: true
-        },
-        {
-            name: 'Editor',
-            href: 'https://studio.penguinmod.com/editor.html',
-            extensionId: 'special_editorExtensionLibrary',
-            iconURL: penguinmodLibraryExtensionIcon,
-            description: 'Opens the editor with this tab as the parent, still with the library opened. For developers.',
-            featured: true
-        },
-        {
-            name: 'localhost:5173',
-            href: 'http://localhost:5173',
-            extensionId: 'special_extensionLibraryLocalhost5173',
-            iconURL: defaultExtensionIcon,
-            description: 'Opens localhost:5173 in a new tab with this tab as the parent. For developers',
-            featured: true
-        },
-        {
-            name: 'localhost:5173?editor=true',
-            href: 'http://localhost:5173?editor=true',
-            extensionId: 'special_extensionLibraryLocalhost5173EditorTrue',
-            iconURL: defaultExtensionIcon,
-            description: 'Opens localhost:5173 in a new tab with this tab as the parent. Sets ?editor=true. For developers',
-            featured: true
-        },
-        {
-            name: (
-                <FormattedMessage
-                    defaultMessage="OOP"
-                    description="Name of OOP extension"
-                    id="jwStructs.jwStructsExtension.name"
-                />
-            ),
-            extensionId: 'jwStructs',
-            tags: ['penguinmod'],
-            iconURL: jwStructsExtensionIcon,
-            description: (
-                <FormattedMessage
-                    defaultMessage="Removed from list. OOP blocks. OOp is a programming paradigm that uses objects and their interactions to design applications and computer programs."
-                    description="Description of OOP extension"
-                    id="jwStructs.jwStructsExtension.description"
-                />
-            ),
-            featured: true
-        },
-        {
-            name: 'PenguinMod Permissions',
-            extensionId: 'JgPermissionBlocks',
-            iconURL: jgPermissionExtensionIcon,
-            tags: ['penguinmod'],
-            description: 'Legacy extension, old blocks no longer serve a real purpose. Direct blocks to manage permissions that PenguinMod requires you have to do certain tasks.',
-            featured: true
-        },
-        {
-            name: 'Jeremys Dev Tools',
-            extensionId: 'jgDev',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod'],
-            description: 'Test extension to see if things are possible.\nDO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
-            credits: 'Some features added from LilyMakesThings, CubesterYT, TheShovel',
-            featured: true
-        },
-        {
-            name: '3D',
-            extensionId: 'jg3d',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod', '3d'],
-            customInsetColor: '#B200FF',
-            insetIconURL: jg3dInsetExtensionIcon,
-            description: 'Do not use for real projects. Not recommended, unstable, and will be rewritten/remade entirely at a later date. In development.',
-            featured: true,
-            extensionWarningOnImport: true
-        },
-        {
-            name: '3D Physics',
-            extensionId: 'fr3d',
-            iconURL: fr3dPhysicsExtensionIcon,
-            tags: ['penguinmod', '3d'],
-            customInsetColor: '#D066FE',
-            insetIconURL: fr3dPhysicsInsetExtensionIcon,
-            description: 'Physics for the 3D extension.',
-            featured: true
-        },
-        {
-            name: '3D Virtual Reality',
-            extensionId: 'jg3dVr',
-            iconURL: jg3dVrExtensionIcon,
-            tags: ['penguinmod', 'hardware', '3d'],
-            customInsetColor: '#B200FF',
-            insetIconURL: jg3dVrInsetExtensionIcon,
-            description: 'Do not use for real projects. Not recommended, unstable, and will be rewritten/remade entirely at a later date. In development. May break compatibility. Allow players to really jump into your world!',
-            featured: true,
-            extensionWarningOnImport: true
-        },
-        {
-            name: 'Interfaces',
-            extensionId: 'jgInterfaces',
-            iconURL: jgsilvxrcatInterfacesExtensionIcon,
-            credits: 'silvxrcat',
-            tags: ['penguinmod'],
-            description: 'In development.',
-            featured: true
-        },
-        {
-            name: 'Packager Applications',
-            extensionId: 'jgPackagerApplications',
-            iconURL: jgPackagerApplicationsExtensionIcon,
-            insetIconURL: jgPackagerApplicationsInsetExtensionIcon,
-            twDeveloper: 'CubesterYT',
-            customInsetColor: '#66B8FF',
-            tags: ['penguinmod', 'packager'],
-            description: 'In development. Do extra things in packaged applications that you can\'t do in the website!',
-            featured: true
-        },
 
-    extras.forEach(ext => {
-        menuItems.push(ext);
-    });
-}
 
 	
 export default menuItems;
