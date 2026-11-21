@@ -2268,7 +2268,7 @@ const menuItems = [
         featured: true
 	},
 	{
-		name: 'Almejas Extension Gallery,
+		name: 'Almeja\'s Extension Gallery,
         href: 'https://alejo14.vercel.app/extensions.html',
         extensionId: 'almegaExtensionLibrary',
         iconURL: AlmejaExtensionGalleryicon,
