@@ -106,6 +106,7 @@ import dashblocksIcon from './dashblocks/dashblocks_icon.png';
 import ccwIcon from './gandi-ide/gandiidelogo.png';
 import penguinmodLibraryExtensionIcon from './penguinmod/library.svg';
 import sharkpoolGalleryIcon from './penguinmod/sharkpool-library.svg';
+import tutelmodLibraryExtensionIcon from './tutelmod/library.png';
 
 import ExtForgeIcon from './penguinmod/extforge.svg';
 
