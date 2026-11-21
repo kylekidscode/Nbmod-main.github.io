@@ -703,18 +703,1261 @@ const menuItems = [
             />
         ),
         featured: true
+	},
+	{
+		name: 'Shovel Debugger',
+        description: 'Shovel\'s improved and feature rich debugger!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/shoveldebugger.js',
+        iconURL: 'https://extensions.penguinmod.com/images/TheShovel/thumbnail-shoveldebugger.avif',
+        credits: 'TheShovel',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
     },
     {
-	  name: 'Camera',
-      description: 'Use Cameras to move the visible part of the Stage',
-      credits: 'SharkPool',
-      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Camera.js',
-      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Camera.svg',
-      tags: ['sharkpool'],
-	  featured: true,
-	  credits: 'SharkPool'
+        name: 'Server Storage',
+        description: 'Similar to the server storage blocks in the \'storage\' extension, but with a better server uptime and non-global keys.\nDid you know the server is open source?',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/serverStorageExtension.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Ikelene/serverStorageIMG.avif',
+        credits: 'Ikelene',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+    {
+        name: 'Storage Plus',
+        description: 'A storage extension with many more features. Featuring server storage (with a fast server), local storage and more!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/storage_plus.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/storage_plus.avif',
+        credits: 'G1nX',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'MotionSprite',
+        description: 'An advanced math-based animation system',
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/qoan-renderer.js',
+        iconURL: 'https://extensions.penguinmod.com/images/TheShovel/thumbnail-motionsprite.avif',
+        isGitHub: true,
+        credits: 'TheShovel',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Boxed Physics',
+        description: 'Implements the Box2D physics engine into PenguinMod, adding joints, springs, etc. This is different from TurboWarp\'s implementation.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Box2D.js',
+        iconURL: 'https://extensions.penguinmod.com/images/pooiod/B2Dimg.svg',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'pooiod7',
+		featured: true
+    },
+    {
+        name: 'Lighting',
+        description: 'A fast, powerful and easy-to-use lighting engine powered by WebGL!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/lighting.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/lighting.avif',
+        credits: 'G1nX',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Video Sharing',
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/VideoSharing.js',
+        iconURL: 'https://extensions.penguinmod.com/images/pooiod/VideoSharing.svg',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: 'Share your screen or camera to your projects!',
+        extDeveloper: 'Pooiod7',
+        featured: true
+    },
+	{
+        name: 'Cockatiel Location',
+        description: 'Fetch Users\' IP Addresses and Location.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/bruhbeast-pixel/CockatielLocation.js',
+        iconURL: 'https://extensions.penguinmod.com/images/bruhbeast-pixel/CockatielLocation.svg',
+        credits: 'bruhbeast-pixel',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+		{
+        name: 'Blobs',
+        description: 'An extension made for handling blobs which can be used to store files. Allows to easily make blobs for the Js extension.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Faunks/Blobs.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Faunks/Blobs.avif',
+        credits: 'Faunks',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'GPU.sb3',
+        description: 'Use WebGPU compute shaders to accelerate your projects. Use Pen+ for rendering, not this.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/derpygamer2142/gpusb3.js',
+        iconURL: 'https://extensions.penguinmod.com/images/derpygamer2142/gpusb3.png',
+        credits: 'derpygamer2142',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Beat Sync',
+        description: 'An extension designed to let you sync anything in your project to a musical beat, with incredible precision.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/beat_sync.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/beat_sync.avif',
+        credits: 'G1nX',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Discord Auth',
+        description: 'Login with discord to your projects. Identify users by ID and username in a secure and easy way!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
+        iconURL: 'https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.avif',
+        credits: 'enderhacker',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Google Auth',
+        description: 'Login with Google to your projects. Allows getting a name, profile picture and email from the google account.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.avif',
+        credits: 'Ikelene',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Twitch',
+        description: 'Communicate with your Twitch Chat on GaiaMod!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/bop_tw/Twitch.js',
+        iconURL: 'https://extensions.penguinmod.com/images/bop_tw/Twitch.avif',
+        credits: 'bop_tw',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Chess',
+        description: 'A powerful extension that lets you manage a chessboard, customize it, use Stockfish 17 (via API), a local chess engine (Lozza) and much, MUCH more!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/chess-ext.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/chess-ext.avif',
+        credits: 'G1nX',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Free Servers',
+        description: 'Here you can find a free server for your projects. And also check whether it is working now or not.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/WAYLIVES/FreeServers.js',
+        iconURL: 'https://extensions.penguinmod.com/images/WAYLIVES/FreeServersIMG.svg',
+        credits: 'WAYLIVES',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
     },
 	 {
+        name: 'More Types',
+        description: 'Adds more value types to PenguinMod, implementing Functions, Objects, Arrays, Sets, Maps, Symbols and Nothing.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
+        iconURL: 'https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.avif',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'VeryGoodScratcher42',
+        featured: true
+    },
+	{
+        name: 'Counter++',
+        description: 'Count anything, at any time, in PenguinMod!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MrRedstonia/counterplusplus.js',
+        iconURL: 'https://extensions.penguinmod.com/images/MrRedstonia/counterplusplus.avif',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'MrRedstonia',
+        featured: true
+    },
+    {
+        name: 'How many lines?',
+        description: 'Blocks to determine the amount of new lines in a piece of text.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.avif',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'Monochromasity',
+        featured: true
+    },
+    {
+        name: 'Paint Utils',
+        description: 'A colour extension that lets you mix colours.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Fruits555000/PaintUtils.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Fruits555000/PaintUtils.svg',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'Fruits555000',
+        featured: true
+    },
+    {
+        name: 'Resolution',
+        description: 'Provides utility blocks that simplify the creation of projects with dynamic resolution support.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/Resolution.js',
+        iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/Resolution.svg',
+        credits: 'DogeisCut',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true 
+    },
+    {
+        name: 'Device Motion',
+        description: 'Use Device Motion API to get rotation or movement of the device. Works best on mobile devices. \n Thumbnail by Dillon. ',
+        extensionId: 'https://extensions.penguinmod.com/extensions/gaimerI17/DeviceMotion.js',
+        iconURL: 'https://extensions.penguinmod.com/images/gaimerI17/DeviceMotion.avif',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'gaimerI',
+        featured: true
+    },
+	 {
+        name: 'WindowHasher',
+        description: 'Interact with URL hash: the part of the URL after a hashtag',
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/WindowHasher.js',
+        iconURL: 'https://extensions.penguinmod.com/images/pooiod/WindowHasher.avif',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'pooiod7',
+		featured: true
+    },
+	{
+        name: 'File Upload',
+        description: 'Upload files to the Network, can also used with Files extension.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Codefoxy/cfupload.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Codefoxy/cfupload.svg',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'Codefoxy',
+		featured: true
+    },
+    {
+        name: 'Scratchblocks',
+        description: 'Generate blocks in the Scratch3, or Scratch2 format.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Scratchblocks.js',
+        iconURL: 'https://extensions.penguinmod.com/images/pooiod/Scratchblocks.svg',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        credits: 'pooiod7',
+		featured: true
+    },
+    {
+        name: 'Object',
+        description: 'Handle large JSON files at an extreme speed.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/skyhigh173/object.js',
+        iconURL: 'https://extensions.penguinmod.com/images/skyhigh173/object.svg',
+        credits: 'skyhigh173',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Extra Timers',
+        description: 'Allows for the creation and management of additional timer blocks.',
+        notes: 'thumbnail by Dillon',
+        extensionId: 'https://extensions.penguinmod.com/extensions/steve0greatness/timers.js',
+        iconURL: 'https://extensions.penguinmod.com/images/steve0greatness/timers.svg',
+        credits: 'Steve0Greatness',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    
+    {
+        name: 'Dictation',
+        description: 'Convert your voice into text. (not supported in all browsers)',
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Dictation.js',
+        iconURL: 'https://extensions.penguinmod.com/images/pooiod/Dictation.svg',
+        credits: 'pooiod7',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+        {
+        name: 'Doodle Recognition',
+        description: 'A implementation of Google\'s Quick Draw image vision model',
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/doodlerec.js',
+        iconURL: 'https://extensions.penguinmod.com/images/TheShovel/thumbnail-doodlerec.avif',
+        credits: 'TheShovel',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+            {
+        name: 'Stylus',
+        description: 'Get the pressure and tilt of a stylus or graphic tablet',
+        extensionId: 'https://extensions.penguinmod.com/extensions/sourdoggy/stylus extension.js',
+        iconURL: 'https://extensions.penguinmod.com/images/sourdoggy/stylus_ext.avif',
+        credits: 'sourdoggy',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Cryptography',
+        description: 'Hash, encrypt and verify values using various algorithms. Actual security not guaranteed',
+        extensionId: 'https://extensions.penguinmod.com/extensions/gaimerI17/crypto.js',
+        iconURL: 'https://extensions.penguinmod.com/images/gaimerI17/crypto.avif',
+        credits: 'gaimerI17',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Online Captcha',
+        description: 'Protect your project with simple, easy to use captcha implementation. Fully client-side, bypass-proof captcha solution!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/OnlineCaptcha.js',
+        iconURL: 'https://extensions.penguinmod.com/images/NotHouse/OnlineCaptcha-banner.avif',
+        credits: 'enderhacker',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Better Storage',
+        description: 'Like PenguinMod\'s Storage Extension, but with a couple more features, and faster servers.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/better_storage.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/betterstorage.avif',
+        credits: 'G1nX',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'Mouth Washer',
+        description: 'Includes many utilities related to cleaning bad words, swearing and profanity. Thought of as an extra layer of security for filtering messages.\n\n(ft. violet and jwklong)',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/mouth_washer.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/mw-placeholder.avif',
+        credits: 'G1nX',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+
+        {
+        name: 'Smoke Detector',
+        description: 'Plays a beep every 30 seconds.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/electricfuzzball_pm/firealarm.js',
+        iconURL: 'https://extensions.penguinmod.com/images/electricfuzzball_pm/firealarm.svg',
+        credits: 'ElectricFuzzball_PM',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+    {
+        name: 'E2EE',
+        description: 'A general-purpose E2EE (End-to-End Encryption) extension for Scratch.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/e2ee.js',
+        iconURL: 'https://extensions.penguinmod.com/images/MikeDev101/e2ee.svg',
+        credits: 'MikeDev101',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+	    {
+        name: 'Extension Exposer',
+        description: 'Access the raw functions from other extensions.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/extexp.js',
+        iconURL: 'https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.avif',
+        credits: 'TheShovel',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+	 {
+        name: 'CORS Proxy',
+        description: 'Accessible CORS Proxies for fetching information with PenguinMod.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/NamelessCat/corsproxy.js',
+        iconURL: 'https://extensions.penguinmod.com/images/NamelessCat/corsproxy.avif',
+        credits: 'NamelessCat',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+	 {
+        name: 'YeetYourFiles',
+        description: 'Upload files to the cloud by throwing it to outer space!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/yeetyourfiles.js',
+        iconURL: 'https://extensions.penguinmod.com/images/MubiLop/yeetyourfiles.png',
+        credits: 'MubiLop',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+        {
+        name: 'Stage Brah',
+        description: 'Spawn Brah cats in your codespace!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/electricfuzzball_pm/StageBrah.js',
+        iconURL: 'https://extensions.penguinmod.com/images/electricfuzzball_pm/StageBrah.svg',
+        credits: 'ElectricFuzzball_PM',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'Update File (Direct Access)',
+        description: 'A simple extension that uses the File System Access API to update files dynamically.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Anonymous_cat1/updateFile.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Anonymous_cat1/updateFile.svg',
+        credits: 'Anonymous-cat1',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+        {
+        name: 'MIDI Controller',
+        description: 'Use a MIDI keyboard to interact with projects!',
+        extensionId: 'https://extensions.penguinmod.com/extensions/electricfuzzball_pm/MIDI.js',
+        iconURL: 'https://extensions.penguinmod.com/images/electricfuzzball_pm/MIDI.svg',
+        credits: 'ElectricFuzzball_PM',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+        name: 'oneko',
+        description: 'Cute cat that follows you on the block area.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/oneko.js',
+        iconURL: 'https://extensions.penguinmod.com/images/TheShovel/thumbnail-oneko.avif',
+        credits: 'TheShovel',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+        {
+        name: 'Array Buffers',
+        description: 'Read, parse, and write raw data efficiently using Array Buffers',
+        extensionId: 'https://extensions.penguinmod.com/extensions/AndrewGaming587/agBuffer.js',
+        iconURL: 'https://extensions.penguinmod.com/images/AndrewGaming587/agBuffer.svg',
+        credits: 'AndrewGaming587',
+		tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+		featured: true
+    },
+	{
+	 name: 'Black Mold',
+      description: 'mmmmm black mold',
+      extensionId: 'https://extensions.penguinmod.com/extensions/electricfuzzball_pm/blackMold.js',
+      iconURL: 'https://extensions.penguinmod.com/images/electricfuzzball_pm/blackMold.svg',
+      insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+	  featured: true,
+	  credits: 'ElectricFuzzball_PM'
+    },
+{
+        name: 'WebRTC',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/webrtc.js',
+        tags: ['penguinmod'],
+        iconURL: 'https://extensions.penguinmod.com/images/MikeDev101/webrtc.svg',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: 'A barebones WebRTC implementation.',
+        credits: 'MikeDev101',
+        featured: true
+    },
+{
+        name: '3D VR',
+        extensionId: 'jg3dVr',
+        iconURL: jg3dVrExtensionIcon,
+		insetIconURL: jg3dVrInsetExtensionIcon,
+        tags: ['penguinmod'],
+        description: "Unfinished PenguinMod Extension.",
+        extDeveloper: "JeremyGamer13",
+        featured: true,
+		isBuggy: true
+    },
+    {
+        name: 'PangAI',
+        extensionId: 'https://raw.githubusercontent.com/Logise1123/myextensions/refs/heads/main/pangai.js',
+        iconURL: 'https://raw.githubusercontent.com/Logise1123/myextensions/refs/heads/main/pangai.png',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'ai'],
+        description: 'Extension for AI usage.',
+        credits: 'logise1123',
+        internetConnectionRequired: true,
+        featured: true
+    },
+    {
+        name: 'Beepbox Player',
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/BeepBoxPlayer.js',
+        iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/BeepBoxPlayer.svg',
+        tags: ['penguinmod', 'noisemaker'],
+        description: 'Play, edit, and read songs from any BeepBox mod directly from the URL or JSON!',
+        extDeveloper: 'DogeisCut',
+        featured: true
+    },
+    {
+        name: 'Stage Camera',
+        extensionId: 'pmCamera',
+        iconURL: pmCameraExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: (
+            <FormattedMessage
+                defaultMessage="Allows the camera to move around anywhere on the stage."
+                description="The description for the PenguinMod Camera extension."
+                id="pm.extension.camera.description"
+            />
+        ),
+        credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
+        featured: true
+    },
+	    {
+        name: 'Sound Systems',
+        extensionId: 'jgExtendedAudio',
+        iconURL: jgExtendedAudioExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'categoryexpansion', 'noisemaker'],
+        description: 'An audio grouping system for more intensive audio work.',
+        featured: true
+    },
+    {
+        name: 'Pang API',
+        extensionId: 'https://extensions.penguinmod.com/extensions/SammerLOL/pangapi.js',
+        iconURL: 'https://extensions.penguinmod.com/images/SammerLOL/pangapi.avif',
+        credits: 'oc9x97',
+        tags: ['penguinmod'],
+        description: 'Fetch details of projects and users from PenguinMod.',
+        featured: true
+    },
+    {
+        name: 'Motion Expansion',
+        extensionId: 'pmMotionExpansion',
+        iconURL: pmMotionExpansionExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'categoryexpansion'],
+        description: 'More small motion blocks for movement or collision.',
+        featured: true,
+        credits: 'Some blocks from NexusKitten'
+    },
+    {
+        name: 'Events Expansion',
+        extensionId: 'pmEventsExpansion',
+        iconURL: pmEventsExpansionExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'categoryexpansion'],
+        description: 'More events for sending & receiving information, notifing specific sprites or better control when things should happen.',
+        featured: true,
+        credits: 'Some blocks from LilyMakesThings'
+    },
+    {
+        name: 'Controls Expansion',
+        extensionId: 'pmControlsExpansion',
+        iconURL: pmControlsExpansionExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'categoryexpansion'],
+        description: 'More control blocks for animations, complex systems or cleaner one-time use blocks.',
+        featured: true,
+        credits: '"new thread" by CubesterYT, CST1229, SharkPool'
+    },
+    {
+        name: 'Sensing Expansion',
+        extensionId: 'pmSensingExpansion',
+        iconURL: pmSensingExpansionExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'categoryexpansion'],
+        description: "More sensing blocks for specific use cases or interacting with the user's device.",
+        credits: 'Some blocks from SharkPool-SP',
+        featured: true
+    },
+    {
+        name: 'Operators Expansion',
+        extensionId: 'pmOperatorsExpansion',
+        iconURL: pmOperatorsExpansionExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'categoryexpansion', 'math'],
+        description: 'More operators like nand, nor, character code to character, reading multiple lined text line by line, etc.',
+        featured: true
+    },
+    {
+        name: 'More Fields',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js',
+        iconURL: 'https://extensions.penguinmod.com/images/0znzw/MoreFields.avif',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Custom Field Types',
+        extDeveloper: 'yuri-kiss',
+        featured: true
+    },
+    {
+        name: 'Tailgating',
+        extensionId: 'jgTailgating',
+        description: 'Have sprites & clones follow behind other sprites & clones by an offset, like RPG party members.',
+        iconURL: jgTailgatingExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        featured: true
+    },
+    {
+        name: 'Canvas Effects',
+        extensionId: 'theshovelcanvaseffects',
+        iconURL: theshovelCanvasEffectsIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'graphics'],
+        description: 'Apply visual effects to the entire stage.',
+        extDeveloper: 'TheShovel',
+        credits: 'SharkPool',
+        featured: true
+    },
+    {
+        name: 'Text to Speech Redone',
+        extensionId: 'https://extensions.penguinmod.com/extensions/PuzzlingGGG/ttsr.js',
+        twDeveloper: 'PuzzlingGGG',
+        iconURL: 'https://extensions.penguinmod.com/images/PuzzlingGGG/TTSR.avif',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'A better alternitive to the base text to speech extension. Powered by the TTStool API.',
+        internetConnectionRequired: true,
+        featured: true
+    },
+    {
+        name: 'Multiple Timers',
+        extensionId: 'jgTimers',
+        iconURL: jgTimersExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Create different timers you can control seperately.',
+        eventSubmittor: 'Arrow',
+        featured: true
+    },
+    {
+        name: 'Temporary Variables',
+        extensionId: 'tempVars',
+        iconURL: gsaTempVariablesExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Create temporary variables for use in one block stack.',
+        featured: true
+    },
+		{
+        name: 'Toast Notifications',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        iconURL: 'https://extensions.penguinmod.com/images/MubiLop/toastnotifs.avif',
+        description: 'Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!',
+        credits: 'MubiLop, with additional code by themeatly2 and ddededodediamante',
+        featured: true
+    },
+	{
+        name: 'Project Interfaces',
+        extensionId: 'https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js',
+        iconURL: 'https://extensions.penguinmod.com/images/LordCat0/ProjectInterfaces.avif',
+		credits: 'Lord cat',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Effortlessly create intuitive graphical user interfaces in your projects.',
+        featured: true
+    },
+	{
+        name: 'Git Penguin',
+        extensionId: 'https://extensions.penguinmod.com/extensions/justablock/gitpenguin.js',
+        iconURL: 'https://extensions.penguinmod.com/images/justablock/gitpenguin.avif',
+		credits: ' justablock',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Make requests and control the files for your GitHub repository.',
+        featured: true
+    },
+    {
+        name: 'AuthPenguin',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/authpenguin.js',
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        iconURL: 'https://extensions.penguinmod.com/images/MubiLop/authpenguin.avif',
+        description: 'Authenticate with anything and everything!',
+        credits: 'MubiLop',
+        featured: true
+    },
+	{
+        name: 'Date Format',
+        description: 'Manage, format and compare dates.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/ddededodediamante/dateFormatV2.js',
+        iconURL: 'https://extensions.penguinmod.com/images/ddededodediamante/dateFormat.svg',
+        credits: 'ddededodediamante',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        featured: true
+    },
+    {
+        name: 'Translation Keys',
+        description: 'Use translation keys in your projects for multi-language support',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Embin/embintranslation.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Embin/embintranslation.avif',
+        credits: 'embinmc',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Yet Another String Extension',
+        description: 'A small collection of utilty blocks intended to make managing strings much, much easier.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/YetAnotherStringExtension.js',
+        iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/YetAnotherStringExtension.svg',
+        credits: 'DogeisCut',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Regular Expressions',
+        description: 'Create, modify, filter, and more with the new regular expression type.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/dogeiscutRegularExpressions.js',
+        iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/dogeiscutRegularExpressions.svg',
+        credits: 'DogeisCut',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Sets',
+        description: 'Store non-repeating, unordered data super efficiently in sets.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/dogeiscutSet.js',
+        iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/dogeiscutSet.svg',
+        credits: 'DogeisCut',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+	    {
+        name: 'PenguinHook',
+        description: 'Send Webhook requests, that can be Discord or any type of webhook.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/penguinhook.js',
+        iconURL: 'https://extensions.penguinmod.com/images/MubiLop/penguinhook.avif',
+        credits: 'MubiLop',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Number Utilities',
+        description: 'Adds blocks for number formatting and manipulation.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/numutils.js',
+        iconURL: 'https://extensions.penguinmod.com/images/MubiLop/numutils.avif',
+        credits: 'MubiLop',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Mathematics',
+        description: 'Complicated maths extension for nerds.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/jwklong/mathematics.js',
+        iconURL: 'https://extensions.penguinmod.com/images/jwklong/mathematics.avif',
+        credits: 'jwklong',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Big Decimal',
+        description: 'High precision operations. (Support decimals)',
+        extensionId: 'https://extensions.penguinmod.com/extensions/qxsck/big-decimal.js',
+        iconURL: 'https://extensions.penguinmod.com/images/qxsck/big-decimal.svg',
+        credits: 'qxsck',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Iterators',
+        description: 'Transform and iterate over different types of collections and more.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Div/divIterators.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Div/divIterators.svg',
+        credits: 'Dicuo',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Algebraic Effects',
+        description: 'Intercept custom actions in your scripts to pause, resume, or redirect their flow using modular handlers.',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Div/divAlgEffects.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Div/divAlgEffects.svg',
+        credits: 'Dicuo',
+        insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+		featured: true
+    },
+    {
+        name: 'Runtime Modifications',
+        extensionId: 'jgRuntime',
+        tags: ['penguinmod'],
+        iconURL: jgRuntimeExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: 'Blocks for updating Scratch objects like the stage and sprites.',
+        credits: 'TheShovel, showierdata9978, SharkPool',
+        featured: true
+    },
+    {
+        name: 'Storage',
+        extensionId: 'jgStorage',
+        iconURL: jgStorageExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Store data after PenguinMod has already been closed out. Basic Server Storage is also included.',
+        eventSubmittor: 'Fir & silvxrcat',
+        featured: true
+    },
+    {
+        name: 'Scripts',
+        extensionId: 'jgScripts',
+        iconURL: jgScriptsExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Create compiled scripts with blocks while the project is running.',
+        featured: true
+    },
+    {
+        name: '3D Math',
+        extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/3DMath.js',
+        iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/3DMath.svg',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', '3d', 'graphics', 'math'],
+        description: 'A handful of utilities for making your own sprite-based 3D engine.',
+        extDeveloper: 'pinksheep2917',
+        featured: true
+    },
+        {
+        name: 'TurboWeather',
+        extensionId: 'https://extensions.penguinmod.com/extensions/RubyDevs/turboweather.js',
+        extDeveloper: 'RubyDevs',
+        description: 'Show weather and location data for any place in our world. Data that could be used for doxxing is deleted from results.',
+        iconURL: turboWeatherIcon,
+        tags: ['penguinmod'],
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        featured: true
+    },
+    {
+        name: 'Random Utilities',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/random_utils.js',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/randomutils.avif',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Many blocks related to generating random values, including seed-based number generation, true number generation, UUID\'s, random strings, etc.',
+        extDeveloper: 'G1nX',
+        featured: true
+    },
+    {
+        name: 'LZ Compress',
+        extensionId: 'shovellzcompresss',
+        iconURL: theshovelLzCompressIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Compress and decompress text using lz-string.',
+        extDeveloper: 'TheShovel',
+        featured: true
+    },
+    {
+        name: 'Odd Messages',
+        extensionId: 'oddMessage',
+        tags: ['penguinmod'],
+        iconURL: silvxrcatOddMessagesExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: 'For logging and variable utilization.',
+        featured: true,
+        extDeveloper: 'silvxrcat'
+    },
+    {
+        name: 'Prism',
+        extensionId: 'jgPrism',
+        tags: ['penguinmod', 'datamgmt'],
+        iconURL: jgPrismExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: 'Blocks for specific use-cases or major convenience.',
+        featured: true
+    },
+    {
+        name: 'HTML iframe Elements',
+        extensionId: 'jgIframe',
+        iconURL: jgIframeExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Blocks to place and move around frames that contain HTML content or websites.',
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: 'Color Picker',
+        extensionId: 'shovelColorPicker',
+        iconURL: theshovelColorPickerIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Allow the user to choose a color using the built-in color picker, so you don\'t need to make your own.',
+        extDeveloper: 'TheShovel',
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Labels"
+                description="Name of Proto extension"
+                id="jwProto.jwProtoExtension.name"
+            />
+        ),
+        extensionId: 'jwProto',
+        iconURL: jwProtoExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: (
+            <FormattedMessage
+                // change this back if you update the extension to have more things
+                defaultMessage="Labelling and Placeholders."
+                description="Description of Proto extension"
+                id="jwProto.jwProtoExtension.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Perlin Noise"
+                description="Name of perlin noise extension"
+                id="iygPerlin.iygPerlinExtension.name"
+            />
+        ),
+        extensionId: 'iygPerlin',
+        tags: ['penguinmod'],
+        iconURL: iygPerlinNoiseExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks for generating and using Perlin noise. Good for generating terrain, clouds, and other things."
+                description="Description of perlin noise extension"
+                id="iygPerlin.iygPerlinExtension.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Printing',
+        tags: ['penguinmod', 'hardware'],
+        extensionId: 'sharkpoolPrinting',
+        iconURL: sharkpoolPrintingIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        description: 'Allows you to show a dialog for printing text, images, and custom HTML to a printer.',
+        featured: true
+    },
+    {
+        name: 'Scratch Authentication',
+        extensionId: 'jgScratchAuthenticate',
+        iconURL: jgScratchAuthExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: "Interact with Scratch Authentication to prove the player is a real scratch user.",
+        featured: true
+    },
+   {
+        name: 'JavaScript',
+        extensionId: 'SPjavascriptV2',
+        iconURL: jgJavascriptExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'programminglanguage'],
+        description: 'Run your own custom code written in JavaScript!',
+        featured: true
+    },
+{
+        name: 'Arrays',
+        extensionId: 'jwArray',
+        iconURL: jwArrayExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Store data efficiently in multi-purpose arrays.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Objects',
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/dogeiscutObject.js',
+        iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/dogeiscutObject.svg',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Store data efficiently in multi-purpose objects.',
+        extDeveloper: 'DogeisCut',
+        featured: true
+    },
+    {
+        name: 'XML',
+        extensionId: 'jwXML',
+        iconURL: jwXMLExtensionIcon,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Creating, parsing and modifying XML data.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Targets',
+        extensionId: 'jwTargets',
+        iconURL: jwTargetsExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Direct access to sprites and their clones.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Infinity',
+        extensionId: 'jwNum',
+        iconURL: jwNumExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'math'],
+        description: 'Advanced number type capable of really big numbers.',
+        extDeveloper: 'jwklong',
+        credits: 'Naruyoko for ExpantaNum.js',
+        featured: true
+    },
+    {
+        name: 'Color',
+        extensionId: 'jwColor',
+        iconURL: jwColorExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'graphics'],
+        description: 'Utilities for anything involving colors.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Vector',
+        extensionId: 'jwVector',
+        iconURL: jwVectorExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'math'],
+        description: 'Vector type for calculating with X and Y coordinates.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Lambda',
+        extensionId: 'jwLambda',
+        iconURL: jwLambdaExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Create anonymous functions with arguments and execute them.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Scope',
+        extensionId: 'jwScope',
+        iconURL: jwScopeExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Temporary variables based on block stack. (extra blocks if used with Array extension)',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Pointers',
+        extensionId: 'jwPointer',
+        iconURL: jwPointerExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Define references to values. (extra blocks if used with Array extension)',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+        name: 'Integers',
+        extensionId: 'jwInt',
+        iconURL: jwIntExtensionThumb,
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod', 'math'],
+        description: 'Large integers with zero precision loss.',
+        extDeveloper: 'jwklong',
+        featured: true
+    },
+    {
+            name: 'Unsandboxed Detector',
+            extensionId: 'https://ldsjvg.webwave.dev/lib/ldsjvg/jmunsandboxdetect-lwcbhcjw.js',
+            iconURL: 'https://ldsjvg.webwave.dev/files/dynamicContent/sites/ldsjvg/images/pl/webpage_20/lwcfkkaq/element_437/rwdMode_1/574x139/block_18052024-18_19_55.webp',
+            extDeveloper: 'julmik6478',
+            insetIconURL: penguinmodIcon,
+            tags: ['penguinmod'],
+			customInsetColor: '#00c3ff',
+            description: 'Detect that extension is run in sandbox or without sandbox',
+            featured: true
+        },
+        {
+            name: 'Easy Save',
+            extensionId: 'jgEasySave',
+            iconURL: defaultExtensionIcon,
+			insetIconURL: penguinmodIcon,
+			customInsetColor: '#00c3ff',
+            tags: ['penguinmod', 'datamgmt'],
+            description: 'Save variables, lists and extra info to a file, then load those things back in.',
+            featured: true
+        },
+ {
+            name: 'Christmas',
+            extensionId: 'jgChristmas',
+            iconURL: 'https://extensions.penguinmod.com/images/JeremyGamer13/christmas.avif',
+			insetIconURL: penguinmodIcon,
+			customInsetColor: '#00c3ff',
+            tags: ['penguinmod', 'jokes'],
+            description: 'It\'s not Christmas just yet!',
+            featured: true
+        },
+        {
+            name: 'CATS',
+            extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/CATS.js',
+            iconURL: catsThumb,
+			insetIconURL: penguinmodIcon,
+			customInsetColor: '#00c3ff',
+            tags: ['penguinmod', 'jokes'],
+            description: 'Blocks related to cats.',
+            extDeveloper: 'G1nX',
+            featured: true
+        },
+	    {
+        name: 'CCW Extension Loader',
+        extensionId: 'ccw_extension_loader',
+        iconURL: 'https://extensions.02engine.02studio.xyz/image/ccw.svg',
+        description: 'Load extensions from Cocrea World.',
+        featured: true
+    },
+    {
+        name: 'JSON',
+        extensionId: 'jgJSON',
+        iconURL: jgJSONExtensionIcon,
+        tags: ['penguinmod', 'datamgmt'],
+        description: 'Blocks for handling JSON objects and Arrays.',
+        featured: true
+    },
+    {
+        name: 'Color Utility Blocks',
+        extensionId: 'colors',
+        iconURL: gsaColorUtilExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Converters for Hex, RGB, HSV and Decimal colors and other color related things.',
+        featured: true
+    },
+    {
+        name: 'Extra Mathematics',
+        extensionId: 'https://extensions.penguinmod.com/extensions/jwklong/mathematics.js',
+        iconURL: 'https://extensions.penguinmod.com/images/jwklong/mathematics.avif',
+        tags: ['penguinmod', 'categoryexpansion', 'math'],
+        description: 'Complicated maths extension for nerds.',
+        extDeveloper: 'jwklong',
+        featured: false
+    },
+	{
         name: 'App Utilities',
         extensionId: 'appmaker',
         iconURL: appMakerIconURL,
