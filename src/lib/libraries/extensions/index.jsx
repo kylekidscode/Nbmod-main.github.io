@@ -438,7 +438,7 @@ import unknownsmallicon from './Neublamod/Placeholder-small.svg';
 import unknownthumbnail from '.Neublamod/placeholderpm.svg';
 import AlmejaExtensionGalleryicon from './Extensionsandthumbnails/alejo14ext.svg';
 import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreitom1sExtensionCollection.png';
-import Pooiod7extgalleryicon from './ExtensionsandthumbnailsPooiod7/ext gallery.png';
+import Pooiod7extgalleryicon from './Extensionsandthumbnails/P7ExtGalleryCover.png';
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
 import gaiaBlocksThumb from './gaiamod/GaiaUtilities.png';
