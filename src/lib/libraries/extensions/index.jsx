@@ -2046,6 +2046,751 @@ const menuItems = [
         featured: false
     },
 	{
+	  name: 'Sharktilities',
+      description: 'Various utility blocks for various operations',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sharktilities.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Sharktilities.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+      name: 'YouTube-Operations',
+      description: 'Fetch and play Youtube videos and statistics in your Project',
+      credits: 'SharkPool, Nekl300 (contributor)',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/YouTube-Operations.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/YouTube-Operations.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Scratch-Utilities',
+      description: 'Blocks for fetching Scratch statistics and assets, inspired by NexusKitten\'s S-Grab. Can even fetch cloud data from projects!',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Scratch-Utilities.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Scratch-Utilities.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Tune-Shark-V3',
+      description: 'Advanced Audio Engine with complex Sound Control, Audio Effects and more',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark-V3.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark-V3.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Tune-Shark',
+      description: 'Outdated Sound Engine for playing sounds. Please use Tune Shark V3',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Camera',
+      description: 'Use Cameras to move the visible part of the Stage',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Camera.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Camera.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Added-Motion',
+      description: 'New Motion Blocks',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Added-Motion.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Added-Motion.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Geometry-Dash-API',
+      description: 'Fetch statistics and information from Geometry Dash. Deprecated, expect incorrect values.',
+      credits: 'SharkPool, thank you RobTopGames and GD Colon',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Geometry-Dash-API.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Geometry-Dash-API.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Sound-Waves',
+      description: 'Play various Oscillators in your Project',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sound-Waves.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Sound-Waves.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Hyper-Sense',
+      description: 'New Sensing Blocks',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Hyper-Sense-V2.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Hyper-Sense.svg',
+      tags: ['sharkpool'],
+	  featured: true
+    },
+    {
+	  name: 'Keys-Plus-V2',
+      description: 'Powerful and flexible Key detection Blocks with some additional features (No longer maintained)',
+      credits: 'StackOverflow',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/KeysPlusV2.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Keys-Plus-V2.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Popup-Phoenix',
+      description: 'Create and design custom Popups! A remaster of \'Better Input\'',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Better-Input.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Popup-Phoenix.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Better-Input',
+      description: 'Expansion of the \'Ask and Wait\' Block. Deprecated, please use Popup-Phoenix',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Camera-Sensing-Plus.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Better-Input.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Camera-Sensing-Plus',
+      description: 'Expansion of the \'Video Sensing\' extension. Display the Camera on Sprites and take Photos',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Camera-Sensing-Plus.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Camera-Sensing-Plus.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Particle-Engine',
+      description: 'Create customizable and powerful Particle Engines with NO Clones',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Particle-Engine.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Particle-Engine.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Particle-Tools',
+      description: 'Tools that make creating Particle Systems easy',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Particle-Tools.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Particle-Tools.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+   {
+	  name: 'Looks-Expanded',
+      description: 'Expansion of the Looks Category',
+      credits: 'SharkPool, CST1229',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Looks-Expanded.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Looks-Expanded.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Sprite-Effects',
+      description: 'Apply SVG Filters to Images, Sprites, and the Canvas! Faster than Image Effects',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sprite-Effects-V2.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Sprite-Effects.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Image-Effects',
+      description: 'Apply Effects and Filters to Images',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Image-Effects.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Image-Effects.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Image-Editor',
+      description: 'Create and modify images and their pixel data',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Image-Editor.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Image-Editor.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Pixel-Utilities',
+      description: 'Some Utility Blocks that Roltycore 2\'s Developer made for some reason',
+      credits: 'LittleBlueGamer',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pixel-Utilities.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Pixel-Utilities.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Recording',
+      description: 'Blocks for Recording your Microphone while your Project runs',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Recording-V2.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Recording.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Newgrounds-Audio',
+      description: 'Fetch Audio and Audio Information from Newgrounds. Works best with Tune Shark V3',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Newgrounds-Audio.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Newgrounds-Audio.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Sprite-Parenting',
+      description: 'Link Sprites together and make them follow their parent\'s movement',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sprite-Parenting.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Sprite-Parenting.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Rigidbodies',
+      description: 'Fast, math-based Collision detections using Rigidbodies',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Rigidbodies.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Rigidbodies.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Lazy-Collisions',
+      description: 'Utility Blocks that make detecting box Collisions easy and fast',
+      credits: 'SharkPool, Food (contributor)',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Lazy-Collisions.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Lazy-Collisions.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Files-Expanded',
+      description: 'Expansion of GarboMuffin\'s File Extension',
+      credits: 'SharkPool, Drago Cuven, 0znzw',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Files-Expanded.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Files-Expanded.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Temporary-Variables',
+      description: 'Create Temporary Variables for Sprites, Threads, and the Project',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Temporary-Variables.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Temporary-Variables.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Variables-Expanded',
+      description: 'New Variable Blocks and New Variable Monitors',
+      credits: 'SharkPool, DogeIsCut',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Variables-Expanded.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Variables-Expanded.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Sty-Lists',
+      description: 'Customize and Organize List Monitors',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sty-Lists.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Sty-Lists.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Gamepad-Expanded',
+      description: 'Expansion of Garbomuffin\'s Gamepad Extension',
+      credits: 'DNin01, Meehdrescher',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Gamepad-Expanded.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Gamepad-Expanded.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Tile-Grids',
+      description: 'Position Sprites on Tile Grids',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tile-Grids.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Tile-Grids.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Animations',
+      description: 'Create Animations and Keyframes in your Project',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Animations.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Animations.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Text-to-Speech',
+      description: 'Better Text to Speech using the TikTok API',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Text-to-Speech.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Text-to-Speech.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Font-Manager',
+      description: 'Manage, Create, and Delete Fonts from your Project',
+      credits: 'SharkPool, 0znzw',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Font-Manager.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Font-Manager.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Pause-Utilities',
+      description: 'Pause your Project, Scripts, and Sprites',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pause-Utilities.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Pause-Utilities.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Script-Control',
+      description: 'Monitor and Control specific Scripts in your Project, inspired by 0znzw',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Script-Control.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Script-Control.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Messages-Plus',
+      description: 'Powerful New Message Blocks that work with Vanilla Messages',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Messages-Plus.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Messages-Plus.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Advanced-Messages',
+      description: 'New Message Blocks for Advanced, Non-Vanilla Purposes',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Advanced-Messages.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Advanced-Messages.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Events-Plus',
+      description: 'New Event Blocks',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Events-Plus.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Events-Plus.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Runtime-Events',
+      description: 'Detect Events from Runtime',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Runtime-Events.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Runtime-Events.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Fetch-Plus',
+      description: 'Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Progress.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Fetch-Plus.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Geolocation sharkpool',
+      description: 'Get users\' Location and calculate Real-World Distances',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Geolocation.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Geolocation.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Spotify',
+      description: 'Fetch Statistics, Information, and Play Songs from Spotify',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Spotify.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Spotify.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'SoundCloud-API',
+      description: 'Fetch Tracks, Artists, and Statistics from Soundcloud',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/SoundCloud-API.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/SoundCloud-API.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Google-Spreadsheets',
+      description: 'Read and Write Google Spreadsheets',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Google-Spreadsheets.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Google-Spreadsheets.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Money-Utilities',
+      description: 'Convert Currencies and get Currency Information',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Money-Utilities.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Money-Utilities.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Display-Text',
+      description: 'Display Text in your Projects, with Markdown Support',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Display-Text-V2.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Display-Text.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Color-Master',
+      description: 'Color Utility and Conversion Blocks',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Color-Master.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Color-Master.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'QR-Codes',
+      description: 'Create and Read QR Codes on the Client',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/QR-Codes.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/QR-Codes.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Speech-Bubbles',
+      description: 'Customizable Speech Bubbles',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Speech-Bubbles.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Speech-Bubbles.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Layer-Control',
+      description: 'Relayer Pen, Video Camera, Backdrops, Sprites and more',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Layer-Control.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Layer-Control.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Renderer-Control',
+      description: 'Control the visuals of Pen, Video Camera, Backdrops, Sprites and more',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Renderer-Control.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Renderer-Control.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Time-Calculation',
+      description: 'Blocks for calculating Time differences',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Time-Calculation.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Time-Calculation.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Timezones',
+      description: 'Convert and get the Time in different Timezones',
+      credits: 'Ammunimium',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Timezones.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Timezones.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Since-2000',
+      description: 'Expansion of the \'since 2000\' Blocks',
+      credits: 'Ammunimium, 0znzw',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Since-2000.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Since-2000.svg',
+      'status': '',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Seeds',
+      description: 'Generate random seeded numbers, generated terrain, and more',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Seeds.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Seeds.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Perlin-Noise',
+      description: 'Generate randomized Perlin Noise',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Perlin-Noise.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Perlin-Noise.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Extra-Controls',
+      description: 'New Advanced Control Blocks',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Extra-Controls.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Extra-Controls.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'More-Operators',
+      description: 'New Powerful Operator Blocks',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/More-Operators.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/More-Operators.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Captchas',
+      description: 'Simple Client-Based Captchas, this does not promise 100% security',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Captchas.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Captchas.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Better-Comments',
+      description: 'Better Comments with Color and Text Customization',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Better-Comments.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Better-Comments.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Sprite-Panel',
+      description: 'Addon for viewing and managing Sprites and Clones',
+      credits: 'SharkPool, FurryR',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sprite-Panel.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Sprite-Panel.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'DOM-Selector',
+      description: 'Read Elements and Create Events from the website HTML',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/DOM-Selector.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/DOM-Selector.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'SVG-Spritesheets',
+      description: 'Create and Export SVG Spritesheets',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/SVG-Spritesheets.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/SVG-Spritesheets.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Community-Spotlight',
+      description: 'Display and Promote Projects for free',
+      credits: 'SharkPool, Community Spotlight Team',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Community-Spotlight.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Community-Spotlight.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'GIF-Manager',
+      description: 'Create and Split GIF Frames',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/GIF-Manager.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/GIF-Manager.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Swift-JSON',
+      description: 'Super Fast JSON and Array extension',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/JSON-Array.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/JSON-Array.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'My-Blocks-Plus',
+      description: 'Better Custom Blocks',
+      credits: 'SharkPool, CST1229, 0znzw',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/My-Blocks-Plus.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/My-Blocks-Plus.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Dropdown-Maker',
+      description: 'Create Custom Dropdowns! Best paired with My Blocks+',
+      credits: 'SharkPool, CST1229, 0znzw',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Dropdown-Maker.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Dropdown-Maker.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Turbo-Skins',
+      description: 'Improved Skins extension, inspired by LilyMakesThings',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Turbo-Skins.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Turbo-Skins.svg',
+      tags: ['sharkpool'],
+	  extraLabels: [
+            {
+                name: "Inspired by",
+                value: "\"Skins\" by LilyMakesThings"
+            }
+        ],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Scenes',
+      description: 'Create Scenes (savestates), like Unity, in your Project',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Scenes.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Scenes.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'Pen-Papers',
+      description: 'Create Multiple Pen Layers! Inspired by ObviousAlex',
+      credits: 'SharkPool',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pen-Papers.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Pen-Papers.svg',
+      tags: ['sharkpool'],
+	  featured: true,
+	  credits: 'SharkPool'
+    },
+    {
+	  name: 'MIDI-Tools',
+      description: 'Utilities For Making Midi Notes Into Functions',
+      credits: 'ObscuraPH',
+      extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/MIDI-Tools.js',
+      iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/MIDI-Tools.svg',
+      tags: ['sharkpool'],
+	  featured: true
+	},
+	{
         name: 'App Utilities',
         extensionId: 'appmaker',
         iconURL: appMakerIconURL,
