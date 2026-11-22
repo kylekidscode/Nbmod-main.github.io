@@ -4511,6 +4511,76 @@ const menuItems = [
         featured: true
     },
 	{
+    name: 'Modals',
+    extensionId: 'https://cattymod.app/extensions/modals.js',
+    iconURL: modalsIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Create Scratch 3 style popup windows, embeds, and interactive prompts.',
+    featured: true,
+    tags: ['cattymod', 'ui'],
+    credits: 'Noahscratch493'
+},
+{
+    name: 'Python',
+    extensionId: 'https://cattymod.app/extensions/python.js',
+    iconURL: pythoncattymodIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Run Python code and integrate Python scripts directly into your projects.',
+    featured: true,
+    tags: ['cattymod', 'programminglanguage'],
+    credits: 'Noahscratch493'
+},
+{
+    name: 'JavaScript',
+    extensionId: 'https://cattymod.app/extensions/javascript.js',
+    iconURL: javascriptcattymodIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Run JavaScript commands and more inside of your project.',
+    featured: true,
+    tags: ['cattymod', 'programminglanguage'],
+    credits: 'Noahscratch493'
+},
+{
+    name: 'DangoAI',
+    extensionId: 'https://cattymod.app/extensions/dangoai.js',
+    iconURL: dangoaiIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Add AI Chatbots to your CattyMod Projects!',
+    featured: true,
+    tags: ['cattymod', 'ai'],
+    credits: 'Noahscratch493'
+},
+{
+    name: 'Speech to Text',
+    extensionId: 'https://cattymod.app/extensions/stt.js',
+    iconURL: sttIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Speak to your projects!',
+    featured: true,
+    tags: ['cattymod', 'microphone'],
+    credits: 'Noahscratch493'
+},
+{
+    name: 'Audio Recorder',
+    extensionId: 'https://cattymod.app/extensions/dangoaudio.js',
+    iconURL: dangoaudioIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Record your voice in CattyMod!',
+    featured: true,
+    tags: ['cattymod', 'microphone'],
+    credits: 'Noahscratch493'
+},
+{
+    name: "I'm not a robot",
+    extensionId: 'https://cattymod.app/extensions/captcha.js',
+    iconURL: captchacattymodIcon,
+    insetIconURL: cattymodInsetIcon,
+    description: 'Use Captcha tests in CattyMod, powered by hCaptcha!',
+    featured: true,
+    tags: ['cattymod', 'puzzles'],
+    credits: 'Noahscratch493'
+},
+{	
 		name: 'Vectors',
         extensionId: 'https://extensions.nitrobolt.org/ddededodediamante/Vectors.js',
         credits: 'ddededodediamante',
