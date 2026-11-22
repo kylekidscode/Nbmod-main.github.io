@@ -8506,14 +8506,6 @@ if (IsLocal || IsLiveTests) {
             featured: true
         },
         {
-            name: 'Easy Save',
-            extensionId: 'jgEasySave',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod', 'datamgmt'],
-            description: 'Save variables, lists and extra info to a file, then load those things back in.',
-            featured: true
-        },
-        {
             name: (
                 <FormattedMessage
                     defaultMessage="TurboWarp Blocks"
