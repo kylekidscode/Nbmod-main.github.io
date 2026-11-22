@@ -4245,17 +4245,16 @@ const menuItems = [
         inspiredExt: 'G1nX\'s Cats Extension',
         extDeveloper: 'MrIncredibleMaker'
 	},
-	{
+    {
         name: 'Looks Expansion',
         extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/penguinmod-version/looks-expansion.js',
-		iconURL: looksexpansionIcon,
-		tags: ['dinosaurmod', 'categoryexpansion'],
+        iconURL: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/looks-expansion.png',
 		insetIconURL: dinosaurmodIcon,
 		customInsetColor: '#80f41a',
-        iconURL: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/Useless_Blocks.png',
-        description: 'More blocks for changing layers, get size, # of costumes in different sprites, snapshotting the stage.',
-		credits: 'Some blocks from LilyMakesThings, MrincredibleMaker',
-        featured: true
+        tags: ['dinosaurmod', 'categoryexpansion'],
+        description: "More blocks for changing layers, get size, # of costumes in different sprites, snapshotting the stage.",
+        featured: true,
+        credits: 'Some blocks from LilyMakesThings, MrIncredibleMaker'
 	},
 	{
 		name: 'Rounding+',
