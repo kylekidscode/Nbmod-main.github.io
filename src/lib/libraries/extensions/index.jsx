@@ -8054,6 +8054,25 @@ const menuItems = [
         featured: true
     },
 	{
+        name: 'AppleleMod Extra Extensions',
+        href: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/',
+        extensionId: 'applelemodExtensionLibrary',
+        iconURL: defaultExtensionIcon,
+        description: 'See some AppleleMod External extensions. Opens in a new tab.',
+		collaborator: 'Dimix',
+        tags: ['othermods'],
+		isNew: false,
+        featured: true
+	},
+    {
+		name: 'Cocrea World Extension Marketplace',
+        href: 'https://assets.ccw.site/extensions/',
+		extensionId: 'ccwExtensionmarketplace',
+        iconURL: galleryIconCCW,
+		credits: 'gandi ide',
+        tag: 'ccw'
+    },
+	{
         name: 'CapivaraMod Extension Gallery',
         href: 'https://capivaramod.github.io/extensions/,
         extensionId: 'CapivaramodExtensionLibrary',
