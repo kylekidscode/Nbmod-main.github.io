@@ -227,6 +227,7 @@ import javascriptcattymodIcon from './Cattymod/javascript.svg';
 import dangoaiIcon from './Cattymod/dangoai.svg';
 import sttIcon from './Cattymod/stt.png';
 import dangoaudioIcon from './Cattymod/none.svg';
+import captchacattymodIcon from './Cattymod/captcha.svg';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
