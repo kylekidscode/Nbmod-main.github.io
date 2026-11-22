@@ -11,7 +11,7 @@
     //description: 'your extension description.',
     //featured: true,
     //tags: ['your tag'],
-    // Custom click handler or URL property depending on how your fork opens galleries
+    // Use href if this card links out to an external gallery instead of loading a VM extension:
     //href: 'https://example.com'  if your extension is an extension gallery
 //}
 
