@@ -23,6 +23,8 @@ export default [
 	{ tag: 'zerotwoengine', intlLabel: messages.zerotwoengine },
 	{ tag: 'bilup', intlLabel: messages.bilup },
 	{ tag: 'mistwarp', intlLabel: messages.mistwarp },
+    { tag: 'ziplox', intlLabel: messages.Ziplox },
+    { tag: 'cb', intlLabel: messages.ConiBlocks },
 	{ tag: 'dash', intlLabel: messages.dash },
 	{ tag: 'gandiide', intlLabel: messages.gandiide },
 	{ tag: 'othermods', intlLabel: messages.othermods },
