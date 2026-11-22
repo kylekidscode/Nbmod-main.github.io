@@ -8052,6 +8052,16 @@ const menuItems = [
         featured: true
     },
 	{
+        name: 'CapivaraMod Extension Gallery',
+        href: 'https://capivaramod.github.io/extensions/,
+        extensionId: 'CapivaramodExtensionLibrary',
+        iconURL: capivaragalleryIcon,
+        description: 'Learn more about extensions at capivaramod.github.io/extensions/.',
+        credits: 'CapivaraMod',
+        tags: ['library', 'othermods'],
+        featured: true
+    },
+	{
 		name: 'electricprogramming\'s Extension Gallery',
         href: 'https://electricprogramming-scratch-exts.vercel.app/,
         extensionId: 'electricprogrammingExtensionGallery',
