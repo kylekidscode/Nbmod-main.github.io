@@ -8108,6 +8108,15 @@ const menuItems = [
         featured: true
 	},
     {
+        name: 'Cattymod Extension Gallery',
+        href: 'https://cattymod.app/extensions/',
+        extensionId: 'CattymkdExtensionLibrary',
+        iconURL: cattymodextgalleryIcon,
+        description: 'Browse and load extensions made for CattyMod.',
+        tags: ['cattymod', 'library'],
+        featured: true
+	},
+    {
         name: 'Callum\'s Ultimate Gallery',
         href: 'https://gallery.callumjt.dev/',
         extensionId: 'special_callumExtensionLibrary',
