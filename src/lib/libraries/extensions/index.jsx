@@ -213,6 +213,7 @@ import VideoSharing from './VidShare/VideoSharing.svg';
 import SuperStorage from './SuperStorage/SuperStorage.svg';
 import NoahgptThumb from './noahgpt/costume1.svg';
 import pythonsnailIcon from './python/py.svg';
+import mapIconURL from './maps/openstreetmap.jpg';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
