@@ -1,7 +1,7 @@
 //this is an example for adding your extension
 //remove the //
 
-//import yourIcon from './Your icon';
+//import yourIcon from './Youricon.png';
 
 // Inside your extensions list:
 //{
