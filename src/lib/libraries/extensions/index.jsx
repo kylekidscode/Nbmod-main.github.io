@@ -330,6 +330,7 @@ import PictoBloxMathIconURL from './PictoBloxMath/PictoBloxMath.png';
 import PictoBloxMathInsetIconURL from './PictoBloxMath/PictoBloxMath-small.svg';
 import PictoBloxStringIconURL from './PictoBloxString/PictoBloxString.png';
 import PictoBloxStringInsetIconURL from './PictoBloxString/PictoBloxString-small.svg';
+import LppExtensionIcon from './lpp/banner.svg';
 
 //GvbvdxxMod2
 import NESEmuThumb from './nes_emulator/nes.svg';
