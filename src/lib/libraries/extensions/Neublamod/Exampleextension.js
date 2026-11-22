@@ -1,3 +1,5 @@
+//i don't need the notes this is an example for adding your extension
+
 //import yourIcon from './nbmod-gallery.png';
 
 // Inside your extensions list:
