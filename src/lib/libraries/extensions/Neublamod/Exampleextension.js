@@ -1,7 +1,7 @@
 //this is an example for adding your extension
 //remove the //
 
-//import yourIcon from './nbmod-gallery.png';
+//import yourIcon from './Your icon';
 
 // Inside your extensions list:
 //{
