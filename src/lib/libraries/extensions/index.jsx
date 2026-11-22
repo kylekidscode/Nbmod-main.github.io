@@ -464,6 +464,8 @@ import ampmodgalleryThumb from './gaiamod/AmpMod.svg';
 import obgalleryIcon from './gaiamod/OmniBlocks.svg';
 
 import capivaragalleryIcon from './CapivaraModExtGallery/capivaramodgallery.png';
+import capivaramodinsetIcon from './CapivaraModExtGallery/CapivaraModinseticon.png';
+
 
 import shareImage from "./share/share.svg";
 
