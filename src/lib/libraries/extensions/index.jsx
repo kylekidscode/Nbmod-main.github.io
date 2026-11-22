@@ -8058,6 +8058,8 @@ const menuItems = [
         href: 'https://capivaramod.github.io/extensions/,
         extensionId: 'CapivaramodExtensionLibrary',
         iconURL: capivaragalleryIcon,
+		insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
         description: 'Learn more about extensions at capivaramod.github.io/extensions/.',
         credits: 'CapivaraMod',
         tags: ['library', 'othermods'],
