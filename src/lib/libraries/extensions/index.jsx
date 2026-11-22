@@ -8069,8 +8069,11 @@ const menuItems = [
         href: 'https://assets.ccw.site/extensions/',
 		extensionId: 'ccwExtensionmarketplace',
         iconURL: galleryIconCCW,
+		insetIconURL: ccwIcon,
+        customInsetColor: '#1C1B25',
+		description: 'see all of gandi-ides extensions. opens in a new tab.',
 		credits: 'gandi ide',
-        tag: 'ccw'
+        tags: ['gandiide']
     },
 	{
         name: 'CapivaraMod Extension Gallery',
