@@ -420,6 +420,7 @@ import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreit
 import Pooiod7extgalleryicon from './Extensionsandthumbnails/P7ExtGalleryCover.png';
 import Unknownextgalleryicon from './Neublamod/Unknownextgallery.svg';
 import neublamodicon from './Neublamod/Nbmodsmall.svg';
+import ziploxextgalleryicon from './Extensionsandthumbnails/Ziploxextgallery.png';
 
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
