@@ -4249,7 +4249,7 @@ const menuItems = [
         name: 'Looks Expansion',
         extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/penguinmod-version/looks-expansion.js',
 		iconURL: looksexpansionIcon,
-		tags: ['dinosaurmod', 'categoryexpansions'],
+		tags: ['dinosaurmod', 'categoryexpansion'],
 		insetIconURL: dinosaurmodIcon,
 		customInsetColor: '#80f41a',
         iconURL: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/Useless_Blocks.png',
