@@ -219,6 +219,9 @@ import mapIconURL from './maps/openstreetmap.jpg';
 import ziploxIcon from './Extensionsandthumbnails/dog.png';
 import ziploxextgalleryicon from './Extensionsandthumbnails/Ziploxextgallery.png';
 
+//cattymod
+import cattymodInsetIcon from './Cattymod/cattymod.svg';
+
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
 import chatgpt2scratchInsetIconURL from './chatgpt2scratch/chatgpt2scratch-small.png';
