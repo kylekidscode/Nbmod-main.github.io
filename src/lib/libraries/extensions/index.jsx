@@ -4267,6 +4267,49 @@ const menuItems = [
         credits: 'Numberblocks',
         featured: true
 	},
+    {
+        name: 'Fetch+',
+        extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/fetchplus.js',
+        tags: ['dinosaurmod'],
+        iconURL: 'https://extensions.turbowarp.org/images/fetch.svg',
+		insetIconURL: dinosaurmodIcon,
+		customInsetColor: '#80f41a',
+        description: "get and post stuff, i guess.",
+        featured: true,
+	},
+    {
+        name: 'Extra Inputs',
+        extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/extrainputs.js',
+        tags: ['dinosaurmod'],
+        iconURL: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/ExtraInputsThumbnail.png',
+		insetIconURL: dinosaurmodIcon,
+		customInsetColor: '#80f41a',
+        description: "This Extension has been merged into the main toolbox. Extra Inputs that you can use.",
+        featured: true,
+        extDeveloper: 'MrIncredibleMakerZe'
+    },
+    {
+        name: 'Timers Plus',
+        extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/legacy-extensions/timers-plus.js',
+        tags: ['dinosaurmod'],
+        iconURL: defaultExtensionIcon,
+		insetIconURL: dinosaurmodIcon,
+		customInsetColor: '#80f41a',
+        description: "(This Extension won't be worked on because during the creation of this extension i forgot about the Multiple Timers Extension) (Timers don't save!) Create your own timers! There's also pause and resume options.",
+        featured: true,
+        extDeveloper: 'MrIncredibleMakerZe'
+	},
+    {
+        name: 'Fleef',
+        extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/legacy-extensions/fleef.js',
+		tags: ['uncategorized', 'dinosaurmod'],
+        iconURL: defaultExtensionIcon,
+		insetIconURL: dinosaurmodIcon,
+		customInsetColor: '#80f41a',
+        description: 'this extension refuses to be committed.',
+        extDeveloper: 'MrIncredibleMaker',
+        featured: true
+	},
 	{
 		name: 'Rounding+',
         description: 'Expansion to the rounding blocks',
