@@ -1,4 +1,4 @@
-//i don't need the notes this is an example for adding your extension
+//this is an example for adding your extension
 //remove the //
 
 //import yourIcon from './nbmod-gallery.png';
