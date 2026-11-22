@@ -217,6 +217,7 @@ import mapIconURL from './maps/openstreetmap.jpg';
 
 //ziplox
 import ziploxIcon from './Extensionsandthumbnails/dog.png';
+import ziploxextgalleryicon from './Extensionsandthumbnails/Ziploxextgallery.png';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
@@ -420,7 +421,6 @@ import Andreitom1ExtensionCollectionicon from './Extensionsandthumbnails/Andreit
 import Pooiod7extgalleryicon from './Extensionsandthumbnails/P7ExtGalleryCover.png';
 import Unknownextgalleryicon from './Neublamod/Unknownextgallery.svg';
 import neublamodicon from './Neublamod/Nbmodsmall.svg';
-import ziploxextgalleryicon from './Extensionsandthumbnails/Ziploxextgallery.png';
 
 //gaiamod
 import gaiaGPTThumb from './gaiamod/GaiaGPT.png';
@@ -7998,6 +7998,15 @@ const menuItems = [
         extensionId: 'Pooiod7ExtensionLibrary',
         iconURL: Pooiod7extgalleryicon,
         description: 'see all of pooiod7s extensions. Opens in a new tab',
+        tags: ['othermods', 'library'],
+        featured: true
+	},
+    {
+        name: 'Ziplox Extension Gallery',
+        href: 'https://ziplox.neocities.org/extensions/',
+        extensionId: 'ZiploxExtensionLibrary',
+        iconURL: ziploxextgalleryicon,
+        description: 'see all of ziplox extensions. Opens in a new tab',
         tags: ['othermods', 'library'],
         featured: true
 	},
