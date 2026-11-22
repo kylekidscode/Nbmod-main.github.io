@@ -34,6 +34,7 @@ export default [
     { tag: 'divider2', intlLabel: messages.scratch, type: 'divider' },
 	{type: 'subtitle', intlLabel: "Types"},
     { tag: 'graphics', intlLabel: messages.graphics },
+    { tag: 'noisemaker', intlLabel: messages.noisemaker },
     { tag: 'jokes', intlLabel: messages.jokes },
     { tag: 'ai', intlLabel: messages.ai },
     { tag: 'iot', intlLabel: messages.iot },
