@@ -224,6 +224,7 @@ import cattymodInsetIcon from './Cattymod/cattymod.svg';
 import modalsIcon from './Cattymod/modals.svg';
 import pythoncattymodIcon from './Cattymod/python.svg';
 import javascriptcattymodIcon from './Cattymod/javascript.svg';
+import dangoaiIcon from './Cattymod/dangoai.svg';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
