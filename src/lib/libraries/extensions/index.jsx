@@ -7846,7 +7846,7 @@ const menuItems = [
 		name: 'electricprogramming\'s Extension Gallery',
         href: 'https://electricprogramming-scratch-exts.vercel.app/,
         extensionId: 'electricprogrammingExtensionGallery',
-        iconURL: require('../Neublamod/Unknownextgallery.svg'),
+        iconURL: defaultExtensionIcon,
         description: 'see all of electricprogramming\'s Extensions. Opens in a new tab.',
         credits: 'electricprogramming',
         tags: ['library', 'othermods],
