@@ -4256,6 +4256,17 @@ const menuItems = [
         featured: true,
         credits: 'Some blocks from LilyMakesThings, MrIncredibleMaker'
 	},
+    {
+        name: 'Numberblocks Extension',
+        extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/numberblocks.js',
+        iconURL: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/numberblocks.png',
+		insetIconURL: dinosaurmodIcon,
+		customInsetColor: '#80f41a',
+        tags: ['dinosaurmod', 'joke'],
+        description: 'a numberblocks extension.',
+        credits: 'Numberblocks',
+        featured: true
+	},
 	{
 		name: 'Rounding+',
         description: 'Expansion to the rounding blocks',
