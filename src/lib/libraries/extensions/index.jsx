@@ -4240,7 +4240,7 @@ const menuItems = [
         extDeveloper: 'MrIncredibleMaker'
 	},
 	{
-		        name: 'Rounding+',
+		name: 'Rounding+',
         description: 'Expansion to the rounding blocks',
         extensionId: 'https://snail-ide-extensions-gallery.vercel.app/extensions/CharCoalAfterLife/rounding.js',
         iconURL: 'https://snail-ide-extensions-gallery.vercel.app/images/CharCoalAfterLife/rounding.png',
@@ -4362,6 +4362,7 @@ const menuItems = [
         extensionId: 'https://snail-ide.js.org/randomlyBlocks.js',
         collaborator: 'mariocraft987',
         iconURL: randomlyBlocksIcon,
+		customInsetColor: '#cc00ff',
         tags: ['othermods', 'snailide'],
 		insetIconURL: snailideIcon,
         description: 'Utilitys to have your project feel like a website',
@@ -4371,6 +4372,7 @@ const menuItems = [
         name: 'Blockly2Math',
         extensionId: 'blockly2math',
         iconURL: blocklyIconURL,
+		customInsetColor: '#cc00ff',
         collaborator: 'Google',
         tags: ['snailide'],
 		insetIconURL: snailideIcon,
@@ -4383,6 +4385,7 @@ const menuItems = [
         iconURL: typescriptIcon,
         tags: ['snailide', 'programminglanguage', 'othermods'],
 		insetIconURL: snailideIcon,
+		customInsetColor: '#cc00ff',
         description: "Similar to the JavaScript extension but for TypeScript",
         featured: true
 	},
@@ -8041,7 +8044,7 @@ const menuItems = [
         extensionId: 'special_sharkpoolExtensionLibrary',
         iconURL: sharkpoolGalleryIcon,
         description: 'Tons of extensions created by SharkPool.\n\nClick on an extension while this menu is open to add it to your project.',
-        credits: 'Listed in the site',
+        credits: 'sharkpool',
         tags: ['library', 'sharkpool'],
         featured: true
     },
