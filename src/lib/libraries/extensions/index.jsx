@@ -215,6 +215,9 @@ import NoahgptThumb from './noahgpt/costume1.svg';
 import pythonsnailIcon from './python/py.svg';
 import mapIconURL from './maps/openstreetmap.jpg';
 
+//ziplox
+import ziploxIcon from './Extensionsandthumbnails/dog.png';
+
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
 import chatgpt2scratchInsetIconURL from './chatgpt2scratch/chatgpt2scratch-small.png';
