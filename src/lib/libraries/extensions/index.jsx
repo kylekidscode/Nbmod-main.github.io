@@ -4531,7 +4531,7 @@ const menuItems = [
     credits: 'Noahscratch493'
 },
 {
-    name: 'Python',
+    name: 'Python (cattymod)',
     extensionId: 'https://cattymod.app/extensions/python.js',
     iconURL: pythoncattymodIcon,
     insetIconURL: cattymodInsetIcon,
@@ -4542,7 +4542,7 @@ const menuItems = [
     credits: 'Noahscratch493'
 },
 {
-    name: 'JavaScript',
+    name: 'JavaScript (cattymod)',
     extensionId: 'https://cattymod.app/extensions/javascript.js',
     iconURL: javascriptcattymodIcon,
     insetIconURL: cattymodInsetIcon,
@@ -8251,6 +8251,18 @@ const menuItems = [
         description: 'View the Useful Ruby Team Extensions!',
         credits: 'Ruby Team',
         tags: ['library'],
+        featured: true
+	},
+    {
+        name: 'CattyMod Extension Gallery',
+        href: 'https://cattymod.app/extensions/',
+        extensionId: 'cattymodextensions',
+        iconURL: 'cattymodextgalleryIcon',
+        description: 'Browse and load extensions made for CattyMod.',
+		insetIconURL: cattymodInsetIcon,
+	    customInsetColor: '#4197FF',
+        credits: 'cattymod,
+        tags: ['library', 'cattymod'],
         featured: true
     },
     {
