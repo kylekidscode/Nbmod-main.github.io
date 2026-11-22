@@ -6619,6 +6619,27 @@ const menuItems = [
     incompatibleWithScratch: true
     },
 	{
+		    name: 'CloudLink Ω',
+            extensionId: 'https://snail-ide.js.org/clomega.js',
+            tags: ['penguinmod', 'turbowarp'],
+            iconURL: clomegaIcon,
+            description: 'Register and login to accounts via Cloud Link 5 (WIP Extension!!!)',
+            featured: true,
+            extDeveloper: 'MikeDev',
+            internetConnectionRequired: false
+        },
+        {
+            name: 'CloudLink 5',
+            extensionId: 'https://snail-ide.js.org/cl5.js',
+            tags: ['penguinmod', 'turbowarp'],
+            insetIconURL: cloudlinkIcon,
+            iconURL: clfiveIcon,
+            description: 'A powerful websocket extension for Scratch with account systems, and much more to offer. (WIP Extension!!!)',
+            featured: true,
+            extDeveloper: 'MikeDev',
+            internetConnectionRequired: false
+		},
+	    {
         name: 'Ada Browser',
         tags: ['othermods'],
         extensionId: 'adabrowser',
@@ -8592,6 +8613,84 @@ if (IsLocal || IsLiveTests) {
             tags: ['penguinmod'],
             description: 'In development.',
             featured: true
+		},
+        {
+            name: 'Python',
+            extensionId: 'pythonExtension',
+            iconURL: pythonIcon,
+            tags: ['programminglanguage', 'othermods'],
+            description: 'Execute python commands on our server and have them used in your projects.',
+            featured: true
+		},
+        {
+            name: 'Advanced Text',
+            extensionId: 'jgAdvancedText',
+            eventSubmittor: 'eggo',
+            iconURL: jgAdvancedTextExtensionIcon,
+            tags: ['penguinmod'],
+            description: 'In development.\nThis extension is still HIGHLY in development. DO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
+            featured: true
+		},
+        {
+            name: 'Share',
+            extensionId: 'shareExt',
+            iconURL: share,
+            tags: ['penguinmod'],
+            description: 'Share your projects with friends!',
+            featured: true
+        },
+        {
+            name: 'Wacky Joke Blocks',
+            extensionId: 'https://snail-ide.js.org/joke.js',
+            collaborator: 'Mr_rudy/nmsderp',
+            iconURL: 'https://c8.alamy.com/comp/RB1P6W/young-handsome-business-man-laughing-of-you-pointing-to-the-camera-with-finger-hand-over-chest-shame-expression-RB1P6W.jpg',
+            tags: ['penguinmod'],
+            description: 'THIS EXTENSION IS NOW CLASSIFIED AS LEGACY AND WILL NOT BE UPDATED',
+            featured: true,
+        },
+        {
+            name: 'Wacky Joke Blocks II',
+            extensionId: 'https://www.snail-ide.com/poopoo.js',
+            collaborator: 'Mr_rudy/nmsderp',
+            iconURL: defaultExtensionIcon,
+            tags: ['penguinmod'],
+            description: 'i was bored ok',
+            featured: true,
+        },
+        {
+            name: 'p5.js',
+            extensionId: 'https://snail-ide.js.org/p5.js',
+            collaborator: 'Mr_rudy/nmsderp',
+            iconURL: 'https://snail-ide.js.org/p5js.png',
+            tags: ['penguinmod'],
+            description: 'A more powerful alternative to the Pen extension.',
+            featured: true,
+		},
+        {
+            name: 'Costume Drawing',
+            extensionId: 'jgCostumeDrawing',
+            iconURL: defaultExtensionIcon,
+            tags: ['penguinmod'],
+            description: 'Draw on and edit your costumes (either temporarily or not) while the project is running.\nThis extension is still HIGHLY in development. DO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
+            featured: true
+		},
+        {
+            name: 'Open Street Map',
+            extensionId: 'adacraftleaflet',
+            iconURL: mapIconURL,
+            tags: ['penguinmod'],
+            description: 'Use maps in your project. W.I.P Extension.',
+            featured: true,
+            internetConnectionRequired: true
+        },
+        {
+        name: 'Discord Auth',
+        extensionId: 'https://snail-ide.js.org/discord.js',
+        snailExt: true,
+        iconURL: 'https://snail-ide.js.org/discord-png.png',
+        tags: ['penguinmod'],
+        description: "Get data from a Discord user!",
+        featured: true
         },
         {
             name: 'Packager Applications',
@@ -8604,7 +8703,6 @@ if (IsLocal || IsLiveTests) {
             description: 'In development. Do extra things in packaged applications that you can\'t do in the website!',
             featured: true
         },
-
         {
             name: 'Inline Blocks',
             extensionId: 'pmInlineBlocks',
