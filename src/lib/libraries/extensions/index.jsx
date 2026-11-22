@@ -463,6 +463,8 @@ import potentiamodplaceholder from './potentiamod/placeholder.png';
 import ampmodgalleryThumb from './gaiamod/AmpMod.svg';
 import obgalleryIcon from './gaiamod/OmniBlocks.svg';
 
+import capivaragalleryIcon from './CapivaraModExtGallery/capivaramodgallery.png';
+
 import shareImage from "./share/share.svg";
 
 import lassImage from "./lass/lass.png";
