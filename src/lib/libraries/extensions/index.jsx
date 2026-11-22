@@ -8068,7 +8068,7 @@ const menuItems = [
 		name: 'Cocrea World Extension Marketplace',
         href: 'https://assets.ccw.site/extensions/',
 		extensionId: 'ccwExtensionmarketplace',
-        iconURL: galleryIconCCW,
+        iconURL: defaultExtensionIcon,
 		insetIconURL: ccwIcon,
         customInsetColor: '#1C1B25',
 		description: 'see all of gandi-ides extensions. opens in a new tab.',
