@@ -221,6 +221,7 @@ import ziploxextgalleryicon from './Extensionsandthumbnails/Ziploxextgallery.png
 
 //cattymod
 import cattymodInsetIcon from './Cattymod/cattymod.svg';
+import modalsIcon from './Cattymod/modals.svg';
 
 //champierre
 import chatgpt2scratchIconURL from './chatgpt2scratch/chatgpt2scratch.png';
