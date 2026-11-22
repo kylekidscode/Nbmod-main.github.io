@@ -4246,6 +4246,18 @@ const menuItems = [
         extDeveloper: 'MrIncredibleMaker'
 	},
 	{
+        name: 'Looks Expansion',
+        extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/penguinmod-version/looks-expansion.js',
+		iconURL: looksexpansionIcon,
+		tags: ['dinosaurmod', 'categoryexpansions'],
+		insetIconURL: dinosaurmodIcon,
+		customInsetColor: '#80f41a',
+        iconURL: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/Useless_Blocks.png',
+        description: 'More blocks for changing layers, get size, # of costumes in different sprites, snapshotting the stage.',
+		credits: 'Some blocks from LilyMakesThings, MrincredibleMaker',
+        featured: true
+	},
+	{
 		name: 'Rounding+',
         description: 'Expansion to the rounding blocks',
         extensionId: 'https://snail-ide-extensions-gallery.vercel.app/extensions/CharCoalAfterLife/rounding.js',
