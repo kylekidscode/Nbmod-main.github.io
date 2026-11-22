@@ -4449,6 +4449,56 @@ const menuItems = [
         featured: true
 	},
 	{
+        name: 'Music Plus',
+        extensionId: 'https://ziplox.neocities.org/extensions/scripts/musicplus.js',
+        iconURL: require('../Extensionsandthumbnails/musicplus.svg'),
+        insetIconURL: ziploxIcon,
+        tags: ['ziplox'],
+        description: 'Utilizes the Oscillator extension from SharkPool and the default Scratch 3 extension to create an expansion for the Music category.',
+        collaborator: 'Ziplox',
+        featured: true
+    },
+    {
+        name: 'Block Dates',
+        extensionId: 'https://ziplox.neocities.org/extensions/scripts/blockdates.js',
+        iconURL: require('../Extensionsandthumbnails/blockdates.svg'),
+        insetIconURL: ziploxIcon,
+        tags: ['ziplox'],
+        description: "Welp, blocks have feelings now. Let's see if this becomes a disaster or not.",
+        collaborator: 'Ziplox',
+        featured: true
+    },
+    {
+        name: 'Temporary Variables',
+        extensionId: 'https://ziplox.neocities.org/extensions/scripts/tempvar.js',
+        iconURL: require('../Extensionsandthumbnails/tempvar.svg'),
+        insetIconURL: ziploxIcon,
+        tags: ['ziplox'],
+        description: "Ziplox's take of temporary variables, forked from Turbowarp's edition.",
+        collaborator: 'Ziplox',
+        featured: true
+    },
+    {
+        name: 'Nodes and Links',
+        extensionId: 'https://ziplox.neocities.org/extensions/scripts/nodes.js',
+        iconURL: require('../Extensionsandthumbnails/nodes.svg'),
+        insetIconURL: ziploxIcon,
+        tags: ['ziplox'],
+        description: 'A new Nodes extension that allows you to create road maps and grids!',
+        collaborator: 'Ziplox',
+        featured: true
+    },
+    {
+        name: 'Ciphers',
+        extensionId: 'https://ziplox.neocities.org/extensions/scripts/ciphers.js',
+        iconURL: require('../Extensionsandthumbnails/ciphers.svg'),
+        insetIconURL: ziploxIcon,
+        tags: ['ziplox'],
+        description: 'Hide your text in the sneakiest ways directly within the Penguinmod editor!',
+        collaborator: 'Ziplox',
+        featured: true
+    },
+	{
 		name: 'Vectors',
         extensionId: 'https://extensions.nitrobolt.org/ddededodediamante/Vectors.js',
         credits: 'ddededodediamante',
