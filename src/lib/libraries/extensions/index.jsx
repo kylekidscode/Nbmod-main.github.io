@@ -4414,6 +4414,36 @@ const menuItems = [
 	    customInsetColor: '#42C769',
         description: 'Interact with your developer console.',
         featured: true
+	},		
+	{
+        name: 'Cryptography',
+        extensionId: 'https://extensions.turbowarp.org/cryptography.js',
+        iconURL: require('../Extensionsandthumbnails/cryptography.png'),
+        insetIconURL: unknownsmallicon,
+        tags: ['cb'],
+        description: "UUID's and encryption.",
+        collaborator: 'ConiBlocks',
+        featured: true
+    },
+    {
+        name: 'Mathematics',
+        extensionId: 'https://extensions.turbowarp.org/mathematics.js',
+        iconURL: require('../Extensionsandthumbnails/mathematics.png'),
+        insetIconURL: unknownsmallicon,
+        tags: ['cb'],
+        description: 'More advanced math.',
+        collaborator: 'ConiBlocks',
+        featured: true
+    },
+    {
+        name: 'Randomizers',
+        extensionId: 'https://extensions.turbowarp.org/randomizers.js',
+        iconURL: require('../Extensionsandthumbnails/randomizers.png'),
+        insetIconURL: unknownsmallicon,
+        tags: ['cb'],
+        description: 'Use seeds and weights.',
+        collaborator: 'ConiBlocks',
+        featured: true
 	},
 	{
 		name: 'Vectors',
