@@ -8744,8 +8744,9 @@ if (IsLocal || IsLiveTests) {
             extensionId: 'https://www.snail-ide.com/poopoo.js',
             collaborator: 'Mr_rudy/nmsderp',
             iconURL: defaultExtensionIcon,
-            tags: ['snailide', 'jokes'],
-            description: 'i was bored ok',
+            tags: ['snailide', 'jokes', 'disabled'],
+            description: 'i was bored ok. disabled due to https://www.snail-ide.com/poopoo.js links to an unsupported website on Hostinger ',
+			disabled: true,
             featured: true,
         },
         {
@@ -8769,8 +8770,9 @@ if (IsLocal || IsLiveTests) {
             name: 'Open Street Map',
             extensionId: 'adacraftleaflet',
             iconURL: mapIconURL,
-            tags: ['uncategorized'],
-            description: 'Use maps in your project. W.I.P Extension.',
+            tags: ['disabled'],
+            description: 'Use maps in your project. W.I.P Extension. disabled due to TypeError: Cannot read properties of null reading style',
+			disabled: true,
             featured: true,
             internetConnectionRequired: true
         },
