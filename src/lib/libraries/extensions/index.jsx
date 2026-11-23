@@ -471,6 +471,13 @@ import capivaramodinsetIcon from './CapivaraModExtGallery/CapivaraModinseticon.p
 
 import shareImage from "./share/share.svg";
 
+//turbo-ide
+import turboshareCloudDBIcon from './TurboWS/Extensions/Banner/CloudDB.png';
+import turboshareWOWEconomyIcon from './TurboWS/Extensions/Banner/WOWEconomy.png';
+import turboshareEmbedWindowsIcon from './TurboWS/Extensions/Banner/EmbedWindows.png';
+import turboforgeBannerIcon from './TurboWS/Extensions/Banner/TurboForge.png';
+import beabeaBannerIcon from './Extensions/Banner/BeaBeaCodingAgent.png';
+
 import lassImage from "./lass/lass.png";
 import iftttImage from "./ifttt/ifttt.png";
 import thingspeakImage from "./thingspeak/thingspeak.png";
