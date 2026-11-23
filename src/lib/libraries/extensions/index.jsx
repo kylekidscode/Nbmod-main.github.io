@@ -7464,6 +7464,150 @@ const menuItems = [
         tags: ['cyscrexthub'],
         extDeveloper: 'Bluest_iloveblue5715'
 	},
+    {
+        name: 'Async Await',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/ezx6t/sibuext.js',
+        iconURL: 'https://avatars.githubusercontent.com/u/319112398?s=200&v=4',
+        description: 'Async Await Extension for Scratch',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'ezx6t'
+    },
+    {
+        name: 'Motion Sensor',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/_kitty-the-cat_/motion-sensor.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/_kitty-the-cat_/motion-sensor.png',
+        description: 'Motion Sensor Extension for Scratch',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: '_Kitty-the-cat_'
+    },
+    {
+        name: 'Vector Pen',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/Vector-pen.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/Vector-pen.png',
+        description: 'Draws a vector pen on the stage. Thanks to Koji Yokokawa for the vector pen code and Xcratch for the original code.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz'
+    },
+    {
+        name: 'Complex number v3',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/cunken/complex-math.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/cunken/complex-math.png',
+        description: 'Extension for complex numbers and quaternions.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'Cunken'
+    },
+    {
+        name: 'Bytebeat player',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/Bytebeat-player.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/Bytebeat-player.svg',
+        description: 'Play, edit, and read songs from any Bytebeat composer.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz'
+    },
+    {
+        name: 'ExtAxle',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/Extension-builder.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/Extension-builder.svg',
+        description: 'Build and dynamically load JavaScript extensions into Scratch or TurboWarp visually.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz'
+    },
+    {
+        name: 'javascript v2',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/javascript.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/javascript.svg',
+        description: 'JavaScript code editor and runner for Scratch.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz'
+    },
+    {
+        name: 'Visualizer plus',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/Visualizer.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/Visualizer.svg',
+        description: 'An optimized audio visualizer for your project, featuring a WebGL Shader Editor.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz, StudioDANV'
+    },
+    {
+        name: 'Extra Effects',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/Extra-effects.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/Extra-effects.svg',
+        description: 'Advanced shader effects extension for Scratch. Special thanks to ObviousAlexC for the system shaders used in this extension.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz'
+    },
+    {
+        name: 'DOM plugin v4',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/DOM-tools.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/DOM-tools.svg',
+        description: 'Customize DOM elements in your project.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'katboizz'
+    },
+    {
+        name: 'Web Screen',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/_kitty-the-cat_/Web-Screen.js',
+        iconURL: 'https://avatars.githubusercontent.com/u/319112398?s=200&v=4',
+        description: 'Display text and characters over the entire web page in an Aftercode project.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: '_Kitty-the-cat_'
+    },
+    {
+        name: 'DANV Collaborative Workspace',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/DANV/collab-ext.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/DANV/collab-ext.png',
+        description: 'A real-time teamwork and collaboration platform for projects.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'StudioDANV'
+    },
+    {
+        name: 'Asset Downloader & Temp Vars',
+        extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/cunken/cunken-ext.js',
+        iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/cunken/cunken-ext.png',
+        description: 'Various utilities from Cunken.',
+        customInsetColor: '#000000',
+        insetIconURL: Aftercodeicon,
+        featured: true,
+        tags: ['ac'],
+        extDeveloper: 'Cunken'
+		
+	},
 	{
 		name: 'HTML5 Elements',
         extensionId: 'html5',
