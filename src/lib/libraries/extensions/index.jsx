@@ -4677,7 +4677,84 @@ const menuItems = [
     tags: ['cattymod', 'puzzles'],
     credits: 'Noahscratch493'
 },
-{	
+{
+        name: 'Applele Blocks',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/Applele',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/applele.png',
+        description: 'Simple Applele Blocks.',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele'],
+        extDeveloper: 'Dimix'
+    },
+    {
+        name: 'Golden Applele Economy!',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/golden-applele',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/economy.png',
+        description: 'Economy extension, based on the discord bot unbelievaboat.',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele', 'economy'],
+        extDeveloper: 'Dimix'
+    },
+    {
+        name: 'Green-Applele Shops',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/green-applele',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/green-applele.png',
+        description: 'A better version of the Golden-Applele Extension, make shops',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele', 'shops'],
+        extDeveloper: 'Dimix'
+    },
+    {
+        name: 'Applele Soccer Predictions!',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/applele-predict',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/applele-predictions.png',
+        description: 'Makes predictions for the world cup (you can add your own teams too! but by defualt the only teams with ratings by default are the teams that were in the world cup)',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele', 'soccer', 'predictions'],
+        extDeveloper: 'Dimix'
+    },
+    {
+        name: 'Applele Gemini',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/Gemini',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/Gemini.png',
+        description: 'Talk with AI using blocks!',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele', 'ai', 'gemini'],
+        extDeveloper: 'Dimix'
+    },
+    {
+        name: 'Applele Translations',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/tra',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/tra.png',
+        description: 'Useful extension for translations or making your own language',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele', 'translations', 'language'],
+        extDeveloper: 'Dimix'
+    },
+    {
+        name: 'MEGA Operators!',
+        extensionId: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/Extensions/megaop',
+        iconURL: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/banners/megaop.png',
+        description: 'Extra math & strings operators for PenguinMod (and PotentiaMod)',
+        customInsetColor: '#000000',
+        insetIconURL: 'unknownsmallicon',
+        featured: true,
+        tags: ['applele', 'operators', 'math', 'strings'],
+        extDeveloper: 'Dimix'
+    },
+	{
 		name: 'Vectors',
         extensionId: 'https://extensions.nitrobolt.org/ddededodediamante/Vectors.js',
         credits: 'ddededodediamante',
