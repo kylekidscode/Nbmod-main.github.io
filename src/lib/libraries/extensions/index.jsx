@@ -3224,6 +3224,18 @@ const menuItems = [
         featured: true
     },
     {
+		name: 'iCastRays',
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/icastrays.js',
+        iconURL: 'https://extensions.penguinmod.com/images/MubiLop/iCastRays.avif',
+        insetIconURL: penguinmodIcon,
+        customInsetColor: '#00c3ff',
+        description: 'Cast rays into other sprites in your project.',
+        credits: 'MubiLop.',
+        tags: ['penguinmod', 'new'],
+        isNew: true,
+        featured: true,
+	},
+	{
             name: 'Unsandboxed Detector',
             extensionId: 'https://ldsjvg.webwave.dev/lib/ldsjvg/jmunsandboxdetect-lwcbhcjw.js',
             iconURL: 'https://ldsjvg.webwave.dev/files/dynamicContent/sites/ldsjvg/images/pl/webpage_20/lwcfkkaq/element_437/rwdMode_1/574x139/block_18052024-18_19_55.webp',
