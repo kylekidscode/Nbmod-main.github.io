@@ -512,6 +512,7 @@ import libraInsetImage from './libra/Libra-small.svg';
 
 //gallery inset icons
 import remixwarpinsetIcon from './Neublamod/favicon (2).ico';
+import Aftercodeicon from './Extensionsandthumbnails/319112398.png';
 
 import learningmlIconURL from './learningml-texts/learningml.png';
 import learningmlTextInsetIconURL from './learningml-texts/learningml-text-small.svg';
