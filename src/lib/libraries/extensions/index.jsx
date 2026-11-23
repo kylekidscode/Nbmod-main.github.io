@@ -921,7 +921,7 @@ const menuItems = [
 		insetIconURL: gaiamodIcon,
 		customInsetColor: '#2D2DD2',
         credits: 'GaiaWindWave90 with some blocks from other users.',
-        tags: ['gaiamod', 'jokes'],
+        tags: ['gaiamod', 'potentia', 'jokes'],
 		gaiaModRequired: true,
         description: 'An extension about spinach! Based on Gen1x\'s CATS, MrIncredibleMaker\'s DOGS and pooiod7\'s Raccoon Facts extensions.',
         internetConnectionRequired: true,
@@ -10048,6 +10048,25 @@ const menuItems = [
         description: 'Manage your extensions.',
         tags: ['othermods', 'library'],
         featured: true
+		    },
+	{
+        name: 'PotentiaMod Extension Gallery',
+        href: 'https://potentiamod.github.io/pot-extensions/',
+        extensionId: 'secret_extensionLibrary',
+        iconURL: 'https://potentiamod.github.io/static/assets/160e7ca1ae1002eae8b787664d92e5b0.svg',
+        description: 'See all of PotentiaMod\'s extensions, even user-submitted. Opens in a new tab.',
+        tags: ['gaiamod', 'othermods', 'library', 'potentia'],
+        featured: true
+    },
+	{
+        name: 'Former VM Extension Collection',
+        href: 'https://gaiawindwave90.github.io/VM-to-JS-Extensions/?originSpecial=false',
+        extensionId: 'special_VMExtLibrary',
+        iconURL: VMicon,
+        description: 'Tons of extensions converted from built-ins.\n\nClick on an extension to add it to your project.',
+        collaborator: 'Listed in the site',
+        tags: ['gaiamod', 'othermods', 'library', 'potentia'],
+        featured: true
 	},
     {
         name: 'ArkIDE Extra Extensions',
@@ -10449,25 +10468,6 @@ const hiddenExt = [
         disabled: false,
         internetConnectionRequired: true,
         bluetoothRequired: false,
-    },
-	{
-        name: 'PotentiaMod Extension Gallery',
-        href: 'https://potentiamod.github.io/pot-extensions/',
-        extensionId: 'secret_extensionLibrary',
-        iconURL: 'https://potentiamod.github.io/static/assets/160e7ca1ae1002eae8b787664d92e5b0.svg',
-        description: 'See all of PotentiaMod\'s extensions, even user-submitted. Opens in a new tab.',
-        tags: ['special', 'gaiamod', 'othermods', 'library', 'potentia'],
-        featured: true
-    },
-	{
-        name: 'Former VM Extension Collection',
-        href: 'https://gaiawindwave90.github.io/VM-to-JS-Extensions/?originSpecial=false',
-        extensionId: 'special_VMExtLibrary',
-        iconURL: VMicon,
-        description: 'Tons of extensions converted from built-ins.\n\nClick on an extension to add it to your project.',
-        collaborator: 'Listed in the site',
-        tags: ['special', 'gaiamod', 'library', 'potentia'],
-        featured: true
     }
 ];
 
