@@ -10041,6 +10041,15 @@ const menuItems = [
         featured: true
 	},
     {
+        name: "Espresso Extension Hub",
+        iconURL: defaultExtensionIcon,
+        href: 'https://extensions.espressoblocks.com',
+        extensionId: 'special_espressoExtensionHub',
+        description: 'Manage your extensions.',
+        tags: ['othermods', 'library'],
+        featured: true
+	},
+    {
         name: 'ArkIDE Extra Extensions',
         href: 'https://extensions.arkide.site/',
         extensionId: 'special_arkideExtensionLibrary',
