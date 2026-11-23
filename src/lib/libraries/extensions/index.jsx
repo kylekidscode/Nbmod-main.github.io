@@ -205,7 +205,7 @@ import silvxrcatOddMessagesExtensionIcon from './penguinmod/extensions/oddmessag
 // dinosaurmod
 import luaIcon from './dinosaurmod/lua.png';
 import pythonIcon from './dinosaurmod/python.png';
-import looksexpansionIcon from './dinosaurmod/looks-expansion.png';
+
 
 //snail-ide
 import randomlyBlocksIcon from './randomly/randomlyBlocks.svg';
