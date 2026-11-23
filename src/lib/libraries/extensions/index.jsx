@@ -509,6 +509,9 @@ import missmixalotInsetIconURL from "./missmixalot/missmixalot-small.svg";
 import libraImage from './libra/Libra.png';
 import libraInsetImage from './libra/Libra-small.svg';
 
+//gallery inset icons
+import remixwarpinsetIcon from './Neublamod/favicon (2).ico';
+
 import learningmlIconURL from './learningml-texts/learningml.png';
 import learningmlTextInsetIconURL from './learningml-texts/learningml-text-small.svg';
 import learningmlImageInsetIconURL from './learningml-images/learningml-image-small.svg';
