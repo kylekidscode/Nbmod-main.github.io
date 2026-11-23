@@ -80,7 +80,7 @@ const Toast = Swal.mixin({
 
 Toast.fire({
     icon: 'success',
-    title: 'GaiaMod is loading...'
+    title: 'NeublaMod is loading...'
 })
 
 const handleClickAddonSettings = () => {
