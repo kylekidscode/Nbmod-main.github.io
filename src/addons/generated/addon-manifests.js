@@ -69,6 +69,7 @@ import _number_pad from "../addons/number-pad/_manifest_entry.js";
 import _script_snap from "../addons/script-snap/_manifest_entry.js";
 import _fullscreen from "../addons/fullscreen/_manifest_entry.js";
 import _hide_stage from "../addons/hide-stage/_manifest_entry.js";
+import _tw_disable_restore_points from "../addons/tw-disable-restore-points/_manifest_entry.js";
 import _tw_straighten_comments from "../addons/tw-straighten-comments/_manifest_entry.js";
 import _tw_remove_feedback from "../addons/tw-remove-feedback/_manifest_entry.js";
 //import _autosave from "../addons/autosave/_manifest_entry.js";
@@ -189,6 +190,7 @@ export default {
   "editor-tweaks": _editor_tweaks,
   "copy-reporter": _copy_reporter,
   "block-pins": _block_pins
+  "tw-disable-restore-points": _tw_disable_restore_points,
   "editor-stepping": _editor_stepping,
   "blocklydevtools": _blocklydevtools,
 };
