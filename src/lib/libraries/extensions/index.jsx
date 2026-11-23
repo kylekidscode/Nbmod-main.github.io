@@ -2009,7 +2009,8 @@ const menuItems = [
         customInsetColor: '#ff4d4d',
         description: 'Fetch the content of Wikipedia pages.',
         credits: 'SamuelLouf.',
-        tags: ['turbowarp'],
+        tags: ['turbowarp', 'new'],
+		isNew: true,
         featured: true,
 	},
 	{
@@ -2021,7 +2022,8 @@ const menuItems = [
         customInsetColor: '#ff4d4d',
         description: 'Adds blocks related to randomness, driven by an editable seed.',
         credits: 'LukeAnimationss.',
-        tags: ['turbowarp'],
+        tags: ['turbowarp', 'new'],
+		isNew: true,
         featured: true,
     },
     {
