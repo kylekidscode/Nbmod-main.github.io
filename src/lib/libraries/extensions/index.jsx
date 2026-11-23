@@ -3079,6 +3079,17 @@ const menuItems = [
         description: 'Define references to values. (extra blocks if used with Array extension)',
         extDeveloper: 'jwklong',
         featured: true
+	},
+    {
+        name: 'Project Page',
+        extensionId: 'https://extensions.penguinmod.com/extensions/jwklong/projectpage.js',
+        iconURL: 'https://extensions.penguinmod.com/images/jwklong/projectpage.avif',
+		insetIconURL: penguinmodIcon,
+		customInsetColor: '#00c3ff',
+        tags: ['penguinmod'],
+        description: 'Modify and affect the studio project page from the code. How annoying can an extension possibly be?',
+        featured: true,
+        extDeveloper: 'jwklong'
     },
     {
         name: 'Integers',
