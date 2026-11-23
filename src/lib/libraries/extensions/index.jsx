@@ -5583,6 +5583,105 @@ const menuItems = [
 	  featured: true
 	},
     {
+        name: 'Cloud Variables+',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/cloudvariablesplus.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/cloudvariablesplus.svg',
+        description: 'Additional cloud variable blocks enable advanced functions such as creating, modifying, and deleting cloud variables, connecting to different cloud variable servers, and changing project IDs.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+    },
+    {
+        name: 'Mouse+',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/mouseplus.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/mouseplus.svg',
+        description: 'Control the mouse position, customize the cursor style, display a virtual pointer, and support pointer locking.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+    },
+    {
+        name: 'Select Box',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/selectbox.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/selectbox.svg',
+        description: 'Added checkbox functionality.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+    },
+    {
+        name: 'Input Box',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/inputbox.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/inputbox.svg',
+        description: 'Added input field functionality.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+    },
+    {
+        name: 'Advanced Keys',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/advancedkeys.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/advancedkeys.svg',
+        description: 'Advanced features such as extended key detection and key combination detection.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+    },
+    {
+        name: 'Text to HTML',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/texttohtml.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/unknown.svg',
+        description: 'It can convert some basic HTML formatting.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Comtbwp'
+    },
+    {
+        name: 'MMO',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/MMOGameOnlineV9.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/MMOGameOnlineV9.svg',
+        description: 'Massively Multiplayer Online.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Hugh'
+    },
+    {
+        name: 'Image Size',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/imagesize.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/imagesize.svg',
+        description: 'Get the height and width of the image.',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+    },
+    {
+        name: 'javascript (openwarp)',
+        extensionId: 'https://rw-extensions.pages.dev/yesshape/javascript.js',
+        iconURL: 'https://rw-extensions.pages.dev/yesshape/images/unknown.svg',
+        description: '使用javascript代码',
+        customInsetColor: '#000000',
+        insetIconURL: unknownsmallicon,
+        featured: true,
+        tags: ['ow'],
+        extDeveloper: 'Yesshape'
+	},
+    {
         name: 'Matrix (capivara)',
         extensionId: 'https://capivaramod.github.io/extensions/capivaramod/matrix',
         iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/matrix.png',
