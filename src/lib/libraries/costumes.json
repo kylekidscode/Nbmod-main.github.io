@@ -17005,5 +17005,19 @@
       "md5ext": "681a0d7e6ef88d36e36abade9132683d.svg",
       "rotationCenterX": 183.174642853741,
       "rotationCenterY": 135.755815550318
+	},
+	{
+      "name": "Neubla dango",
+	  "tags": [
+            "neublamod",
+            "characters",
+            "mascots"
+        ],
+      "bitmapResolution": 1,
+      "dataFormat": "svg",
+      "assetId": "3875e02567a13f4633412f3f3b969720",
+      "md5ext": "3875e02567a13f4633412f3f3b969720.svg",
+      "rotationCenterX": 183.174642853741,
+      "rotationCenterY": 135.755815550318
     }
 ]
