@@ -2000,7 +2000,29 @@ const menuItems = [
         description: 'Dangerous Utility Blocks!',
 		extDeveloper: 'ObviousAlexC',
         featured: true
+	},
+	{
+        name: 'Wikipedia',
+        extensionId: 'https://extensions.turbowarp.org/SamuelLouf/Wikipedia.js',
+        iconURL: 'https://extensions.turbowarp.org/images/SamuelLouf/Wikipedia.svg',
+        insetIconURL: turbowarpIcon,
+        customInsetColor: '#ff4d4d',
+        description: 'Fetch the content of Wikipedia pages.',
+        credits: 'SamuelLouf.',
+        tags: ['turbowarp'],
+        featured: true,
+	},
+	{
 		
+        name: 'More Randomness',
+        extensionId: 'https://extensions.turbowarp.org/LukeAnimationss/MoreRandomness.js',
+        iconURL: 'https://extensions.turbowarp.org/images/LukeAnimationss/MoreRandomness.png',
+        insetIconURL: turbowarpIcon,
+        customInsetColor: '#ff4d4d',
+        description: 'Adds blocks related to randomness, driven by an editable seed.',
+        credits: 'LukeAnimationss.',
+        tags: ['turbowarp'],
+        featured: true,
     },
     {
       extensionId: 'https://extensions.turbowarp.org/Lily/McUtils.js',
