@@ -10806,6 +10806,14 @@ if (IsLocal || IsLiveTests) {
 			disabled: true,
             featured: true,
             internetConnectionRequired: true
+		},
+        {
+            name: 'Dinosaurmod\'s test extension',
+            extensionId: 'https://gabsthecuriouskid.github.io/DinosaurModExtensions/test.js',
+            iconURL: defaultExtensionIcon,
+            tags: ['dinosaurmod'],
+            description: 'Dinosaurmod\'s own Test Extension to see what\'s possible or not. DON\'T USE THIS IN PRODUCTION as blocks can change and may corrupt your projects.',
+            featured: true
         },
         {
         name: 'Discord Auth',
