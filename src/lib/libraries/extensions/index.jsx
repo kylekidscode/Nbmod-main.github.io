@@ -5468,6 +5468,182 @@ const menuItems = [
       iconURL: 'https://editors.astras.top/extensions/images/NTeaseMusic.png',
       credits: 'NTawa',
 	  featured: true
+	},
+    {
+        name: 'Matrix (capivara)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/matrix',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/matrix.png',
+        description: 'A Matrix-style text effect for Scratch.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Minecraft skin',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/minecraftskin',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/minecraftskin.png',
+        description: 'An easier way to get Minecraft skins.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Number Abbreviator',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/abreviadornumerico',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/abreviadornumerico.png',
+        description: 'Adds a reporter block that converts large numbers into an abbreviated format (e.g., 10928 -> 10.9k)',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Colors (capivara)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/colors',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/colors.png',
+        description: 'adds color manipulation blocks.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Vector (capivara)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/vector',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/vector.png',
+        description: 'adds vector blocks.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Extra Motion',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/movimentacaoextra',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/movimentacaoextra.png',
+        description: 'adds extra movement blocks.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Polygons',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/poligonos',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/poligonos.png',
+        description: 'adds new polygon blocks designed to calculate area and perimeter.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Capivara Mod Time',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/tempo',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/tempo.png',
+        description: 'adds new blocks for calculating time and viewing the time.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Star Wars API (unofficial)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/starwarsapi',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/starwarsapi.png',
+        description: 'offers integration with the Star Wars API (https://swapi.dev/) to fetch information about characters and planets.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Screenshot (capivara)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/capturadetela',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/capturadetela.png',
+        description: 'adds new blocks to take screenshots of the stage.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Browser (capivara)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/navegador',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/navegador.png',
+        description: 'Adds blocks for interacting with the browser.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Extra Appearance',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/aparenciaextra',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/aparenciaextra.png',
+        description: 'adds new appearance blocks.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'Morse Code Translator (modified version)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/morsecode',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/morsecode.png',
+        description: 'Original created by https://github.com/Flappy25.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'Flappy25 (original version), Modified by CapivaraMod'
+    },
+    {
+        name: 'Text Comparison Extension (modified version)',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/textcomparison',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/textcomparison.png',
+        description: 'Original created by https://github.com/Flappy25.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'Flappy25 (original version), Modified by CapivaraMod'
+    },
+    {
+        name: 'Morse Code Sound',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/morsecodesong',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/morsecodesong.png',
+        description: 'play Morse code sounds.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
+    },
+    {
+        name: 'CapivaraMod Utilities',
+        extensionId: 'https://capivaramod.github.io/extensions/capivaramod/capivaramodutilities',
+        iconURL: 'https://capivaramod.github.io/extensions/images/capivaramod/capivaramodutilities.png',
+        description: 'utility block for CapivaraMod.',
+        insetIconURL: capivaramodinsetIcon,
+        customInsetColor: '#638528',
+        featured: true,
+        tags: ['capivara'],
+        extDeveloper: 'CapivaraMod'
     },
 	{
 	  extensionId: 'https://extensions.bilup.org/colortools.js',
@@ -8238,7 +8414,7 @@ const menuItems = [
         customInsetColor: '#638528',
         description: 'Learn more about extensions at capivaramod.github.io/extensions/.',
         credits: 'CapivaraMod',
-        tags: ['library', 'othermods'],
+        tags: ['library', 'capivara'],
         featured: true
     },
 	{
