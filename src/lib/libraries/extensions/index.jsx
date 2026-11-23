@@ -735,6 +735,115 @@ const menuItems = [
         ),
         featured: true
 	},
+    {
+        name: 'PotentiaMod Stuff',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTStuff.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTStuff.svg',
+        description: 'Something that I will try to test on. Inspired by the AcidMod Test extension.',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'Potentia Consoles',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTConsoles.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTConsoles.svg',
+        description: 'Apparently the first-ever original PotentiaMod extension that logs things on consoles.',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'Browser Stuff',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTBrowserStuff.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTBrowserStuff.svg',
+        description: 'Some stuff for the web browser.',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'AdBlock Detection',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTAdBlockDetect.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTAdBlockDetect.svg',
+        description: 'A block that detects ad-blocking browser extensions.',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'PotentiaMod Blocks',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTPotentiaModBlocks.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTPotentiaModBlocks.svg',
+        description: "Weird new blocks, but it's a Javascript modified port of TurboWarp Blocks.",
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'Platform Detector',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTPlatformDetector.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTPlatformDetector.svg',
+        description: 'Detects whenever the platform was a Scratch mod or not.',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90 (Editor)'
+    },
+    {
+        name: 'Image Blocks: Potentia Edition',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTImageBlocks.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTImageBlocks.png',
+        description: "PotentiaMod's modification of the Image Blocks extension. Only works best in PenguinMod.",
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90 (Editor)'
+    },
+    {
+        name: 'Project Page Edit',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTProjectPageTW.js',
+        description: "Project Page, but modified to fit with TurboWarp's UI rather than PenguinMod.",
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'Block Theme Changer',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTBlockThemeChanger.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/images/GaiaWindWave90/POTBlockThemeChanger.svg',
+        description: 'Allow you to change block themes!',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+    },
+    {
+        name: 'GUI Theme Changer',
+        extensionId: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTGUIThemeChanger.js',
+        iconURL: 'https://potentiamod.github.io/pot-extensions/GaiaWindWave90/POTGUIThemeChanger.svg',
+        description: 'Allow you to change colo themes of the GUI.',
+        customInsetColor: '#4800CC',
+        insetIconURL: potentiamodinsetIcon,
+        featured: true,
+        tags: ['potentia'],
+        extDeveloper: 'GaiaWindWave90'
+	},
 	{
         name: 'Gaia Utilities',
         extensionId: 'https://gaiamod-main.github.io/extensions/GaiaWindWave90/GaiaBlocks.js',
