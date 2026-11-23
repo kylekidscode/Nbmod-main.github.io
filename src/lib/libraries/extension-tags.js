@@ -29,6 +29,7 @@ export default [
     { tag: 'applele', intlLabel: messages.AppleleMod },
     { tag: 'capivara', intlLabel: messages.CapivaraMod },
 	{ tag: 'dash', intlLabel: messages.dash },
+    { tag: 'rw', intlLabel: messages.RemixWarp },
 	{ tag: 'gandiide', intlLabel: messages.gandiide },
 	{ tag: 'othermods', intlLabel: messages.othermods },
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
