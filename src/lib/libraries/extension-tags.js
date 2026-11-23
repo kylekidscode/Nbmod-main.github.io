@@ -26,6 +26,7 @@ export default [
     { tag: 'ziplox', intlLabel: messages.Ziplox },
     { tag: 'cb', intlLabel: messages.ConiBlocks },
     { tag: 'cattymod', intlLabel: messages.CattyMod },
+    { tag: 'applele', intlLabel: messages.AppleleMod },
 	{ tag: 'dash', intlLabel: messages.dash },
 	{ tag: 'gandiide', intlLabel: messages.gandiide },
 	{ tag: 'othermods', intlLabel: messages.othermods },
