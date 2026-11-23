@@ -6265,6 +6265,72 @@ const menuItems = [
             featured: true
 	},
 	{
+        name: 'Pathfinding',
+        extensionId: 'https://rw-extensions.pages.dev/remixwarp/pathfinding/寻路.js',
+        iconURL: 'https://rw-extensions.pages.dev/remixwarp/pathfinding/寻路.png',
+        description: 'Multiple pathfinding algorithms including A*, BFS, Dijkstra, JPS, with debug window display on stage.',
+        customInsetColor: '#000000',
+        insetIconURL: remixwarpinsetIcon,
+        featured: true,
+        tags: ['rw'],
+        extDeveloper: '该账号差一点注销'
+    },
+    {
+        name: 'Windows of OS',
+        extensionId: 'https://rw-extensions.pages.dev/remixwarp/windows-of-os/windows-of-os.js',
+        iconURL: 'https://rw-extensions.pages.dev/remixwarp/windows-of-os/win-of-os.png',
+        description: 'An extension that simulates an operating system, including CMD terminal, register management, external program loading, custom windows, and GUI components.',
+        customInsetColor: '#000000',
+        insetIconURL: remixwarpinsetIcon,
+        featured: true,
+        tags: ['rw'],
+        extDeveloper: 'gmy-xxl'
+    },
+    {
+        name: 'Audio Encoder',
+        extensionId: 'https://rw-extensions.pages.dev/remixwarp/audio-encoder/audio-encoder.js',
+        iconURL: 'https://rw-extensions.pages.dev/remixwarp/audio-encoder/audio-encoder.svg',
+        description: 'Store your voice as text.',
+        customInsetColor: '#000000',
+        insetIconURL: remixwarpinsetIcon,
+        featured: true,
+        tags: ['rw'],
+        extDeveloper: '10000why'
+    },
+    {
+        name: 'NTcolor (1)',
+        extensionId: 'https://rw-extensions.pages.dev/remixwarp/ntcolor/ntcolor.js',
+        iconURL: 'https://rw-extensions.pages.dev/remixwarp/ntcolor/ntcolor.png',
+        description: 'URL-Only High-Performance Color Analyzer.',
+        customInsetColor: '#000000',
+        insetIconURL: remixwarpinsetIcon,
+        featured: true,
+        tags: ['rw'],
+        extDeveloper: 'NTUN'
+    },
+    {
+        name: 'Simple3D (Chinese)',
+        extensionId: 'https://rw-extensions.pages.dev/remixwarp/simple3d-cn/simple3d-cn.js',
+        iconURL: 'https://rw-extensions.pages.dev/remixwarp/simple3d-cn/simple3d-cn.png',
+        description: 'Chinese localized version of the Simple3D extension. Create 3D projects in Scratch with ease.',
+        customInsetColor: '#000000',
+        insetIconURL: remixwarpinsetIcon,
+        featured: true,
+        tags: ['rw'],
+        extDeveloper: 'Xeltalliv, SF-Twilight (Translator)'
+    },
+    {
+        name: 'A* Odyssey',
+        extensionId: 'https://rw-extensions.pages.dev/remixwarp/astar-odyssey/astar-odyssey.js',
+        iconURL: 'https://rw-extensions.pages.dev/remixwarp/astar-odyssey/astar-odyssey.svg',
+        description: 'Make pathfinding faster.',
+        customInsetColor: '#000000',
+        insetIconURL: remixwarpinsetIcon,
+        featured: true,
+        tags: ['rw'],
+        extDeveloper: 'Arkos, 朱元翔'
+	},
+	{
 		name: 'Better Quake',
         extensionId: 'https://raw.githubusercontent.com/Gandi-IDE/custom-extension/refs/heads/main/extensions/QuakeStudio/BetterQuake/BetterQuake.js',
         iconURL: 'https://github.com/Gandi-IDE/custom-extension/blob/main/extensions/QuakeStudio/assets/banner.png?raw=true',
