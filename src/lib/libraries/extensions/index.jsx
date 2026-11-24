@@ -11215,14 +11215,6 @@ if (IsLocal || IsLiveTests) {
             tags: ['othermods'],
             description: 'In development.\nThis extension is still HIGHLY in development. DO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
             featured: true
-		},
-        {
-            name: 'Share',
-            extensionId: 'shareExt',
-            iconURL: share,
-            tags: ['snailide'],
-            description: 'Share your projects with friends!',
-            featured: true
         },
         {
             name: 'Wacky Joke Blocks',
