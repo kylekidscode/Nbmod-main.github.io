@@ -7559,7 +7559,7 @@ const menuItems = [
         customInsetColor: '#000000',
         insetIconURL: Aftercodeicon,
         featured: true,
-        tags: ['ac'],
+        tags: ['ac', 'programminglanguage'],
         extDeveloper: 'katboizz'
     },
     {
@@ -7987,7 +7987,7 @@ const menuItems = [
                 id="mw.turboshare.danvCloudDB.description"
             />
         ),
-        tags: ['othermods'],
+        tags: ['othermods', 'ac'],
         featured: true
     },
     {
@@ -8008,7 +8008,7 @@ const menuItems = [
                 id="mw.turboshare.danvWowEconomy.description"
             />
         ),
-        tags: ['othermods'],
+        tags: ['othermods', 'ac'],
         featured: true
     },
     {
