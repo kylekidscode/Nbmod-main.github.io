@@ -7541,14 +7541,14 @@ const menuItems = [
         extDeveloper: 'katboizz'
     },
     {
-        name: 'ExtAxle',
+        name: 'ExtAxle',                 //this extension somehow counts as an extension creator
         extensionId: 'https://aftercode-official.github.io/Aftercode-extensions/katboizz/Extension-builder.js',
         iconURL: 'https://aftercode-official.github.io/Aftercode-extensions/images/katboizz/Extension-builder.svg',
         description: 'Build and dynamically load JavaScript extensions into Scratch or TurboWarp visually.',
         customInsetColor: '#000000',
         insetIconURL: Aftercodeicon,
         featured: true,
-        tags: ['ac'],
+        tags: ['ac', 'extcreate'],
         extDeveloper: 'katboizz'
     },
     {
