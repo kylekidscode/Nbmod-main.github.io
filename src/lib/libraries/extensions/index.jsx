@@ -8514,6 +8514,105 @@ const menuItems = [
         tags: ['uncategorized'],
         extDeveloper: 'Hiroya Kubo.'
 	},
+    {
+        name: 'SQLSnap! Fileshare',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Bitter_130/SQLSnapFileshare.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Bitter_130/SQLSnapFileshare.png',
+        description: 'Port of the SQLSnap! Fileshare extension for cloud file share utilization.',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'Bitter_160.'
+    },
+    {
+        name: 'Weather API',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Lemon/WeatherAPI.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Lemon/WeatherAPI.png',
+        description: 'Get weather information of a place using the Weather API.',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'BludIsAnLemon, 0znzw.'
+    },
+    {
+        name: 'Screenshot (Slow)',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Lemon/screenshot.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Lemon/screenshot.png',
+        description: 'Screenshot the entire page in one click.',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'BludIsAnLemon.'
+    },
+    {
+        name: 'Auto Clicker Detection',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Lemon/autoclick_detect.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Lemon/autoclick_detect.png',
+        description: 'Easily detect auto clickers.',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'BludIsAnLemon.'
+    },
+    {
+        name: 'Live Keyboard Input',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/silly%20software/LiveKeyboard.js',
+        iconURL: defaultExtensionIcon,
+        description: 'Get keyboard input from the user, as if they were typing in a textbox!',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'silly software.'
+    },
+    {
+        name: 'URL Music extension',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/silly%20software/URL_music.js',
+        iconURL: defaultExtensionIcon,
+        description: 'Play, pause, seek, set the volume and get data about songs from URL-s!',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'silly software.'
+    },
+    {
+        name: 'IndexedDB',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/silly%20software/IndexedDB.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/silly%20software/indexedDB.png',
+        description: 'Save more than 5mb of data locally!',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'silly software.'
+    },
+    {
+        name: 'TurboAST',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Lemon/TurboAST.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Lemon/TurboAST.png',
+        description: 'AST creation made easier.',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'BludIsAnLemon.'
+    },
+    {
+        name: 'Waveforms',
+        extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Lemon/Waveforms.js',
+        iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Lemon/Waveforms.png',
+        description: 'Use real time waveform calculations in your project.',
+        insetIconURL: unknownsmallicon,
+        customInsetColor: '#000000',
+        featured: true,
+        tags: ['Lemons Gallery'],
+        extDeveloper: 'BludIsAnLemon, Mistium, 0znzw.'
+	},
 	{
 		name: 'HTML5 Elements',
         extensionId: 'html5',
@@ -9334,7 +9433,7 @@ const menuItems = [
         extensionId: 'https://bludisanlemon.github.io/lemons-gallery/extensions/Lemon/bluetooth.js',
         credits: 'BludIsAnLemon',
         iconURL: 'https://bludisanlemon.github.io/lemons-gallery/images/Lemon/bluetooth.png',
-        tags: ['othermods'],
+        tags: ['othermods', 'Lemons Gallery'],
         description: "Allows you to send out bluetooth requests to nearby bluetooth devices.",
         internetConnectionRequired: false,
         featured: true
