@@ -35,6 +35,7 @@ export default [
     { tag: 'ow', intlLabel: messages.OpenWarp },
     { tag: 'ac', intlLabel: messages.aftercode },
     { tag: 'crispstrobe', intlLabel: messages.crispstrobe },
+    { tag: 'Lemons Gallery', intlLabel: messages.lemon },
 	{ tag: 'gandiide', intlLabel: messages.gandiide },
 	{ tag: 'othermods', intlLabel: messages.othermods },
     { tag: 'divider2', intlLabel: messages.scratch, type: 'divider' },
